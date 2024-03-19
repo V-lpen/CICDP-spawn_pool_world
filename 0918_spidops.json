@@ -1,0 +1,32 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "spidops-1",
+            "pokemon": "spidops",
+            "presets": [
+                "natural",
+                "treetop",
+                "foliage"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "15-32",
+            "weight": 30.0,
+            "condition": {
+                "canSeeSky": false,
+                "minY": 61,
+                "biomes": [
+                    "#cobblemon:is_temperate"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:oak_leaves",
+                    "minecraft:birch_leaves"
+                ]
+            }
+        }
+    ]
+}

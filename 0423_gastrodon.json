@@ -1,0 +1,23 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "gastrodon-1",
+            "pokemon": "gastrodon",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "30-40",
+            "weight": 5.5,
+            "condition": {
+                "canSeeSky": true,
+														"minX": 0,
+                "biomes": [
+                    "#cobblemon:is_beach"
+                ]
+            }
+        }
+    ]
+}

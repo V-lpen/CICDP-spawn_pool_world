@@ -1,0 +1,66 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "whismur-1",
+            "pokemon": "whismur",
+            "presets": [
+                "derelict"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "5-24",
+            "weight": 9.0,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "#cobblemon:is_abyss"
+                ]
+            }
+        },
+        {
+            "id": "whismur-2",
+            "pokemon": "whismur",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "5-24",
+            "weight": 9.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_mountain",
+                    "#cobblemon:is_temperate"
+                ]
+            }
+        },
+        {
+            "id": "whismur-3",
+            "pokemon": "whismur",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "5-24",
+            "weight": 50.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_mountain",
+                    "#cobblemon:is_temperate"
+                ],
+                "neededBaseBlocks": [
+                    "minecraft:coarse_dirt"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:tall_grass"
+                ]
+            }
+        }
+    ]
+}

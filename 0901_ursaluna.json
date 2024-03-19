@@ -1,0 +1,68 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "ursaluna-1",
+            "pokemon": "ursaluna",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "50-68",
+            "weight": 0.6,
+            "condition": {
+                "canSeeSky": true,
+		"timeRange": "night",
+                "biomes": [
+                    "#cobblemon:is_forest",
+                    "#cobblemon:is_cave"
+                ]
+            }
+        },
+        {
+            "id": "ursaluna-2",
+            "pokemon": "ursaluna",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "50-68",
+            "weight": 0.6,
+            "condition": {
+                "canSeeSky": false,
+		"minY": 75,
+		"timeRange": "night",
+                "biomes": [
+                    "#cobblemon:is_mountain",
+                    "#cobblemon:is_peak"
+                ]
+            }
+        },
+		        {
+            "id": "ursaluna-bloodmoon-1",
+            "pokemon": "ursaluna bloodmoon",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "68-83",
+            "weight": 0.4,
+            "condition": {
+                "canSeeSky": true,
+		"timeRange": "night",
+                "biomes": [
+                    "#cobblemon:is_forest",
+                    "#cobblemon:is_cave"
+                ]
+            }
+        }
+    ]
+}

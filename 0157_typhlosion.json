@@ -1,0 +1,93 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "typhlosion-1",
+            "pokemon": "typhlosion",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "36-53",
+            "weight": 0.1,
+            "condition": {
+                "biomes": [
+                    "minecraft:crimson_forest"
+                ]
+            }
+        },
+        {
+            "id": "typhlosion-2",
+            "pokemon": "typhlosion",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "36-53",
+            "weight": 0.1,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_temperate"
+                ],
+                "isRaining": false
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_spooky"
+                ]
+            }
+        },
+        {
+            "id": "typhlosion-hisui-1",
+            "pokemon": "typhlosion hisuian",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "36-53",
+            "weight": 1.5,
+            "condition": {
+                "biomes": [
+                    "#minecraft:is_nether"
+                ],
+		"neededNearbyBlocks": [
+        		"minecraft:cracked_nether_bricks",
+       			"#minecraft:soul_fire_base_blocks"
+],
+		"neededBaseBlocks": [
+			"minecraft:nether_bricks"
+]
+}
+            },
+        {
+            "id": "typhlosion-hisui-2",
+            "pokemon": "typhlosion hisuian",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "36-53",
+            "weight": 0.7,
+            "condition": {
+                "biomes": [
+                    "#minecraft:is_nether"
+                ],
+		"neededNearbyBlocks": [
+        		"minecraft:soul_lantern",
+			"minecraft:soul_fire"
+]
+}
+            }
+    ]
+}

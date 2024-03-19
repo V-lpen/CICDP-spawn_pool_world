@@ -1,0 +1,37 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "darmanitan-1",
+            "pokemon": "darmanitan",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "34-50",
+            "weight": 5,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_desert"
+                ]
+            }
+        },
+        {
+            "id": "darmanitan-galar-1",
+            "pokemon": "darmanitan galarian",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "34-50",
+            "weight": 5,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_snowy_forest"
+                ]
+            }
+        }
+    ]
+}

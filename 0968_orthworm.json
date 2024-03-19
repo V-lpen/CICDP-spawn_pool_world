@@ -1,0 +1,29 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "Orthworm-1",
+            "pokemon": "Orthworm",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "20-45",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "minecraft:badlands",
+                    "minecraft:desert",
+                    "cobblemon:is_sandy"
+                ],
+                "timeRange": "0-24000",
+                "isThundering": false
+            }
+        }
+    ]
+}

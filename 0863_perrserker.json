@@ -1,0 +1,28 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "perrserker-1",
+            "pokemon": "perrserker",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "30-48",
+            "weight": 9.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_ocean"
+                ],
+                "minY": 63
+            },
+            "anticondition": {
+                "neededNearbyBlocks": [
+			"minecraft:water"
+                ]
+        }
+}
+    ]
+}

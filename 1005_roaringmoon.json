@@ -1,0 +1,39 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "roaringmoon-1",
+            "pokemon": "roaringmoon",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "55-75",
+            "weight": 0.8,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_floral",
+					"#cobblemon:is_magical",
+					"#cobblemon:is_snowy_forest"
+                ]
+            }
+        },
+		{
+            "id": "roaringmoon-2",
+            "pokemon": "roaringmoon",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "55-75",
+            "weight": 0.9,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "terralith:skylands_winter"
+                ]
+            }
+        }
+    ]
+}

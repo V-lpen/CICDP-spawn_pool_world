@@ -1,0 +1,75 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+{
+            "id": "basculegion-1",
+            "pokemon": "basculegion",
+            "presets": [
+                "river",
+                "underwater"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "uncommon",
+            "level": "40-55",
+            "weight": 5.0,
+            "condition": {
+                "canSeeSky": true,
+				"moonPhase": "1,5,8"
+            }
+        },
+		{
+            "id": "basculegion-2",
+            "pokemon": "basculegion",
+            "presets": [
+                "river",
+                "underwater"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "uncommon",
+            "level": "40-55",
+            "weight": 8.0,
+            "condition": {
+                "canSeeSky": true,
+				"moonPhase": "2,3,4"
+            }
+        },
+		{
+            "id": "basculegion-f-1",
+            "pokemon": "basculegion f",
+            "presets": [
+                "river",
+                "underwater"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "uncommon",
+            "level": "40-55",
+            "weight": 5.0,
+            "condition": {
+                "canSeeSky": true,
+				"moonPhase": "1,5,8"
+            }
+        },
+		{
+            "id": "basculegion-f-2",
+            "pokemon": "basculegion f",
+            "presets": [
+                "river",
+                "underwater"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "uncommon",
+            "level": "40-55",
+            "weight": 8.0,
+            "condition": {
+                "canSeeSky": true,
+				"moonPhase": "2,3,4"
+            }
+        }
+    ]
+}

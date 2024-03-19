@@ -1,0 +1,64 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "cherubi-1",
+            "pokemon": "cherubi",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "10-24",
+            "weight": 0.05,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_floral"
+                ],
+                "timeRange": "day"
+            }
+        },
+        {
+            "id": "cherubi-2",
+            "pokemon": "cherubi",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "10-24",
+            "weight": 0.05,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_jungle"
+                ],
+                "timeRange": "day"
+            }
+        },
+        {
+            "id": "cherubi-3",
+            "pokemon": "cherubi",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "10-24",
+            "weight": 30,
+            "condition": {
+                "canSeeSky": true,
+                "timeRange": "day",
+                "neededNearbyBlocks": [
+                    "minecraft:poppy"
+                ]
+            }
+        }
+    ]
+}

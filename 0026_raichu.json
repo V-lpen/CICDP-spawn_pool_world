@@ -1,0 +1,107 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "raichu-1",
+            "pokemon": "raichu",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "33-48",
+            "weight": 0.02,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_forest"
+                ],
+                "timeRange": "day"
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_spooky"
+                ]
+            }
+        },
+        {
+            "id": "raichu-2",
+            "pokemon": "raichu",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "30-50",
+            "weight": 50.0,
+            "condition": {
+                "canSeeSky": true,
+                "isThundering": true,
+                "biomes": [
+                    "#cobblemon:is_temperate"
+                ],
+                "timeRange": "day"
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_spooky"
+                ]
+            }
+        },
+        {
+            "id": "raichu-3",
+            "pokemon": "raichu alolan",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "30-50",
+            "weight": 50.00,
+            "condition": {
+                "canSeeSky": true,
+                "isThundering": true,
+                "biomes": [
+                    "#minecraft:is_overworld"
+                ],
+                "timeRange": "day"
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_spooky",
+		    "#cobblemon:is_cold"
+                ]
+            }
+        },
+        {
+            "id": "raichu-4",
+            "pokemon": "raichu alolan",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "30-50",
+            "weight": 1.2,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_forest"
+                ],
+                "timeRange": "day"
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_spooky",
+		    "#cobblemon:is_cold"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,61 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "larvesta-1",
+            "pokemon": "larvesta",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "10-30",
+            "weight": 5.4,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_badlands"
+                ]
+            }
+        },
+        {
+            "id": "larvesta-2",
+            "pokemon": "larvesta",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "10-30",
+            "weight": 5.4,
+            "condition": {
+                "biomes": [
+                    "#minecraft:is_nether"
+                ]
+            }
+        },
+        {
+            "id": "larvesta-2",
+            "pokemon": "larvesta",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "10-30",
+            "weight": 100,
+            "condition": {
+                "canSeeSky": true,
+                "minY": 63,
+                "neededBaseBlocks": [
+                    "minecraft:podzol"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:fire"
+                ]
+            }
+        }
+    ]
+}

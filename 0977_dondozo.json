@@ -1,0 +1,23 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "dondozo-1",
+            "pokemon": "dondozo",
+            "presets": [
+                "water_surface"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "rare",
+            "level": "32-48",
+            "weight": 4,
+            "condition": {
+                "fluidBlock": "water",
+                "canSeeSky": true
+            }
+        }
+    ]
+}

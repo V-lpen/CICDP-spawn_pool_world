@@ -1,0 +1,39 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "ironvaliant-1",
+            "pokemon": "ironvaliant",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "55-75",
+            "weight": 0.0144,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_floral",
+					"#cobblemon:is_magical",
+					"#cobblemon:is_snowy_forest"
+                ]
+            }
+        },
+		{
+            "id": "ironvaliant-2",
+            "pokemon": "ironvaliant",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "55-75",
+            "weight": 0.0288,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "terralith:skylands_winter"
+                ]
+            }
+        }
+    ]
+}

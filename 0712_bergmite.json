@@ -1,0 +1,111 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "bergmite-1",
+            "pokemon": "bergmite",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "9-30",
+            "weight": 9.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_frozen_ocean"
+                ]
+            }
+        },
+        {
+            "id": "bergmite-2",
+            "pokemon": "bergmite",
+            "presets": [
+                "water_surface"
+            ],
+            "type": "pokemon",
+            "bucket": "common",
+            "level": "9-30",
+            "weight": 9.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_frozen_ocean"
+                ]
+            }
+        },
+        {
+            "id": "bergmite-2",
+            "pokemon": "bergmite",
+            "presets": [
+                "water_surface"
+            ],
+            "type": "pokemon",
+            "bucket": "common",
+            "level": "9-30",
+            "weight": 9.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_frozen_ocean"
+                ]
+            }
+        },
+        {
+            "id": "bergmite-3",
+            "pokemon": "bergmite",
+            "presets": [
+                "water_surface"
+            ],
+            "type": "pokemon",
+            "bucket": "common",
+            "level": "5-15",
+            "weight": 1000,
+            "condition": {
+                "canSeeSky": true,
+                "neededNearbyBlocks": [
+                    "minecraft:blue_ice"
+                ]
+            }
+        },
+		        {
+            "id": "bergmite-hisuian-4",
+            "pokemon": "bergmite hisuian",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "8-25",
+            "weight": 4.0,
+            "condition": {
+                "biomes": [
+                    "minecraft:frozen_peaks",
+                    "minecraft:snowy_slopes"
+                ]
+            }
+        },
+        {
+            "id": "bergmite-hisuian-5",
+            "pokemon": "bergmite hisuian",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "8-25",
+            "weight": 4.0,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_snowy_forest"
+                ]
+            }
+        }
+    ]
+}

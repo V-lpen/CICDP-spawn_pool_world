@@ -1,0 +1,26 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "hisui-samurott-1",
+            "pokemon": "samurott hisuian",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "35-45",
+            "weight": 8.0,
+            "condition": {
+                "canSeeSky": true,
+                "timeRange": "night",
+                "neededNearbyBlocks": [
+                    "minecraft:kelp"
+                ],
+                "biomes": [
+                    "#cobblemon:is_coast"
+                ]
+            }
+        }
+    ]
+}

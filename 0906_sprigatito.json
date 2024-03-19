@@ -1,0 +1,71 @@
+{
+	"enabled": true,
+	"neededInstalledMods": [],
+	"neededUninstalledMods": [],
+	"spawns": [{
+			"id": "sprigatito-1",
+			"pokemon": "sprigatito",
+			"presets": [
+				"natural"
+			],
+			"type": "pokemon",
+			"context": "grounded",
+			"bucket": "ultra-rare",
+			"level": "5-15",
+			"weight": 9.0,
+			"condition": {
+				"canSeeSky": true,
+				"biomes": [
+					"#cobblemon:is_floral"
+				],
+				"timeRange": "day",
+				"isRaining": false
+			},
+			"anticondition": {
+				"biomes": [
+					"#cobblemon:is_spooky"
+				]
+			}
+		},
+		{
+			"id": "sprigatito-2",
+			"pokemon": "sprigatito",
+			"presets": [
+				"near_flowers"
+			],
+			"type": "pokemon",
+			"context": "grounded",
+			"bucket": "common",
+			"level": "5-15",
+			"weight": 500.0,
+			"condition": {
+				"canSeeSky": true,
+				"isRaining": false,
+				"timeRange": "day",
+				"minX": 0,
+				"neededBaseBlocks": [
+					"minecraft:moss_block"
+				],
+				"biomes": [
+					"minecraft:flower_forest"
+				]
+			},
+			"anticondition": {
+				"neededNearbyBlocks": [
+					"minecraft:fire",
+					"minecraft:soul_fire",
+					"minecraft:lava",
+					"minecraft:jack_o_lantern",
+					"minecraft:campfire",
+					"minecraft:soul_campfire",
+					"minecraft:torch",
+					"minecraft:wall_torch",
+					"minecraft:soul_torch",
+					"minecraft:wall_soul_torch",
+					"minecraft:redstone_torch",
+					"minecraft:redstone_wall_torch"
+				]
+			}
+		}
+	]
+}

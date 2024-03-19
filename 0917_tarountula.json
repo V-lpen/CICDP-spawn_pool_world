@@ -1,0 +1,32 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "tarountula-1",
+            "pokemon": "tarountula",
+            "presets": [
+                "natural",
+                "treetop",
+                "foliage"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "2-19",
+            "weight": 30.0,
+            "condition": {
+                "canSeeSky": false,
+                "minY": 61,
+                "biomes": [
+                    "#cobblemon:is_temperate"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:oak_leaves",
+                    "minecraft:birch_leaves"
+                ]
+            }
+        }
+    ]
+}

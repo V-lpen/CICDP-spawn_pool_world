@@ -1,0 +1,61 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "corsola-1",
+            "pokemon": "corsola",
+            "presets": [
+                "underwater"
+            ],
+            "type": "pokemon",
+            "context": "seafloor",
+            "bucket": "uncommon",
+            "level": "15-41",
+            "weight": 10.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_reef"
+                ]
+            }
+        },
+        {
+            "id": "corsola-2",
+            "pokemon": "corsola",
+            "presets": [
+                "ocean_ruins"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "15-41",
+            "weight": 20,
+            "condition": {
+                "biomes": [
+                    "#minecraft:is_ocean"
+                ]
+            }
+        },
+        {
+            "id": "galar-corsola-1",
+            "pokemon": "corsola galarian",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "15-41",
+            "weight": 12,
+            "condition": {
+		"maxY": 67,
+                "biomes": [
+                    "#cobblemon:is_desert"
+                ],
+		"isRaining": true
+            }
+        }
+    ]
+}

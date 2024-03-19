@@ -1,0 +1,44 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "snubbull-1",
+      "pokemon": "snubbull",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "1-20",
+      "weight": 5,
+      "condition": {
+        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_grassland"
+        ],
+        "timeRange": "day"
+      }
+    },
+    {
+      "id": "snubbull-2",
+      "pokemon": "snubbull",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "1-20",
+      "weight": 3,
+      "condition": {
+        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_magical"
+        ]
+      }
+    }
+  ]
+}

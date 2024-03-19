@@ -1,0 +1,41 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "crocalor-1",
+            "pokemon": "crocalor",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "16-40",
+            "weight": 0.9,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_volcanic"
+                ],
+                "isRaining": false
+            }
+        },
+        {
+            "id": "crocalor-2",
+            "pokemon": "crocalor",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "16-40",
+            "weight": 0.9,
+            "condition": {
+                "biomes": [
+                    "minecraft:basalt_deltas",
+					"incendium:volcanic_deltas"
+                ]
+            }
+        }
+    ]
+}

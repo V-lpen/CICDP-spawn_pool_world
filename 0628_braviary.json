@@ -1,0 +1,41 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "braviary-1",
+            "pokemon": "braviary",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "54-70",
+            "weight": 0.06,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_forest",
+		            "#cobblemon:is_mountain"
+                ],
+		        "timeRange": "day"
+            }
+        },
+        {
+            "id": "hisui-braviary-1",
+            "pokemon": "braviary hisuian",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "54-70",
+            "weight": 0.4,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+		            "#cobblemon:is_mountain",
+			    "#cobblemon:is_peak"
+                ],
+		        "timeRange": "night"
+            }
+        }
+    ]
+}

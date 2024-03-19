@@ -1,0 +1,132 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+	        {
+            "id": "rotom-1",
+            "pokemon": "rotom",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "12-48",
+            "weight": 3.0,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_spooky"
+                ]
+            }
+        },
+        {
+            "id": "rotom-mansion-1",
+            "pokemon": "rotom",
+            "presets": [
+                "mansion"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "12-35",
+            "weight": 6,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "minecraft:dark_forest"
+                ]
+            }
+        },
+        {
+            "id": "rotom-mansion-2",
+            "pokemon": "rotom wash",
+            "presets": [
+                "mansion"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "12-35",
+            "weight": 2,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "minecraft:dark_forest"
+                ]
+            }
+        },
+ {
+            "id": "rotom-mansion-3",
+            "pokemon": "rotom heat",
+            "presets": [
+                "mansion"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "12-35",
+            "weight": 2,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "minecraft:dark_forest"
+                ]
+            }
+        },
+ {
+            "id": "rotom-mansion-4",
+            "pokemon": "rotom mow",
+            "presets": [
+                "mansion"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "12-35",
+            "weight": 2,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "minecraft:dark_forest"
+                ]
+            }
+        },
+ {
+            "id": "rotom-mansion-5",
+            "pokemon": "rotom frost",
+            "presets": [
+                "mansion"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "12-35",
+            "weight": 2,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "minecraft:dark_forest"
+                ]
+            }
+        },
+ {
+            "id": "rotom-mansion-6",
+            "pokemon": "rotom fan",
+            "presets": [
+                "mansion"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "12-35",
+            "weight": 2,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "minecraft:dark_forest"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "smoliv-1",
+            "pokemon": "smoliv",
+            "presets": [],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "5-15",
+            "weight": 5,
+            "condition": {
+                "biomes": ["#cobblemon:is_floral"]
+            }
+        }
+    ]
+}

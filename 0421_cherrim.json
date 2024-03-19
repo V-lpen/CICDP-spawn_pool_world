@@ -1,0 +1,64 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "cherrim-1",
+            "pokemon": "cherrim",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "28-40",
+            "weight": 0.05,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_floral"
+                ],
+                "timeRange": "day"
+            }
+        },
+        {
+            "id": "cherrim-2",
+            "pokemon": "cherrim",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "25-50",
+            "weight": 0.05,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_jungle"
+                ],
+                "timeRange": "day"
+            }
+        },
+        {
+            "id": "cherrim-3",
+            "pokemon": "cherrim",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "25-38",
+            "weight": 30,
+            "condition": {
+                "canSeeSky": true,
+                "timeRange": "day",
+                "neededNearbyBlocks": [
+                    "minecraft:poppy"
+                ]
+            }
+        }
+    ]
+}

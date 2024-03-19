@@ -1,0 +1,24 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "kirlia-1",
+            "pokemon": "kirlia",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "20-29",
+            "weight": 0.72,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_floral",
+					"#cobblemon:is_magical",
+					"#cobblemon:is_snowy_forest"
+                ]
+            }
+        }
+    ]
+}

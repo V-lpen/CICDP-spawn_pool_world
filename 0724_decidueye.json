@@ -1,0 +1,26 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "hisui-decidueye-1",
+            "pokemon": "decidueye hisuian",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "35-45",
+            "weight": 12.0,
+            "condition": {
+                "canSeeSky": true,
+                "timeRange": "day",
+                "neededBaseBlocks": [
+                    "minecraft:podzol"
+                ],
+                "biomes": [
+                    "#cobblemon:is_taiga"
+                ]
+            }
+        }
+    ]
+}

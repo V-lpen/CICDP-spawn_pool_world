@@ -1,0 +1,20 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "dolliv-1",
+            "pokemon": "dolliv",
+            "presets": [],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "15-32",
+            "weight": 5,
+            "condition": {
+                "biomes": ["#cobblemon:is_floral"]
+            }
+        }
+    ]
+}

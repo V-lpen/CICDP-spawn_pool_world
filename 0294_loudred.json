@@ -1,0 +1,66 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "loudred-1",
+            "pokemon": "loudred",
+            "presets": [
+                "derelict"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "20-39",
+            "weight": 0.9,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "#cobblemon:is_abyss"
+                ]
+            }
+        },
+        {
+            "id": "loudred-2",
+            "pokemon": "loudred",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "20-40",
+            "weight": 9.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_mountain",
+                    "#cobblemon:is_temperate"
+                ]
+            }
+        },
+        {
+            "id": "loudred-3",
+            "pokemon": "loudred",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "20-35",
+            "weight": 50.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_mountain",
+                    "#cobblemon:is_temperate"
+                ],
+                "neededBaseBlocks": [
+                    "minecraft:coarse_dirt"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:tall_grass"
+                ]
+            }
+        }
+    ]
+}

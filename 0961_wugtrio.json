@@ -1,0 +1,47 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "wugtrio-1",
+            "pokemon": "wugtrio",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "26-46",
+            "weight": 5.4,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#minecraft:is_beach"
+                ]
+            }
+        },
+        {
+            "id": "wugtrio-2",
+            "pokemon": "wugtrio",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "26-46",
+            "weight": 50,
+            "condition": {
+                "canSeeSky": true,
+                "minY": 61,
+                "biomes": [
+                    "#minecraft:is_beach"
+                ],
+                "neededBaseBlocks": [
+                    "minecraft:sand"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:seagrass"
+                ]
+            }
+        }
+    ]
+}

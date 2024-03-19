@@ -1,0 +1,71 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "zoroark-1",
+            "pokemon": "zoroark",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "30-45",
+            "weight": 9.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_forest"
+                ],
+                "timeRange": "night"
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_snowy_forest"
+                ]
+            }
+        },
+        {
+            "id": "zoroark-hisui-1",
+            "pokemon": "zoroark hisuian",
+            "presets": [
+                "mansion"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "30-45",
+            "weight": 4.0,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "#cobblemon:is_spooky"
+                ],
+                "timeRange": "night"
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_snowy_forest"
+                ]
+            }
+        },
+				        {
+            "id": "zoroark-hisui-cold-1",
+            "pokemon": "zoroark hisuian",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "30-55",
+            "weight": 4,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_snowy_forest"
+                ],
+		"timeRange": "night"
+            }
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "annihilape-1",
+            "pokemon": "annihilape",
+            "presets": [
+                "natural",
+                "treetop"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "45-52",
+            "weight": 0.54,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_hills",
+                    "#cobblemon:is_jungle"
+                ]
+            }
+        },
+        {
+            "id": "annihilape-2",
+            "pokemon": "annihilape",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "50-70",
+            "weight": 80.0,
+            "condition": {
+                "canSeeSky": true,
+                "isRaining": false,
+                "timeRange": "noon",
+                "biomes": [
+                    "#cobblemon:is_hills",
+                    "#cobblemon:is_jungle"
+                ]
+            }
+        }
+    ]
+}

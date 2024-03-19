@@ -1,0 +1,67 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "ironjugulis-1",
+            "pokemon": "ironjugulis",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "48-60",
+            "weight": 0.8,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "#cobblemon:is_cave"					
+                ]
+            }
+        },
+	           {
+            "id": "ironjugulis-2",
+            "pokemon": "ironjugulis",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "48-60",
+            "weight": 0.8,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_cave"					
+                ]
+            }
+        },
+	            {
+            "id": "ironjugulis-3",
+            "pokemon": "ironjugulis",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "48-60",
+            "weight": 0.06,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_mountain"				
+                ]
+            }
+        },
+	   {
+            "id": "ironjugulis-4",
+            "pokemon": "ironjugulis",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "48-60",
+            "weight": 0.1,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_highlands"				
+                ]
+            }
+        }
+    ]
+}
