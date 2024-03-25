@@ -120,6 +120,20 @@
                     "minecraft:purple_candle"
                 ]
             }
+        },
+								        {
+            "id": "gengar-7",
+            "pokemon": "gengar",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "38-83",
+            "weight": 2.4,
+            "condition": {
+                "biomes": [
+                    "nullscape:shadowlands"
+                ]
+            }
         }
     ]
 }

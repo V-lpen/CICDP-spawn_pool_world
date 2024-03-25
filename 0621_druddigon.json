@@ -25,6 +25,20 @@
                     "#cobblemon:is_abyss"
                 ]
             }
+        },
+		 {
+            "id": "druddigon-2",
+            "pokemon": "druddigon",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "65-75",
+            "weight": 5.0,
+            "condition": {
+                "biomes": [
+                    "nullscape:crystal_peaks"
+                ]
+            }
         }
     ]
 }

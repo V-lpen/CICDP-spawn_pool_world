@@ -102,9 +102,9 @@
             "pokemon": "clefable",
             "type": "pokemon",
             "context": "grounded",
-            "bucket": "uncommon",
-            "level": "33-48",
-            "weight": 0.1,
+            "bucket": "rare",
+            "level": "43-88",
+            "weight": 2.0,
             "condition": {
                 "biomes": [
                     "#minecraft:is_end"

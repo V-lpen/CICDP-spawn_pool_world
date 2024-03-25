@@ -1,21 +1,23 @@
 {
-    "enabled": true,
+    "enabled": "true",
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "shellos-west",
-            "pokemon": "shellos west",
+            "id": "bruxish-1",
+            "pokemon": "bruxish",
+            "presets": [
+                "underwater"
+            ],
             "type": "pokemon",
-            "context": "grounded",
+            "context": "submerged",
             "bucket": "uncommon",
-            "level": "15-20",
-            "weight": 5.4,
+            "level": "14-30",
+            "weight": 1.0,
             "condition": {
                 "canSeeSky": true,
-				"maxX": 0,
                 "biomes": [
-                    "#minecraft:is_beach"
+                    "#minecraft:is_ocean"
                 ]
             }
         }

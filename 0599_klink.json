@@ -76,6 +76,20 @@
                     "minecraft:piston_head"
                 ]
             }
+        },
+				{
+            "id": "klink-4",
+            "pokemon": "klink",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "32-60",
+            "weight": 8.5,
+            "condition": {
+                "biomes": [
+                    "nullscape:crystal_peaks"
+                ]
+            }
         }
     ]
 }

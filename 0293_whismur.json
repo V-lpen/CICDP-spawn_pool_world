@@ -61,6 +61,21 @@
                     "minecraft:tall_grass"
                 ]
             }
-        }
+        },
+		    {
+      "id": "whismur-4",
+      "pokemon": "whismur",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "24-55",
+      "weight": 5.0,
+      "condition": {
+          "biomes": [
+              "#cobblemonislands:vanilla_end"
+          ]
+      }
+
+    }
     ]
 }

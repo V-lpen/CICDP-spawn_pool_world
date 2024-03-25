@@ -56,6 +56,20 @@
                     "#mincraft:is_ocean"
                 ]
             }
+        },
+								        {
+            "id": "kabutops-4",
+            "pokemon": "kabutops",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "38-73",
+            "weight": 5.6,
+            "condition": {
+                "biomes": [
+                    "nullscape:void_barrens"
+                ]
+            }
         }
     ]
 }

@@ -72,6 +72,20 @@
                     "minecraft:piston_head"
                 ]
             }
+        },
+		 {
+            "id": "klinklang-4",
+            "pokemon": "klinklang",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "45-80",
+            "weight": 0.5,
+            "condition": {
+                "biomes": [
+                    "nullscape:crystal_peaks"
+                ]
+            }
         }
     ]
 }

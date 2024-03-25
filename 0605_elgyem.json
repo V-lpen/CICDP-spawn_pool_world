@@ -6,17 +6,14 @@
         {
             "id": "elgyem_1",
             "pokemon": "elgyem",
-            "presets": [
-                "natural"
-            ],
             "type": "pokemon",
             "context": "grounded",
-            "bucket": "uncommon",
-            "level": "12-33",
+            "bucket": "common",
+            "level": "25-45",
             "weight": 9.0,
             "condition": {
                 "biomes": [
-                    "#minecraft:is_end"
+                    "#cobblemonislands:vanilla_end"
                 ]
             }
         },

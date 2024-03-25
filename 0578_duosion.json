@@ -21,6 +21,20 @@
                 ],
                 "timeRange": "day"
             }
+        },
+						        {
+            "id": "duosion-2",
+            "pokemon": "duosion",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "35-58",
+            "weight": 4.0,
+            "condition": {
+                "biomes": [
+                    "#minecraft:is_end"
+                ]
+            }
         }
     ]
 }

@@ -27,8 +27,22 @@
             "type": "pokemon",
             "context": "grounded",
             "bucket": "common",
-            "level": "15-55",
-            "weight": 20.0,
+            "level": "35-68",
+            "weight": 30.0,
+            "condition": {
+                "biomes": [
+                    "#minecraft:is_end"
+                ]
+            }
+        },
+		        {
+            "id": "unown-3-ender",
+            "pokemon": "unown ender",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "35-68",
+            "weight": 0.1,
             "condition": {
                 "biomes": [
                     "#minecraft:is_end"

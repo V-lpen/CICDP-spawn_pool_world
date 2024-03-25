@@ -1,21 +1,23 @@
 {
-    "enabled": true,
+    "enabled": "true",
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "shellos-west",
-            "pokemon": "shellos west",
+            "id": "pyroar-1",
+            "pokemon": "pyroar",
+            "presets": [
+                "natural"
+            ],
             "type": "pokemon",
             "context": "grounded",
-            "bucket": "uncommon",
-            "level": "15-20",
-            "weight": 5.4,
+            "bucket": "common",
+            "level": "35-55",
+            "weight": 5.0,
             "condition": {
                 "canSeeSky": true,
-				"maxX": 0,
                 "biomes": [
-                    "#minecraft:is_beach"
+                    "#cobblemon:is_savanna"
                 ]
             }
         }

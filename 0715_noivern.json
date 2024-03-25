@@ -77,6 +77,20 @@
                     "nullscape:shadowlands"
                 ]
             }
+        },
+								        {
+            "id": "noivern-5",
+            "pokemon": "noivern",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "48-63",
+            "weight": 1.4,
+            "condition": {
+                "biomes": [
+                    "nullscape:void_barrens"
+                ]
+            }
         }
   ]
 }

@@ -22,6 +22,21 @@
                     "#cobblemon:is_abyss"
                 ]
             }
-        }
+        },
+		    {
+      "id": "wynaut-2",
+      "pokemon": "wynaut",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "35-57",
+      "weight": 2.0,
+      "condition": {
+          "biomes": [
+              "#cobblemonislands:vanilla_end"
+          ]
+      }
+
+    }
     ]
 }

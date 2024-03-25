@@ -21,6 +21,20 @@
                 ],
                 "timeRange": "day"
             }
+        },
+				        {
+            "id": "solosis-2",
+            "pokemon": "solosis",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "35-58",
+            "weight": 6.0,
+            "condition": {
+                "biomes": [
+                    "#minecraft:is_end"
+                ]
+            }
         }
     ]
 }

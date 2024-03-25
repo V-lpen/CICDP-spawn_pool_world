@@ -50,7 +50,7 @@
             "pokemon": "venomoth",
             "type": "pokemon",
             "context": "grounded",
-            "bucket": "common",
+            "bucket": "uncommon",
             "level": "31-50",
             "weight": 1.0,
             "condition": {

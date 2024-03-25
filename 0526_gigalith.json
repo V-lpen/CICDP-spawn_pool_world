@@ -20,6 +20,20 @@
                     "#cobblemon:is_mountain"
                 ]
             }
+        },
+				{
+            "id": "gigalith-2",
+            "pokemon": "gigalith",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "48-79",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "nullscape:crystal_peaks"
+                ]
+            }
         }
     ]
 }

@@ -50,6 +50,20 @@
                 ],
                 "timeRange": "night"
             }
+        },
+						        {
+            "id": "dusknoir-4",
+            "pokemon": "dusknoir",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "45-75",
+            "weight": 9.5,
+            "condition": {
+                "biomes": [
+                    "nullscape:void_barrens"
+                ]
+            }
         }
     ]
 }

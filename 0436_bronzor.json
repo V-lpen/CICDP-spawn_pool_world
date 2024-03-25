@@ -61,6 +61,20 @@
             ],
             "timeRange": "night"
           }
-        }
+        },
+		    {
+      "id": "bronzor-4",
+      "pokemon": "bronzor",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "30-70",
+      "weight": 3.0,
+      "condition": {
+          "biomes": [
+              "#cobblemonislands:vanilla_end"
+          ]
+      }
+    }
       ]
 }

@@ -62,6 +62,20 @@
                     "#cobblemon:is_highlands"				
                 ]
             }
+        },
+				        {
+            "id": "hydreigon-5",
+            "pokemon": "hydreigon",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "66-92",
+            "weight": 3.0,
+            "condition": {
+                "biomes": [
+                       "nullscape:shadowlands"
+                ]
+            }
         }
     ]
 }

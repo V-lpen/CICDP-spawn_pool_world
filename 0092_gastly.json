@@ -121,13 +121,13 @@
                 ]
             }
         },
-							        {
+		 {
             "id": "gastly-7",
             "pokemon": "gastly",
             "type": "pokemon",
             "context": "grounded",
             "bucket": "common",
-            "level": "5-20",
+            "level": "20-40",
             "weight": 0.2,
             "condition": {
                 "biomes": [

@@ -87,6 +87,20 @@
 					"#minecraft:emerald_ores"
                 ]
             }
+        },
+				        {
+            "id": "gible-5",
+            "pokemon": "gible",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "34-48",
+            "weight": 3.1,
+            "condition": {
+                "biomes": [
+                    "nullscape:void_barrens"
+                ]
+            }
         }
     ]
 }

@@ -22,7 +22,7 @@
             }
         },
         {
-            "id": "drampa-1",
+            "id": "drampa-2",
             "pokemon": "drampa",
             "presets": [
                 "natural"
@@ -36,6 +36,20 @@
                 "canSeeSky": true,
                 "biomes": [
                     "#cobblemon:is_sky"
+                ]
+            }
+        },
+				        {
+            "id": "drampa-3",
+            "pokemon": "drampa",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "55-75",
+            "weight": 1.0,
+            "condition": {
+                "biomes": [
+                    "#minecraft:is_end"
                 ]
             }
         }

@@ -20,6 +20,20 @@
                     "#cobblemon:is_mountain"
                 ]
             }
+        },
+						{
+            "id": "boldore-2",
+            "pokemon": "boldore",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "25-65",
+            "weight": 10.5,
+            "condition": {
+                "biomes": [
+                    "nullscape:crystal_peaks"
+                ]
+            }
         }
     ]
 }

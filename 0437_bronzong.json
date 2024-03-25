@@ -61,6 +61,20 @@
             ],
             "timeRange": "night"
           }
+        },
+				        {
+            "id": "bronzong-4",
+            "pokemon": "bronzong",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "45-85",
+            "weight": 7.0,
+            "condition": {
+                "biomes": [
+                   "#cobblemonislands:vanilla_end"
+                ]
+            }
         }
       ]
 }

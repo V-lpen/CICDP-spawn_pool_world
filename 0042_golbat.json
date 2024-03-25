@@ -104,8 +104,8 @@
             "pokemon": "golbat",
             "type": "pokemon",
             "context": "grounded",
-            "bucket": "common",
-            "level": "22-45",
+            "bucket": "uncommon",
+            "level": "42-75",
             "weight": 2.0,
             "condition": {
                 "biomes": [

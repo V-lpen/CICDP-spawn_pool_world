@@ -32,6 +32,20 @@
                     "#cobblemon:is_dripstone"
                 ]
             }
+        },
+		 {
+            "id": "bagon-3",
+            "pokemon": "bagon",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "35-60",
+            "weight": 2.0,
+            "condition": {
+                "biomes": [
+                    "nullscape:crystal_peaks"
+                ]
+            }
         }
     ]
 }

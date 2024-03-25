@@ -34,6 +34,20 @@
 					"#c:topaz_ores"
                 ]
             }
+        },
+{
+            "id": "sableye-2",
+            "pokemon": "sableye",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "15-39",
+            "weight": 0.5,
+            "condition": {
+                "biomes": [
+                    "nullscape:crystal_peaks"
+                ]
+            }
         }
     ]
 }

@@ -48,11 +48,11 @@
             "type": "pokemon",
             "context": "grounded",
             "bucket": "uncommon",
-            "level": "25-40",
+            "level": "40-75",
             "weight": 7.0,
             "condition": {
                 "biomes": [
-                    "#minecraft:is_end"
+                    "#cobblemonislands:vanilla_end"
                 ]
             }
         }

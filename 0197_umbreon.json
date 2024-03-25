@@ -20,6 +20,20 @@
                     "#cobblemon:is_spooky"
                 ]
             }
+        },
+								        {
+            "id": "umbreon-2",
+            "pokemon": "umbreon",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "65-88",
+            "weight": 2.0,
+            "condition": {
+                "biomes": [
+                    "#minecraft:is_end"
+                ]
+            }
         }
     ]
 }

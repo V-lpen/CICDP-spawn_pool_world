@@ -56,6 +56,20 @@
                     "#mincraft:is_ocean"
                 ]
             }
+        },
+        {
+            "id": "kabuto-4",
+            "pokemon": "kabuto",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "34-48",
+            "weight": 2.0,
+            "condition": {
+                "biomes": [
+                    "nullscape:void_barrens"
+                ]
+            }
         }
     ]
 }

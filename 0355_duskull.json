@@ -50,6 +50,20 @@
                 ],
                 "timeRange": "night"
             }
+        },
+											        {
+            "id": "duskull-4",
+            "pokemon": "duskull",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "22-46",
+            "weight": 4.0,
+            "condition": {
+                "biomes": [
+                    "nullscape:void_barrens"
+                ]
+            }
         }
     ]
 }

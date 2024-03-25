@@ -71,6 +71,20 @@
                     "minecraft:chipped_anvil"
                 ]
             }
+        },
+ {
+            "id": "aegislash-4",
+            "pokemon": "aegislash",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "45-80",
+            "weight": 2.0,
+            "condition": {
+                "biomes": [
+                    "nullscape:crystal_peaks"
+                ]
+            }
         }
     ]
 }

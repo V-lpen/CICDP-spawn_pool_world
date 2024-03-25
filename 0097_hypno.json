@@ -47,17 +47,18 @@
                 ]
             }
         },
-							        {
+		{
             "id": "hypno-3",
             "pokemon": "hypno",
             "type": "pokemon",
             "context": "grounded",
             "bucket": "uncommon",
-            "level": "35-50",
+            "level": "35-60",
             "weight": 0.7,
             "condition": {
                 "biomes": [
-                    "nullscape:shadowlands"
+                    "nullscape:shadowlands",
+					"nullscape:crystal_peaks"
                 ]
             }
         }

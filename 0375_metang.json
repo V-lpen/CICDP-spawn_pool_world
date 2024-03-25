@@ -23,11 +23,11 @@
             "type": "pokemon",
             "context": "grounded",
             "bucket": "rare",
-            "level": "20-44",
-            "weight": 2.0,
+            "level": "40-84",
+            "weight": 2.2,
             "condition": {
                 "biomes": [
-                    "#minecraft:is_end"
+                     "#cobblemonislands:vanilla_end"
                 ]
             }
         }

@@ -43,6 +43,20 @@
                 ],
                 "timeRange": "night"
             }
+        },
+				        {
+            "id": "greavard-3",
+            "pokemon": "greavard",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "34-48",
+            "weight": 6.0,
+            "condition": {
+                "biomes": [
+                    "nullscape:void_barrens"
+                ]
+            }
         }
     ]
 }

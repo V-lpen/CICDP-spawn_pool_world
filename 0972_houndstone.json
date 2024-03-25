@@ -43,6 +43,20 @@
                 ],
                 "timeRange": "night"
             }
+        },
+						        {
+            "id": "houndstone-4",
+            "pokemon": "houndstone",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "55-85",
+            "weight": 2.0,
+            "condition": {
+                "biomes": [
+                    "nullscape:void_barrens"
+                ]
+            }
         }
     ]
 }

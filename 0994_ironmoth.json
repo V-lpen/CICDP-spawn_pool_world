@@ -9,11 +9,11 @@
             "type": "pokemon",
             "context": "grounded",
             "bucket": "ultra-rare",
-            "level": "35-65",
+            "level": "55-95",
             "weight": 1.0,
             "condition": {
                 "biomes": [
-                    "#minecraft:is_end"
+                                       "nullscape:void_barrens"
                 ]
             }
         }

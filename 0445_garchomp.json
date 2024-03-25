@@ -87,6 +87,20 @@
 					"#minecraft:emerald_ores"
                 ]
             }
+        },
+		        {
+            "id": "garchomp-5",
+            "pokemon": "garchomp",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "75-95",
+            "weight": 2.0,
+            "condition": {
+                "biomes": [
+                                       "nullscape:void_barrens"
+                ]
+            }
         }
     ]
 }

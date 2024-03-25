@@ -76,6 +76,20 @@
                     "minecraft:piston_head"
                 ]
             }
+        },
+				{
+            "id": "klang-4",
+            "pokemon": "klang",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "48-79",
+            "weight": 8.0,
+            "condition": {
+                "biomes": [
+                    "nullscape:crystal_peaks"
+                ]
+            }
         }
     ]
 }

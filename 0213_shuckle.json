@@ -17,6 +17,23 @@
                     "#cobblemon:is_lush"
                 ]
             }
+        },
+		        {
+            "id": "shuckle-2",
+			            "presets": [
+                "end_city"
+            ],
+            "pokemon": "shuckle",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "43-68",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "#minecraft:is_end"
+                ]
+            }
         }
     ]
 }

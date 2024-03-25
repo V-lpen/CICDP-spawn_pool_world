@@ -45,6 +45,20 @@
                     "minecraft:cactus"
                 ]
 			}
-        }
+        },
+						    {
+      "id": "natu-3",
+      "pokemon": "natu",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "45-50",
+      "weight": 10.0,
+      "condition": {
+          "biomes": [
+              "#cobblemonislands:vanilla_end"
+          ]
+      }
+    }
     ]
 }

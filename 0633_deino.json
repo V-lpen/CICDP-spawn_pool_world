@@ -62,6 +62,20 @@
                     "#cobblemon:is_highlands"					
                 ]
             }
+        },
+		        {
+            "id": "deino-5",
+            "pokemon": "deino",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "20-40",
+            "weight": 4.0,
+            "condition": {
+                "biomes": [
+                       "nullscape:shadowlands"
+                ]
+            }
         }
     ]
 }

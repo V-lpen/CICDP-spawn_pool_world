@@ -46,6 +46,20 @@
                     "#cobblemon:is_plains"
                 ]
             }
-        }
+        },
+				    {
+      "id": "dottler-3",
+      "pokemon": "bronzor",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "45-70",
+      "weight": 3.0,
+      "condition": {
+          "biomes": [
+              "#cobblemonislands:vanilla_end"
+          ]
+      }
+    }
     ]
 }

@@ -50,6 +50,20 @@
                 ],
                 "timeRange": "night"
             }
+        },
+				        {
+            "id": "dusclops-4",
+            "pokemon": "dusclops",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "37-70",
+            "weight": 5.0,
+            "condition": {
+                "biomes": [
+                    "nullscape:void_barrens"
+                ]
+            }
         }
     ]
 }

@@ -71,6 +71,20 @@
                     "minecraft:chipped_anvil"
                 ]
             }
+        },
+		{
+            "id": "honedge-4",
+            "pokemon": "honedge",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "32-62",
+            "weight": 5.5,
+            "condition": {
+                "biomes": [
+                    "nullscape:crystal_peaks"
+                ]
+            }
         }
     ]
 }

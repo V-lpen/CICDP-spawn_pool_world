@@ -20,6 +20,20 @@
                     "#cobblemon:is_abyss"
                 ]
             }
+        },
+				        {
+            "id": "runerigus-2",
+            "pokemon": "runerigus",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "60-86",
+            "weight": 5.0,
+            "condition": {
+                "biomes": [
+                    "nullscape:void_barrens"
+                ]
+            }
         }
     ]
 }

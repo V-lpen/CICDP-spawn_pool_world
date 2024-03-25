@@ -34,8 +34,8 @@
             "type": "pokemon",
             "context": "grounded",
             "bucket": "rare",
-            "level": "25-40",
-            "weight": 1.0,
+            "level": "45-75",
+            "weight": 0.9,
             "condition": {
                 "biomes": [
                     "nullscape:shadowlands"

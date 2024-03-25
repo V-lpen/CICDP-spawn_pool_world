@@ -36,6 +36,34 @@
                     "#cobblemon:is_spooky"
                 ]
             }
+        },
+			{
+            "id": "polteageist-2",
+            "pokemon": "polteageist",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "38-53",
+            "weight": 0.5,
+            "condition": {
+                "biomes": [
+                    "nullscape:void_barrens"
+                ]
+            }
+        },
+					{
+            "id": "polteageist-antique-2",
+            "pokemon": "polteageist antique",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "38-53",
+            "weight": 0.005,
+            "condition": {
+                "biomes": [
+                    "nullscape:void_barrens"
+                ]
+            }
         }
     ]
 }

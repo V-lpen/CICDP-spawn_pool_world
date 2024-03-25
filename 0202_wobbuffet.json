@@ -25,6 +25,20 @@
                     "#cobblemon:is_abyss"
                 ]
             }
-        }
+        },
+				    {
+      "id": "wobbuffet-2",
+      "pokemon": "wobbuffet",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "30-80",
+      "weight": 1.0,
+      "condition": {
+          "biomes": [
+              "#cobblemonislands:vanilla_end"
+          ]
+      }
+    }
     ]
 }

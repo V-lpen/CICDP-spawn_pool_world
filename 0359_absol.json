@@ -25,6 +25,20 @@
                 ],
                 "timeRange": "night"
             }
+        },
+				        {
+            "id": "absol-2",
+            "pokemon": "absol",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "55-80",
+            "weight": 1.5,
+            "condition": {
+                "biomes": [
+                   "#minecraft:is_end"
+                ]
+            }
         }
     ]
 }

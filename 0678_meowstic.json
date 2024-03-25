@@ -6,20 +6,16 @@
     {
       "id": "meowstic-1",
       "pokemon": "meowstic",
-      "presets": [                
-          "natural"
-      ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "rare",
-      "level": "20-65",
+      "bucket": "uncommon",
+      "level": "40-75",
       "weight": 7.0,
       "condition": {
           "biomes": [
-              "#minecraft:is_end"
+              "#cobblemonislands:vanilla_end"
           ]
       }
-
     }
   ]
 }

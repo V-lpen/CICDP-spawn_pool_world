@@ -4,55 +4,52 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "sneasel-1",
-            "pokemon": "sneasel",
+            "id": "gothita-1",
+            "pokemon": "gothita",
             "presets": [
                 "natural"
             ],
             "type": "pokemon",
             "context": "grounded",
             "bucket": "uncommon",
-            "level": "12-43",
-            "weight": 9.9,
+            "level": "5-35",
+            "weight": 5.0,
             "condition": {
                 "canSeeSky": true,
                 "biomes": [
-                    "#cobblemon:is_taiga"
-                ],
-                "timeRange": "night"
+                    "#cobblemon:is_spooky"
+                ]
             }
         },
         {
-            "id": "sneasel-hisui-1",
-            "pokemon": "sneasel hisuian",
+            "id": "gothita-2",
+            "pokemon": "gothita",
             "presets": [
-                "natural"
+                "mansion"
             ],
             "type": "pokemon",
             "context": "grounded",
             "bucket": "uncommon",
-            "level": "12-43",
-            "weight": 9.9,
+            "level": "5-35",
+            "weight": 8,
             "condition": {
-                "canSeeSky": true,
+                "canSeeSky": false,
                 "biomes": [
-                    "#cobblemon:is_mountain",
-		    "#cobblemon:is_hills"
-                ],
-                "timeRange": "day"
+                    "minecraft:dark_forest"
+                ]
             }
         },
-				{
-            "id": "sneasel-hisui-2",
-            "pokemon": "sneasel hisuian",
+		        {
+            "id": "gothita-3",
+            "pokemon": "gothita",
             "type": "pokemon",
             "context": "grounded",
-            "bucket": "uncommon",
-            "level": "48-69",
+            "bucket": "common",
+            "level": "35-68",
             "weight": 5.0,
             "condition": {
                 "biomes": [
-                    "nullscape:crystal_peaks"
+                    "#minecraft:is_end"
                 ]
             }
         }

@@ -103,9 +103,9 @@
             "pokemon": "clefairy",
             "type": "pokemon",
             "context": "grounded",
-            "bucket": "uncommon",
-            "level": "20-32",
-            "weight": 1.0,
+            "bucket": "common",
+            "level": "30-52",
+            "weight": 5.0,
             "condition": {
                 "biomes": [
                     "#minecraft:is_end"
@@ -118,7 +118,7 @@
             "type": "pokemon",
             "context": "grounded",
             "bucket": "uncommon",
-            "level": "20-32",
+            "level": "50-72",
             "weight": 3.0,
             "condition": {
                 "biomes": [

@@ -67,6 +67,20 @@
                     "minecraft:water"
                 ]
             }
+        },
+									        {
+            "id": "claydol-4",
+            "pokemon": "claydol",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "40-74",
+            "weight": 4.5,
+            "condition": {
+                "biomes": [
+                    "nullscape:shadowlands"
+                ]
+            }
         }
     ]
 }

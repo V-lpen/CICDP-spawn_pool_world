@@ -25,20 +25,15 @@
         {
             "id": "sliggoo-hisui-1",
             "pokemon": "sliggoo hisuian",
-            "presets": [
-                "natural"
-            ],
             "type": "pokemon",
             "context": "grounded",
             "bucket": "rare",
             "level": "40-60",
             "weight": 9.0,
             "condition": {
-                "canSeeSky": true,
                 "biomes": [
-                    "#cobblemon:is_swamp"
-                ],
-                "isRaining": true
+                    "#cobblemon:is_lush"
+                ]
             }
         }
     ]

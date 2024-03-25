@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "toxtricity",
+            "id": "toxtricity-1",
             "pokemon": "toxtricity",
             "presets": [
                 "natural"
@@ -38,6 +38,34 @@
                 "biomes": [
                     "#cobblemon:is_swamp",
                     "#cobblemon:is_swamp"
+                ]
+            }
+        },
+				{
+            "id": "toxtricity-3",
+            "pokemon": "toxtricity",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "48-89",
+            "weight": 2.0,
+            "condition": {
+                "biomes": [
+                    "nullscape:crystal_peaks"
+                ]
+            }
+        },
+						{
+            "id": "toxtricity-4",
+            "pokemon": "toxtricity low-key",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "48-89",
+            "weight": 2.0,
+            "condition": {
+                "biomes": [
+                    "nullscape:crystal_peaks"
                 ]
             }
         }

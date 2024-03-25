@@ -21,6 +21,20 @@
                 ],
                 "timeRange": "day"
             }
+        },
+								        {
+            "id": "reuniclus-2",
+            "pokemon": "reuniclus",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "55-85",
+            "weight": 4.0,
+            "condition": {
+                "biomes": [
+                    "#minecraft:is_end"
+                ]
+            }
         }
     ]
 }

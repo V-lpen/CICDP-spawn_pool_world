@@ -4,36 +4,34 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "sneasler-1",
-            "pokemon": "sneasler",
+            "id": "gothorita-1",
+            "pokemon": "gothorita",
             "presets": [
                 "natural"
             ],
             "type": "pokemon",
             "context": "grounded",
-            "bucket": "uncommon",
-            "level": "38-52",
-            "weight": 1.2,
+            "bucket": "rare",
+            "level": "32-46",
+            "weight": 5.0,
             "condition": {
                 "canSeeSky": true,
                 "biomes": [
-                    "#cobblemon:is_mountain",
-		    "#cobblemon:is_hills"
-                ],
-                "timeRange": "day"
+                    "#cobblemon:is_spooky"
+                ]
             }
         },
-		 {
-            "id": "sneasler-2",
-            "pokemon": "sneasler",
+				        {
+            "id": "gothorita-2",
+            "pokemon": "gothorita",
             "type": "pokemon",
             "context": "grounded",
-            "bucket": "rare",
-            "level": "45-70",
-            "weight": 1.0,
+            "bucket": "uncommon",
+            "level": "55-78",
+            "weight": 6.0,
             "condition": {
                 "biomes": [
-                    "nullscape:crystal_peaks"
+                    "#minecraft:is_end"
                 ]
             }
         }

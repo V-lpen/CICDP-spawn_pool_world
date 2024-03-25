@@ -75,6 +75,20 @@
 					"#the_bumblezone:sempiternal_sanctums"
 				]
             }
+        },
+		 {
+            "id": "aegislash-4",
+            "pokemon": "aegislash",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "55-85",
+            "weight": 5.0,
+            "condition": {
+                "biomes": [
+                    "nullscape:crystal_peaks"
+                ]
+            }
         }
     ]
 }

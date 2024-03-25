@@ -100,12 +100,12 @@
             }
         },
 							        {
-            "id": "koffing-galarain-5",
+            "id": "koffing-galarian-5",
             "pokemon": "koffing galarian",
             "type": "pokemon",
             "context": "grounded",
             "bucket": "common",
-            "level": "9-34",
+            "level": "29-49",
             "weight": 1.4,
             "condition": {
                 "biomes": [

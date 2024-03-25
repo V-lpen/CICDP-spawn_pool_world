@@ -39,6 +39,20 @@
                     "#cobblemon:is_dripstone"
                 ]
             }
+        },
+				 {
+            "id": "salamence-3",
+            "pokemon": "salamence",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "60-85",
+            "weight": 1.5,
+            "condition": {
+                "biomes": [
+                    "nullscape:crystal_peaks"
+                ]
+            }
         }
     ]
 }
