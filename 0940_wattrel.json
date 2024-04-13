@@ -1,0 +1,23 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "wattrel-1",
+            "pokemon": "wattrel",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "20-54",
+            "weight": 2.8,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+		            "#cobblemon:is_mountain"
+                ],
+		        "timeRange": "day"
+            }
+        }
+    ]
+}

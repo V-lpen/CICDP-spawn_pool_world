@@ -49,6 +49,65 @@
                     "minecraft:tall_grass"
                 ]
             }
+        },
+		        {
+            "id": "tauros-3-combat",
+            "pokemon": "tauros paldean-breed-combat",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "20-49",
+            "weight": 2.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_grassland"
+                ],
+                "timeRange": "night"
+            }
+        },
+				        {
+            "id": "tauros-3-blaze",
+            "pokemon": "tauros paldean-breed-blaze",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "20-49",
+            "weight": 0.5,
+							"maxX": 0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_grassland"
+                ],
+                "timeRange": "night"
+            }
+        },
+				        {
+            "id": "tauros-3-aqua",
+            "pokemon": "tauros paldean-breed-aqua",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "20-49",
+            "weight": 0.5,
+				"minX": 0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_grassland"
+                ],
+                "timeRange": "night"
+            }
         }
     ]
 }
