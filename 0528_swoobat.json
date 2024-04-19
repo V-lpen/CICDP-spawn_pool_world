@@ -4,21 +4,23 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "bastiodon-1",
-            "pokemon": "bastiodon",
+            "id": "swoobat-1",
+            "pokemon": "swoobat",
             "presets": [
                 "natural"
             ],
             "type": "pokemon",
             "context": "grounded",
             "bucket": "ultra-rare",
-            "level": "40-60",
-            "weight": 1.0,
+            "level": "40-50",
+            "weight": 9.0,
             "condition": {
-                "canSeeSky": false,
+                "canSeeSky": true,
                 "biomes": [
-                    "#cobblemon:is_lush"
-                ]
+                    "#cobblemon:is_jungle"
+                ],
+                "timeRange": "night",
+                "isRaining": false
             }
         }
     ]

@@ -4,21 +4,22 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "cranidos-1",
-            "pokemon": "cranidos",
+            "id": "floette-1",
+            "pokemon": "floette",
             "presets": [
                 "natural"
             ],
             "type": "pokemon",
             "context": "grounded",
-            "bucket": "ultra-rare",
-            "level": "20-35",
-            "weight": 9.0,
+            "bucket": "common",
+            "level": "19-35",
+            "weight": 1.0,
             "condition": {
-                "canSeeSky": false,
+                "canSeeSky": true,
                 "biomes": [
-                    "#cobblemon:is_lush"
-                ]
+                    "#cobblemon:is_floral"
+                ],
+                "timeRange": "day"
             }
         }
     ]

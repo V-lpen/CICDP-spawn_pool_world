@@ -1,0 +1,55 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "cubchoo-1",
+            "pokemon": "cubchoo",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "5-40",
+            "weight": 5.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_frozen_ocean"
+                ]
+            }
+        },
+        {
+            "id": "cubchoo-2",
+            "pokemon": "cubchoo",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "5-40",
+            "weight": 25,
+ "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_mountain",
+                    "#cobblemon:is_peak"
+                ],
+                "isThundering": true,
+        "minY": 100,
+                 "neededNearbyBlocks": [
+		 "minecraft:ice",
+		 "minecraft:snow_block"
+]
+            },
+"anticondition": {
+     "biomes": [
+                 "terralith:volcanic_peaks"
+]
+}
+        }
+    ]
+}

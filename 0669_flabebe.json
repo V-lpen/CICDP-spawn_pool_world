@@ -4,21 +4,22 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "rampardos-1",
-            "pokemon": "rampardos",
+            "id": "flabebe-1",
+            "pokemon": "flabebe",
             "presets": [
                 "natural"
             ],
             "type": "pokemon",
             "context": "grounded",
-            "bucket": "ultra-rare",
-            "level": "40-60",
-            "weight": 1.0,
+            "bucket": "common",
+            "level": "5-21",
+            "weight": 7.0,
             "condition": {
-                "canSeeSky": false,
+                "canSeeSky": true,
                 "biomes": [
-                    "#cobblemon:is_lush"
-                ]
+                    "#cobblemon:is_floral"
+                ],
+                "timeRange": "day"
             }
         }
     ]

@@ -1,0 +1,55 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "beartic-1",
+            "pokemon": "beartic",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "37-60",
+            "weight": 1.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_frozen_ocean"
+                ]
+            }
+        },
+        {
+            "id": "beartic-2",
+            "pokemon": "beartic",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "37-60",
+            "weight": 15,
+ "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_mountain",
+                    "#cobblemon:is_peak"
+                ],
+                "isThundering": true,
+        "minY": 100,
+                 "neededNearbyBlocks": [
+		 "minecraft:ice",
+		 "minecraft:snow_block"
+]
+            },
+"anticondition": {
+     "biomes": [
+                 "terralith:volcanic_peaks"
+]
+}
+        }
+    ]
+}
