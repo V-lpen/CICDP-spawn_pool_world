@@ -8,9 +8,9 @@
             "pokemon": "ironvaliant",
             "type": "pokemon",
             "context": "grounded",
-            "bucket": "uncommon",
+            "bucket": "ultra-rare",
             "level": "55-75",
-            "weight": 0.0144,
+            "weight": 0.7,
             "condition": {
                 "canSeeSky": true,
                 "biomes": [
@@ -25,9 +25,9 @@
             "pokemon": "ironvaliant",
             "type": "pokemon",
             "context": "grounded",
-            "bucket": "uncommon",
+            "bucket": "ultra-rare",
             "level": "55-75",
-            "weight": 0.0288,
+            "weight": 0.6,
             "condition": {
                 "canSeeSky": true,
                 "biomes": [
