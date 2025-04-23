@@ -1,0 +1,21 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "hippopotas-fishing-desert-1",
+            "pokemon": "hippopotas",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "15-100",
+            "weight": 0.3,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_desert"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "tentacool-fishing-deep-1",
+            "pokemon": "tentacool",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "15-100",
+            "weight": 0.4,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_deep_ocean",
+                    "#cobblemon:is_deep_dark"
+                ]
+            }
+        }
+    ]
+}

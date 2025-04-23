@@ -1,0 +1,21 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "masquerain-fishing-forest-1",
+            "pokemon": "masquerain",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "15-100",
+            "weight": 0.1,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_forest"
+                ]
+            }
+        }
+    ]
+}

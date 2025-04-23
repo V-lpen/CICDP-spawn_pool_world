@@ -1,0 +1,21 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "crabominable-fishing-coast-1",
+            "pokemon": "crabominable",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "15-100",
+            "weight": 0.05,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_coast"
+                ]
+            }
+        }
+    ]
+}

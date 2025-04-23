@@ -1,0 +1,21 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "dragalge-fishing-warm-ocean-1",
+            "pokemon": "dragalge",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "15-100",
+            "weight": 0.1,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_warm_ocean"
+                ]
+            }
+        }
+    ]
+}

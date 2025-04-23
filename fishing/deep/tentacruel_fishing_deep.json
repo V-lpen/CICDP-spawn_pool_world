@@ -1,0 +1,22 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "tentacruel-fishing-deep-1",
+            "pokemon": "tentacruel",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "15-100",
+            "weight": 0.2,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_deep_ocean",
+                    "#cobblemon:is_deep_dark"
+                ]
+            }
+        }
+    ]
+}

@@ -22,7 +22,7 @@
             },
             "anticondition": {
                 "biomes": [
-                    "#cobblemon:is_abyss"
+                    "#cobblemon:is_deep_dark"
                 ],
                 "neededNearbyBlocks": [
                     "minecraft:water"
@@ -51,7 +51,7 @@
             },
             "anticondition": {
                 "biomes": [
-                    "#cobblemon:is_abyss"
+                    "#cobblemon:is_deep_dark"
                 ],
                 "neededNearbyBlocks": [
                     "minecraft:wheat",

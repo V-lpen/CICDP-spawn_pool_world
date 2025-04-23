@@ -50,7 +50,7 @@
             },
             "anticondition": {
                 "biomes": [
-                    "#cobblemon:is_abyss"
+                    "#cobblemon:is_deep_dark"
                 ],
                 "neededNearbyBlocks": [
                     "minecraft:water"
@@ -76,7 +76,7 @@
             },
             "anticondition": {
                 "biomes": [
-                    "#cobblemon:is_abyss"
+                    "#cobblemon:is_deep_dark"
                 ]
             }
         },
@@ -100,7 +100,7 @@
             },
             "anticondition": {
                 "biomes": [
-                    "#cobblemon:is_abyss"
+                    "#cobblemon:is_deep_dark"
                 ],
                 "neededNearbyBlocks": [
                     "minecraft:water"
@@ -127,7 +127,7 @@
             },
             "anticondition": {
                 "biomes": [
-                    "#cobblemon:is_abyss"
+                    "#cobblemon:is_deep_dark"
                 ],
                 "neededNearbyBlocks": [
                     "minecraft:water"
@@ -183,7 +183,7 @@
             "weight": 50.0,
             "condition": {
                 "biomes": [
-                    "#cobblemon:is_abyss"
+                    "#cobblemon:is_deep_dark"
                 ],
                 "neededNearbyBlocks": [
                     "minecraft:cake"
@@ -191,7 +191,7 @@
             },
             "anticondition": {
                 "biomes": [
-                    "#cobblemon:is_abyss"
+                    "#cobblemon:is_deep_dark"
                 ]
             }
         }

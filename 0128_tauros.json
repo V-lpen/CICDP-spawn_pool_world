@@ -11,102 +11,121 @@
             ],
             "type": "pokemon",
             "context": "grounded",
-            "bucket": "uncommon",
-            "level": "20-49",
-            "weight": 6.0,
-            "condition": {
-                "canSeeSky": true,
-                "biomes": [
-                    "#cobblemon:is_grassland"
-                ],
-                "timeRange": "day"
-            }
-        },
-        {
-            "id": "tauros-2",
-            "pokemon": "tauros",
-            "type": "pokemon",
-            "context": "grounded",
             "bucket": "common",
-            "level": "20-49",
-            "weight": 50,
+            "level": "24-49",
+            "weight": 2.0,
+            "weightMultiplier": {
+                "multiplier": 0.25,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
             "condition": {
-                "canSeeSky": true,
-                "minY": 63,
-                "neededBaseBlocks": [
-                    "minecraft:grass_block"
-                ],
-                "neededNearbyBlocks": [
-                    "minecraft:cauldron"
-                ],
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
                     "#cobblemon:is_grassland"
-                ],
-                "timeRange": "day"
+                ]
             },
             "anticondition": {
-                "neededNearbyBlocks": [
-                    "minecraft:tall_grass"
+                "biomes": [
+                    "#cobblemon:is_hills"
                 ]
             }
         },
-		        {
-            "id": "tauros-3-combat",
+        {
+            "id": "tauros-combat-2",
             "pokemon": "tauros paldean-breed-combat",
             "presets": [
                 "natural"
             ],
             "type": "pokemon",
             "context": "grounded",
-            "bucket": "uncommon",
-            "level": "20-49",
-            "weight": 2.0,
+            "bucket": "common",
+            "level": "24-49",
+            "weight": 1.8,
+            "weightMultiplier": {
+                "multiplier": 0.25,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
-                    "#cobblemon:is_grassland"
-                ],
-                "timeRange": "night"
+                    "#cobblemon:is_highlands"
+                ]
             }
         },
-				        {
-            "id": "tauros-3-blaze",
+        {
+            "id": "tauros-blaze-3",
             "pokemon": "tauros paldean-breed-blaze",
             "presets": [
                 "natural"
             ],
             "type": "pokemon",
             "context": "grounded",
-            "bucket": "uncommon",
-            "level": "20-49",
-            "weight": 0.5,
-							"maxX": 0,
+            "bucket": "common",
+            "level": "24-49",
+            "weight": 0.1,
+            "weightMultipliers": [
+                {
+                    "multiplier": 0.25,
+                    "condition": {
+                        "timeRange": "night"
+                    }
+                },
+                {
+                    "multiplier": 5.0,
+                    "condition": {
+                        "neededNearbyBlocks": [
+                            "#minecraft:lava"
+                        ]
+                    }
+                }
+            ],
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
-                    "#cobblemon:is_grassland"
-                ],
-                "timeRange": "night"
+                    "#cobblemon:is_highlands"
+                ]
             }
         },
-				        {
-            "id": "tauros-3-aqua",
+        {
+            "id": "tauros-aqua-4",
             "pokemon": "tauros paldean-breed-aqua",
             "presets": [
                 "natural"
             ],
             "type": "pokemon",
             "context": "grounded",
-            "bucket": "uncommon",
-            "level": "20-49",
-            "weight": 0.5,
-				"minX": 0,
+            "bucket": "common",
+            "level": "24-49",
+            "weight": 0.1,
+            "weightMultipliers": [
+                {
+                    "multiplier": 0.25,
+                    "condition": {
+                        "timeRange": "night"
+                    }
+                },
+                {
+                    "multiplier": 5.0,
+                    "condition": {
+                        "neededNearbyBlocks": [
+                            "#minecraft:water"
+                        ]
+                    }
+                }
+            ],
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
-                    "#cobblemon:is_grassland"
-                ],
-                "timeRange": "night"
+                    "#cobblemon:is_highlands"
+                ]
             }
         }
     ]
