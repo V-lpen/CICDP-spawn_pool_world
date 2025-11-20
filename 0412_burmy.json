@@ -5,7 +5,7 @@
     "spawns": [
         {
             "id": "burmy-1",
-            "pokemon": "burmy",
+            "pokemon": "burmy plant-cloak",
             "presets": [
                 "natural",
                 "treetop",
@@ -37,7 +37,7 @@
         },
 		        {
             "id": "burmy-2-sandy",
-            "pokemon": "burmy sandy",
+            "pokemon": "burmy sandy-cloak",
             "presets": [
                 "natural"
             ],
@@ -55,7 +55,7 @@
         },
         {
             "id": "burmy-3-trash",
-            "pokemon": "burmy trash",
+            "pokemon": "burmy trash-cloak",
             "presets": [
                 "village"
             ],

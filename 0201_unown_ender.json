@@ -4,8 +4,8 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "unown-a-1",
-            "pokemon": "unown character=a",
+            "id": "unown-a-1-ender",
+            "pokemon": "unown ender character=a",
             "presets": [
                 "natural"
             ],
@@ -13,7 +13,7 @@
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "1-100",
-            "weight": 3.769,
+            "weight": 0.03769,
             "condition": {
                 "biomes": [
                     "#cobblemon:is_end"
@@ -21,8 +21,8 @@
             }
         },
         {
-            "id": "unown-b-1",
-            "pokemon": "unown character=b",
+            "id": "unown-b-1-ender",
+            "pokemon": "unown ender character=b",
             "presets": [
                 "natural"
             ],
@@ -30,7 +30,7 @@
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "1-100",
-            "weight": 3.769,
+            "weight": 0.03769,
             "condition": {
                 "biomes": [
                     "#cobblemon:is_end"
@@ -38,8 +38,8 @@
             }
         },
         {
-            "id": "unown-c-1",
-            "pokemon": "unown character=c",
+            "id": "unown-c-1-ender",
+            "pokemon": "unown ender character=c",
             "presets": [
                 "natural"
             ],
@@ -47,7 +47,7 @@
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "1-100",
-            "weight": 3.769,
+            "weight": 0.03769,
             "condition": {
                 "biomes": [
                     "#cobblemon:is_end"
@@ -55,8 +55,8 @@
             }
         },
         {
-            "id": "unown-d-1",
-            "pokemon": "unown character=d",
+            "id": "unown-d-1-ender",
+            "pokemon": "unown ender character=d",
             "presets": [
                 "natural"
             ],
@@ -64,7 +64,7 @@
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "1-100",
-            "weight": 3.769,
+            "weight": 0.03769,
             "condition": {
                 "biomes": [
                     "#cobblemon:is_end"
@@ -72,8 +72,8 @@
             }
         },
         {
-            "id": "unown-e-1",
-            "pokemon": "unown character=e",
+            "id": "unown-e-1-ender",
+            "pokemon": "unown ender character=e",
             "presets": [
                 "natural"
             ],
@@ -81,7 +81,7 @@
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "1-100",
-            "weight": 3.769,
+            "weight": 0.03769,
             "condition": {
                 "biomes": [
                     "#cobblemon:is_end"
@@ -89,8 +89,8 @@
             }
         },
         {
-            "id": "unown-f-1",
-            "pokemon": "unown character=f",
+            "id": "unown-f-1-ender",
+            "pokemon": "unown ender character=f",
             "presets": [
                 "natural"
             ],
@@ -98,7 +98,7 @@
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "1-100",
-            "weight": 3.769,
+            "weight": 0.03769,
             "condition": {
                 "biomes": [
                     "#cobblemon:is_end"
@@ -106,8 +106,8 @@
             }
         },
         {
-            "id": "unown-g-1",
-            "pokemon": "unown character=g",
+            "id": "unown-g-1-ender",
+            "pokemon": "unown ender character=g",
             "presets": [
                 "natural"
             ],
@@ -115,7 +115,7 @@
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "1-100",
-            "weight": 3.769,
+            "weight": 0.03769,
             "condition": {
                 "biomes": [
                     "#cobblemon:is_end"
@@ -123,8 +123,8 @@
             }
         },
         {
-            "id": "unown-h-1",
-            "pokemon": "unown character=h",
+            "id": "unown-h-1-ender",
+            "pokemon": "unown ender character=h",
             "presets": [
                 "natural"
             ],
@@ -132,7 +132,7 @@
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "1-100",
-            "weight": 3.769,
+            "weight": 0.03769,
             "condition": {
                 "biomes": [
                     "#cobblemon:is_end"
@@ -140,8 +140,8 @@
             }
         },
         {
-            "id": "unown-i-1",
-            "pokemon": "unown character=i",
+            "id": "unown-i-1-ender",
+            "pokemon": "unown ender character=i",
             "presets": [
                 "natural"
             ],
@@ -149,7 +149,7 @@
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "1-100",
-            "weight": 3.769,
+            "weight": 0.03769,
             "condition": {
                 "biomes": [
                     "#cobblemon:is_end"
@@ -157,8 +157,8 @@
             }
         },
         {
-            "id": "unown-j-1",
-            "pokemon": "unown character=j",
+            "id": "unown-j-1-ender",
+            "pokemon": "unown ender character=j",
             "presets": [
                 "natural"
             ],
@@ -166,7 +166,7 @@
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "1-100",
-            "weight": 3.769,
+            "weight": 0.03769,
             "condition": {
                 "biomes": [
                     "#cobblemon:is_end"
@@ -174,8 +174,8 @@
             }
         },
         {
-            "id": "unown-k-1",
-            "pokemon": "unown character=k",
+            "id": "unown-k-1-ender",
+            "pokemon": "unown ender character=k",
             "presets": [
                 "natural"
             ],
@@ -183,7 +183,7 @@
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "1-100",
-            "weight": 3.769,
+            "weight": 0.03769,
             "condition": {
                 "biomes": [
                     "#cobblemon:is_end"
@@ -191,8 +191,8 @@
             }
         },
         {
-            "id": "unown-l-1",
-            "pokemon": "unown character=l",
+            "id": "unown-l-1-ender",
+            "pokemon": "unown ender character=l",
             "presets": [
                 "natural"
             ],
@@ -200,7 +200,7 @@
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "1-100",
-            "weight": 3.769,
+            "weight": 0.03769,
             "condition": {
                 "biomes": [
                     "#cobblemon:is_end"
@@ -208,8 +208,8 @@
             }
         },
         {
-            "id": "unown-m-1",
-            "pokemon": "unown character=m",
+            "id": "unown-m-1-ender",
+            "pokemon": "unown ender character=m",
             "presets": [
                 "natural"
             ],
@@ -217,7 +217,7 @@
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "1-100",
-            "weight": 3.769,
+            "weight": 0.03769,
             "condition": {
                 "biomes": [
                     "#cobblemon:is_end"
@@ -225,8 +225,8 @@
             }
         },
         {
-            "id": "unown-n-1",
-            "pokemon": "unown character=n",
+            "id": "unown-n-1-ender",
+            "pokemon": "unown ender character=n",
             "presets": [
                 "natural"
             ],
@@ -234,7 +234,7 @@
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "1-100",
-            "weight": 3.769,
+            "weight": 0.03769,
             "condition": {
                 "biomes": [
                     "#cobblemon:is_end"
@@ -242,8 +242,8 @@
             }
         },
         {
-            "id": "unown-o-1",
-            "pokemon": "unown character=o",
+            "id": "unown-o-1-ender",
+            "pokemon": "unown ender character=o",
             "presets": [
                 "natural"
             ],
@@ -251,7 +251,7 @@
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "1-100",
-            "weight": 3.769,
+            "weight": 0.03769,
             "condition": {
                 "biomes": [
                     "#cobblemon:is_end"
@@ -259,8 +259,8 @@
             }
         },
         {
-            "id": "unown-p-1",
-            "pokemon": "unown character=p",
+            "id": "unown-p-1-ender",
+            "pokemon": "unown ender character=p",
             "presets": [
                 "natural"
             ],
@@ -268,7 +268,7 @@
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "1-100",
-            "weight": 3.769,
+            "weight": 0.03769,
             "condition": {
                 "biomes": [
                     "#cobblemon:is_end"
@@ -276,8 +276,8 @@
             }
         },
         {
-            "id": "unown-q-1",
-            "pokemon": "unown character=q",
+            "id": "unown-q-1-ender",
+            "pokemon": "unown ender character=q",
             "presets": [
                 "natural"
             ],
@@ -285,7 +285,7 @@
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "1-100",
-            "weight": 3.769,
+            "weight": 0.03769,
             "condition": {
                 "biomes": [
                     "#cobblemon:is_end"
@@ -293,8 +293,8 @@
             }
         },
         {
-            "id": "unown-r-1",
-            "pokemon": "unown character=r",
+            "id": "unown-r-1-ender",
+            "pokemon": "unown ender character=r",
             "presets": [
                 "natural"
             ],
@@ -302,7 +302,7 @@
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "1-100",
-            "weight": 3.769,
+            "weight": 0.03769,
             "condition": {
                 "biomes": [
                     "#cobblemon:is_end"
@@ -310,8 +310,8 @@
             }
         },
         {
-            "id": "unown-s-1",
-            "pokemon": "unown character=s",
+            "id": "unown-s-1-ender",
+            "pokemon": "unown ender character=s",
             "presets": [
                 "natural"
             ],
@@ -319,7 +319,7 @@
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "1-100",
-            "weight": 3.769,
+            "weight": 0.03769,
             "condition": {
                 "biomes": [
                     "#cobblemon:is_end"
@@ -327,8 +327,8 @@
             }
         },
         {
-            "id": "unown-t-1",
-            "pokemon": "unown character=t",
+            "id": "unown-t-1-ender",
+            "pokemon": "unown ender character=t",
             "presets": [
                 "natural"
             ],
@@ -336,7 +336,7 @@
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "1-100",
-            "weight": 3.769,
+            "weight": 0.03769,
             "condition": {
                 "biomes": [
                     "#cobblemon:is_end"
@@ -344,8 +344,8 @@
             }
         },
         {
-            "id": "unown-u-1",
-            "pokemon": "unown character=u",
+            "id": "unown-u-1-ender",
+            "pokemon": "unown ender character=u",
             "presets": [
                 "natural"
             ],
@@ -353,7 +353,7 @@
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "1-100",
-            "weight": 3.769,
+            "weight": 0.03769,
             "condition": {
                 "biomes": [
                     "#cobblemon:is_end"
@@ -361,8 +361,8 @@
             }
         },
         {
-            "id": "unown-v-1",
-            "pokemon": "unown character=v",
+            "id": "unown-v-1-ender",
+            "pokemon": "unown ender character=v",
             "presets": [
                 "natural"
             ],
@@ -370,7 +370,7 @@
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "1-100",
-            "weight": 3.769,
+            "weight": 0.03769,
             "condition": {
                 "biomes": [
                     "#cobblemon:is_end"
@@ -378,8 +378,8 @@
             }
         },
         {
-            "id": "unown-w-1",
-            "pokemon": "unown character=w",
+            "id": "unown-w-1-ender",
+            "pokemon": "unown ender character=w",
             "presets": [
                 "natural"
             ],
@@ -387,7 +387,7 @@
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "1-100",
-            "weight": 3.769,
+            "weight": 0.03769,
             "condition": {
                 "biomes": [
                     "#cobblemon:is_end"
@@ -395,8 +395,8 @@
             }
         },
         {
-            "id": "unown-x-1",
-            "pokemon": "unown character=x",
+            "id": "unown-x-1-ender",
+            "pokemon": "unown ender character=x",
             "presets": [
                 "natural"
             ],
@@ -404,7 +404,7 @@
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "1-100",
-            "weight": 3.769,
+            "weight": 0.03769,
             "condition": {
                 "biomes": [
                     "#cobblemon:is_end"
@@ -412,8 +412,8 @@
             }
         },
         {
-            "id": "unown-y-1",
-            "pokemon": "unown character=y",
+            "id": "unown-y-1-ender",
+            "pokemon": "unown ender character=y",
             "presets": [
                 "natural"
             ],
@@ -421,7 +421,7 @@
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "1-100",
-            "weight": 3.769,
+            "weight": 0.03769,
             "condition": {
                 "biomes": [
                     "#cobblemon:is_end"
@@ -429,8 +429,8 @@
             }
         },
         {
-            "id": "unown-z-1",
-            "pokemon": "unown character=z",
+            "id": "unown-z-1-ender",
+            "pokemon": "unown ender character=z",
             "presets": [
                 "natural"
             ],
@@ -438,7 +438,7 @@
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "1-100",
-            "weight": 3.769,
+            "weight": 0.03769,
             "condition": {
                 "biomes": [
                     "#cobblemon:is_end"
@@ -446,8 +446,8 @@
             }
         },
         {
-            "id": "unown-!-2",
-            "pokemon": "unown character=!",
+            "id": "unown-!-2-ender",
+            "pokemon": "unown ender character=!",
             "presets": [
                 "natural"
             ],
@@ -455,7 +455,7 @@
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "1-100",
-            "weight": 1.0,
+            "weight": 0.01,
             "condition": {
                 "biomes": [
                     "#cobblemon:is_end"
@@ -463,8 +463,8 @@
             }
         },
         {
-            "id": "unown-?-2",
-            "pokemon": "unown character=?",
+            "id": "unown-?-2-ender",
+            "pokemon": "unown ender character=?",
             "presets": [
                 "natural"
             ],
@@ -472,7 +472,7 @@
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "1-100",
-            "weight": 1.0,
+            "weight": 0.01,
             "condition": {
                 "biomes": [
                     "#cobblemon:is_end"
@@ -480,8 +480,8 @@
             }
         },
         {
-            "id": "unown-a-3",
-            "pokemon": "unown character=a",
+            "id": "unown-a-3-ender",
+            "pokemon": "unown ender character=a",
             "presets": [
                 "trail_ruins"
             ],
@@ -489,7 +489,7 @@
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "1-100",
-            "weight": 0.754,
+            "weight": 0.00754,
             "condition": {
                 "biomes": [
                     "#cobblemon:is_overworld"
@@ -498,8 +498,8 @@
             }
         },
         {
-            "id": "unown-b-3",
-            "pokemon": "unown character=b",
+            "id": "unown-b-3-ender",
+            "pokemon": "unown ender character=b",
             "presets": [
                 "trail_ruins"
             ],
@@ -507,7 +507,7 @@
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "1-100",
-            "weight": 0.754,
+            "weight": 0.00754,
             "condition": {
                 "biomes": [
                     "#cobblemon:is_overworld"
@@ -516,8 +516,8 @@
             }
         },
         {
-            "id": "unown-c-3",
-            "pokemon": "unown character=c",
+            "id": "unown-c-3-ender",
+            "pokemon": "unown ender character=c",
             "presets": [
                 "trail_ruins"
             ],
@@ -525,7 +525,7 @@
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "1-100",
-            "weight": 0.754,
+            "weight": 0.00754,
             "condition": {
                 "biomes": [
                     "#cobblemon:is_overworld"
@@ -534,8 +534,8 @@
             }
         },
         {
-            "id": "unown-d-3",
-            "pokemon": "unown character=d",
+            "id": "unown-d-3-ender",
+            "pokemon": "unown ender character=d",
             "presets": [
                 "trail_ruins"
             ],
@@ -543,7 +543,7 @@
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "1-100",
-            "weight": 0.754,
+            "weight": 0.00754,
             "condition": {
                 "biomes": [
                     "#cobblemon:is_overworld"
@@ -552,8 +552,8 @@
             }
         },
         {
-            "id": "unown-e-3",
-            "pokemon": "unown character=e",
+            "id": "unown-e-3-ender",
+            "pokemon": "unown ender character=e",
             "presets": [
                 "trail_ruins"
             ],
@@ -561,7 +561,7 @@
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "1-100",
-            "weight": 0.754,
+            "weight": 0.00754,
             "condition": {
                 "biomes": [
                     "#cobblemon:is_overworld"
@@ -570,8 +570,8 @@
             }
         },
         {
-            "id": "unown-f-3",
-            "pokemon": "unown character=f",
+            "id": "unown-f-3-ender",
+            "pokemon": "unown ender character=f",
             "presets": [
                 "trail_ruins"
             ],
@@ -579,7 +579,7 @@
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "1-100",
-            "weight": 0.754,
+            "weight": 0.00754,
             "condition": {
                 "biomes": [
                     "#cobblemon:is_overworld"
@@ -588,8 +588,8 @@
             }
         },
         {
-            "id": "unown-g-3",
-            "pokemon": "unown character=g",
+            "id": "unown-g-3-ender",
+            "pokemon": "unown ender character=g",
             "presets": [
                 "trail_ruins"
             ],
@@ -597,7 +597,7 @@
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "1-100",
-            "weight": 0.754,
+            "weight": 0.00754,
             "condition": {
                 "biomes": [
                     "#cobblemon:is_overworld"
@@ -606,8 +606,8 @@
             }
         },
         {
-            "id": "unown-h-3",
-            "pokemon": "unown character=h",
+            "id": "unown-h-3-ender",
+            "pokemon": "unown ender character=h",
             "presets": [
                 "trail_ruins"
             ],
@@ -615,7 +615,7 @@
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "1-100",
-            "weight": 0.754,
+            "weight": 0.00754,
             "condition": {
                 "biomes": [
                     "#cobblemon:is_overworld"
@@ -624,8 +624,8 @@
             }
         },
         {
-            "id": "unown-i-3",
-            "pokemon": "unown character=i",
+            "id": "unown-i-3-ender",
+            "pokemon": "unown ender character=i",
             "presets": [
                 "trail_ruins"
             ],
@@ -633,7 +633,7 @@
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "1-100",
-            "weight": 0.754,
+            "weight": 0.00754,
             "condition": {
                 "biomes": [
                     "#cobblemon:is_overworld"
@@ -642,8 +642,8 @@
             }
         },
         {
-            "id": "unown-j-3",
-            "pokemon": "unown character=j",
+            "id": "unown-j-3-ender",
+            "pokemon": "unown ender character=j",
             "presets": [
                 "trail_ruins"
             ],
@@ -651,7 +651,7 @@
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "1-100",
-            "weight": 0.754,
+            "weight": 0.00754,
             "condition": {
                 "biomes": [
                     "#cobblemon:is_overworld"
@@ -660,8 +660,8 @@
             }
         },
         {
-            "id": "unown-k-3",
-            "pokemon": "unown character=k",
+            "id": "unown-k-3-ender",
+            "pokemon": "unown ender character=k",
             "presets": [
                 "trail_ruins"
             ],
@@ -669,7 +669,7 @@
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "1-100",
-            "weight": 0.754,
+            "weight": 0.00754,
             "condition": {
                 "biomes": [
                     "#cobblemon:is_overworld"
@@ -678,8 +678,8 @@
             }
         },
         {
-            "id": "unown-l-3",
-            "pokemon": "unown character=l",
+            "id": "unown-l-3-ender",
+            "pokemon": "unown ender character=l",
             "presets": [
                 "trail_ruins"
             ],
@@ -687,7 +687,7 @@
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "1-100",
-            "weight": 0.754,
+            "weight": 0.00754,
             "condition": {
                 "biomes": [
                     "#cobblemon:is_overworld"
@@ -696,8 +696,8 @@
             }
         },
         {
-            "id": "unown-m-3",
-            "pokemon": "unown character=m",
+            "id": "unown-m-3-ender",
+            "pokemon": "unown ender character=m",
             "presets": [
                 "trail_ruins"
             ],
@@ -705,7 +705,7 @@
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "1-100",
-            "weight": 0.754,
+            "weight": 0.00754,
             "condition": {
                 "biomes": [
                     "#cobblemon:is_overworld"
@@ -714,8 +714,8 @@
             }
         },
         {
-            "id": "unown-n-3",
-            "pokemon": "unown character=n",
+            "id": "unown-n-3-ender",
+            "pokemon": "unown ender character=n",
             "presets": [
                 "trail_ruins"
             ],
@@ -723,7 +723,7 @@
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "1-100",
-            "weight": 0.754,
+            "weight": 0.00754,
             "condition": {
                 "biomes": [
                     "#cobblemon:is_overworld"
@@ -732,8 +732,8 @@
             }
         },
         {
-            "id": "unown-o-3",
-            "pokemon": "unown character=o",
+            "id": "unown-o-3-ender",
+            "pokemon": "unown ender character=o",
             "presets": [
                 "trail_ruins"
             ],
@@ -741,7 +741,7 @@
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "1-100",
-            "weight": 0.754,
+            "weight": 0.00754,
             "condition": {
                 "biomes": [
                     "#cobblemon:is_overworld"
@@ -750,8 +750,8 @@
             }
         },
         {
-            "id": "unown-p-3",
-            "pokemon": "unown character=p",
+            "id": "unown-p-3-ender",
+            "pokemon": "unown ender character=p",
             "presets": [
                 "trail_ruins"
             ],
@@ -759,7 +759,7 @@
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "1-100",
-            "weight": 0.754,
+            "weight": 0.00754,
             "condition": {
                 "biomes": [
                     "#cobblemon:is_overworld"
@@ -768,8 +768,8 @@
             }
         },
         {
-            "id": "unown-q-3",
-            "pokemon": "unown character=q",
+            "id": "unown-q-3-ender",
+            "pokemon": "unown ender character=q",
             "presets": [
                 "trail_ruins"
             ],
@@ -777,7 +777,7 @@
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "1-100",
-            "weight": 0.754,
+            "weight": 0.00754,
             "condition": {
                 "biomes": [
                     "#cobblemon:is_overworld"
@@ -786,8 +786,8 @@
             }
         },
         {
-            "id": "unown-r-3",
-            "pokemon": "unown character=r",
+            "id": "unown-r-3-ender",
+            "pokemon": "unown ender character=r",
             "presets": [
                 "trail_ruins"
             ],
@@ -795,7 +795,7 @@
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "1-100",
-            "weight": 0.754,
+            "weight": 0.00754,
             "condition": {
                 "biomes": [
                     "#cobblemon:is_overworld"
@@ -804,8 +804,8 @@
             }
         },
         {
-            "id": "unown-s-3",
-            "pokemon": "unown character=s",
+            "id": "unown-s-3-ender",
+            "pokemon": "unown ender character=s",
             "presets": [
                 "trail_ruins"
             ],
@@ -813,7 +813,7 @@
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "1-100",
-            "weight": 0.754,
+            "weight": 0.00754,
             "condition": {
                 "biomes": [
                     "#cobblemon:is_overworld"
@@ -822,8 +822,8 @@
             }
         },
         {
-            "id": "unown-t-3",
-            "pokemon": "unown character=t",
+            "id": "unown-t-3-ender",
+            "pokemon": "unown ender character=t",
             "presets": [
                 "trail_ruins"
             ],
@@ -831,7 +831,7 @@
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "1-100",
-            "weight": 0.754,
+            "weight": 0.00754,
             "condition": {
                 "biomes": [
                     "#cobblemon:is_overworld"
@@ -840,8 +840,8 @@
             }
         },
         {
-            "id": "unown-u-3",
-            "pokemon": "unown character=u",
+            "id": "unown-u-3-ender",
+            "pokemon": "unown ender character=u",
             "presets": [
                 "trail_ruins"
             ],
@@ -849,7 +849,7 @@
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "1-100",
-            "weight": 0.754,
+            "weight": 0.00754,
             "condition": {
                 "biomes": [
                     "#cobblemon:is_overworld"
@@ -858,8 +858,8 @@
             }
         },
         {
-            "id": "unown-v-3",
-            "pokemon": "unown character=v",
+            "id": "unown-v-3-ender",
+            "pokemon": "unown ender character=v",
             "presets": [
                 "trail_ruins"
             ],
@@ -867,7 +867,7 @@
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "1-100",
-            "weight": 0.754,
+            "weight": 0.00754,
             "condition": {
                 "biomes": [
                     "#cobblemon:is_overworld"
@@ -876,8 +876,8 @@
             }
         },
         {
-            "id": "unown-w-3",
-            "pokemon": "unown character=w",
+            "id": "unown-w-3-ender",
+            "pokemon": "unown ender character=w",
             "presets": [
                 "trail_ruins"
             ],
@@ -885,7 +885,7 @@
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "1-100",
-            "weight": 0.754,
+            "weight": 0.00754,
             "condition": {
                 "biomes": [
                     "#cobblemon:is_overworld"
@@ -894,8 +894,8 @@
             }
         },
         {
-            "id": "unown-x-3",
-            "pokemon": "unown character=x",
+            "id": "unown-x-3-ender",
+            "pokemon": "unown ender character=x",
             "presets": [
                 "trail_ruins"
             ],
@@ -903,7 +903,7 @@
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "1-100",
-            "weight": 0.754,
+            "weight": 0.00754,
             "condition": {
                 "biomes": [
                     "#cobblemon:is_overworld"
@@ -912,8 +912,8 @@
             }
         },
         {
-            "id": "unown-y-3",
-            "pokemon": "unown character=y",
+            "id": "unown-y-3-ender",
+            "pokemon": "unown ender character=y",
             "presets": [
                 "trail_ruins"
             ],
@@ -921,7 +921,7 @@
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "1-100",
-            "weight": 0.754,
+            "weight": 0.00754,
             "condition": {
                 "biomes": [
                     "#cobblemon:is_overworld"
@@ -930,8 +930,8 @@
             }
         },
         {
-            "id": "unown-z-3",
-            "pokemon": "unown character=z",
+            "id": "unown-z-3-ender",
+            "pokemon": "unown ender character=z",
             "presets": [
                 "trail_ruins"
             ],
@@ -939,7 +939,7 @@
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "1-100",
-            "weight": 0.754,
+            "weight": 0.00754,
             "condition": {
                 "biomes": [
                     "#cobblemon:is_overworld"
@@ -948,8 +948,8 @@
             }
         },
         {
-            "id": "unown-!-4",
-            "pokemon": "unown character=!",
+            "id": "unown-!-4-ender",
+            "pokemon": "unown ender character=!",
             "presets": [
                 "trail_ruins"
             ],
@@ -957,7 +957,7 @@
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "1-100",
-            "weight": 0.2,
+            "weight": 0.002,
             "condition": {
                 "biomes": [
                     "#cobblemon:is_overworld"
@@ -966,8 +966,8 @@
             }
         },
         {
-            "id": "unown-?-4",
-            "pokemon": "unown character=?",
+            "id": "unown-?-4-ender",
+            "pokemon": "unown ender character=?",
             "presets": [
                 "trail_ruins"
             ],
@@ -975,7 +975,7 @@
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "1-100",
-            "weight": 0.2,
+            "weight": 0.002,
             "condition": {
                 "biomes": [
                     "#cobblemon:is_overworld"
@@ -984,13 +984,13 @@
             }
         },
         {
-            "id": "unown-a-5",
-            "pokemon": "unown character=a",
+            "id": "unown-a-5-ender",
+            "pokemon": "unown ender character=a",
             "type": "pokemon",
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "1-100",
-            "weight": 3.769,
+            "weight": 0.03769,
             "condition": {
                 "biomes": [
                     "the_bumblezone:howling_constructs"
@@ -1003,13 +1003,13 @@
             }
         },
         {
-            "id": "unown-b-5",
-            "pokemon": "unown character=b",
+            "id": "unown-b-5-ender",
+            "pokemon": "unown ender character=b",
             "type": "pokemon",
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "1-100",
-            "weight": 3.769,
+            "weight": 0.03769,
             "condition": {
                 "biomes": [
                     "the_bumblezone:howling_constructs"
@@ -1022,13 +1022,13 @@
             }
         },
         {
-            "id": "unown-c-5",
-            "pokemon": "unown character=c",
+            "id": "unown-c-5-ender",
+            "pokemon": "unown ender character=c",
             "type": "pokemon",
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "1-100",
-            "weight": 3.769,
+            "weight": 0.03769,
             "condition": {
                 "biomes": [
                     "the_bumblezone:howling_constructs"
@@ -1041,13 +1041,13 @@
             }
         },
         {
-            "id": "unown-d-5",
-            "pokemon": "unown character=d",
+            "id": "unown-d-5-ender",
+            "pokemon": "unown ender character=d",
             "type": "pokemon",
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "1-100",
-            "weight": 3.769,
+            "weight": 0.03769,
             "condition": {
                 "biomes": [
                     "the_bumblezone:howling_constructs"
@@ -1060,13 +1060,13 @@
             }
         },
         {
-            "id": "unown-e-5",
-            "pokemon": "unown character=e",
+            "id": "unown-e-5-ender",
+            "pokemon": "unown ender character=e",
             "type": "pokemon",
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "1-100",
-            "weight": 3.769,
+            "weight": 0.03769,
             "condition": {
                 "biomes": [
                     "the_bumblezone:howling_constructs"
@@ -1079,13 +1079,13 @@
             }
         },
         {
-            "id": "unown-f-5",
-            "pokemon": "unown character=f",
+            "id": "unown-f-5-ender",
+            "pokemon": "unown ender character=f",
             "type": "pokemon",
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "1-100",
-            "weight": 3.769,
+            "weight": 0.03769,
             "condition": {
                 "biomes": [
                     "the_bumblezone:howling_constructs"
@@ -1098,13 +1098,13 @@
             }
         },
         {
-            "id": "unown-g-5",
-            "pokemon": "unown character=g",
+            "id": "unown-g-5-ender",
+            "pokemon": "unown ender character=g",
             "type": "pokemon",
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "1-100",
-            "weight": 3.769,
+            "weight": 0.03769,
             "condition": {
                 "biomes": [
                     "the_bumblezone:howling_constructs"
@@ -1117,13 +1117,13 @@
             }
         },
         {
-            "id": "unown-h-5",
-            "pokemon": "unown character=h",
+            "id": "unown-h-5-ender",
+            "pokemon": "unown ender character=h",
             "type": "pokemon",
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "1-100",
-            "weight": 3.769,
+            "weight": 0.03769,
             "condition": {
                 "biomes": [
                     "the_bumblezone:howling_constructs"
@@ -1136,13 +1136,13 @@
             }
         },
         {
-            "id": "unown-i-5",
-            "pokemon": "unown character=i",
+            "id": "unown-i-5-ender",
+            "pokemon": "unown ender character=i",
             "type": "pokemon",
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "1-100",
-            "weight": 3.769,
+            "weight": 0.03769,
             "condition": {
                 "biomes": [
                     "the_bumblezone:howling_constructs"
@@ -1155,13 +1155,13 @@
             }
         },
         {
-            "id": "unown-j-5",
-            "pokemon": "unown character=j",
+            "id": "unown-j-5-ender",
+            "pokemon": "unown ender character=j",
             "type": "pokemon",
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "1-100",
-            "weight": 3.769,
+            "weight": 0.03769,
             "condition": {
                 "biomes": [
                     "the_bumblezone:howling_constructs"
@@ -1174,13 +1174,13 @@
             }
         },
         {
-            "id": "unown-k-5",
-            "pokemon": "unown character=k",
+            "id": "unown-k-5-ender",
+            "pokemon": "unown ender character=k",
             "type": "pokemon",
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "1-100",
-            "weight": 3.769,
+            "weight": 0.03769,
             "condition": {
                 "biomes": [
                     "the_bumblezone:howling_constructs"
@@ -1193,13 +1193,13 @@
             }
         },
         {
-            "id": "unown-l-5",
-            "pokemon": "unown character=l",
+            "id": "unown-l-5-ender",
+            "pokemon": "unown ender character=l",
             "type": "pokemon",
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "1-100",
-            "weight": 3.769,
+            "weight": 0.03769,
             "condition": {
                 "biomes": [
                     "the_bumblezone:howling_constructs"
@@ -1212,13 +1212,13 @@
             }
         },
         {
-            "id": "unown-m-5",
-            "pokemon": "unown character=m",
+            "id": "unown-m-5-ender",
+            "pokemon": "unown ender character=m",
             "type": "pokemon",
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "1-100",
-            "weight": 3.769,
+            "weight": 0.03769,
             "condition": {
                 "biomes": [
                     "the_bumblezone:howling_constructs"
@@ -1231,13 +1231,13 @@
             }
         },
         {
-            "id": "unown-n-5",
-            "pokemon": "unown character=n",
+            "id": "unown-n-5-ender",
+            "pokemon": "unown ender character=n",
             "type": "pokemon",
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "1-100",
-            "weight": 3.769,
+            "weight": 0.03769,
             "condition": {
                 "biomes": [
                     "the_bumblezone:howling_constructs"
@@ -1250,13 +1250,13 @@
             }
         },
         {
-            "id": "unown-o-5",
-            "pokemon": "unown character=o",
+            "id": "unown-o-5-ender",
+            "pokemon": "unown ender character=o",
             "type": "pokemon",
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "1-100",
-            "weight": 3.769,
+            "weight": 0.03769,
             "condition": {
                 "biomes": [
                     "the_bumblezone:howling_constructs"
@@ -1269,13 +1269,13 @@
             }
         },
         {
-            "id": "unown-p-5",
-            "pokemon": "unown character=p",
+            "id": "unown-p-5-ender",
+            "pokemon": "unown ender character=p",
             "type": "pokemon",
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "1-100",
-            "weight": 3.769,
+            "weight": 0.03769,
             "condition": {
                 "biomes": [
                     "the_bumblezone:howling_constructs"
@@ -1288,13 +1288,13 @@
             }
         },
         {
-            "id": "unown-q-5",
-            "pokemon": "unown character=q",
+            "id": "unown-q-5-ender",
+            "pokemon": "unown ender character=q",
             "type": "pokemon",
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "1-100",
-            "weight": 3.769,
+            "weight": 0.03769,
             "condition": {
                 "biomes": [
                     "the_bumblezone:howling_constructs"
@@ -1307,13 +1307,13 @@
             }
         },
         {
-            "id": "unown-r-5",
-            "pokemon": "unown character=r",
+            "id": "unown-r-5-ender",
+            "pokemon": "unown ender character=r",
             "type": "pokemon",
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "1-100",
-            "weight": 3.769,
+            "weight": 0.03769,
             "condition": {
                 "biomes": [
                     "the_bumblezone:howling_constructs"
@@ -1326,13 +1326,13 @@
             }
         },
         {
-            "id": "unown-s-5",
-            "pokemon": "unown character=s",
+            "id": "unown-s-5-ender",
+            "pokemon": "unown ender character=s",
             "type": "pokemon",
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "1-100",
-            "weight": 3.769,
+            "weight": 0.03769,
             "condition": {
                 "biomes": [
                     "the_bumblezone:howling_constructs"
@@ -1345,13 +1345,13 @@
             }
         },
         {
-            "id": "unown-t-5",
-            "pokemon": "unown character=t",
+            "id": "unown-t-5-ender",
+            "pokemon": "unown ender character=t",
             "type": "pokemon",
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "1-100",
-            "weight": 3.769,
+            "weight": 0.03769,
             "condition": {
                 "biomes": [
                     "the_bumblezone:howling_constructs"
@@ -1364,13 +1364,13 @@
             }
         },
         {
-            "id": "unown-u-5",
-            "pokemon": "unown character=u",
+            "id": "unown-u-5-ender",
+            "pokemon": "unown ender character=u",
             "type": "pokemon",
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "1-100",
-            "weight": 3.769,
+            "weight": 0.03769,
             "condition": {
                 "biomes": [
                     "the_bumblezone:howling_constructs"
@@ -1383,13 +1383,13 @@
             }
         },
         {
-            "id": "unown-v-5",
-            "pokemon": "unown character=v",
+            "id": "unown-v-5-ender",
+            "pokemon": "unown ender character=v",
             "type": "pokemon",
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "1-100",
-            "weight": 3.769,
+            "weight": 0.03769,
             "condition": {
                 "biomes": [
                     "the_bumblezone:howling_constructs"
@@ -1402,13 +1402,13 @@
             }
         },
         {
-            "id": "unown-w-5",
-            "pokemon": "unown character=w",
+            "id": "unown-w-5-ender",
+            "pokemon": "unown ender character=w",
             "type": "pokemon",
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "1-100",
-            "weight": 3.769,
+            "weight": 0.03769,
             "condition": {
                 "biomes": [
                     "the_bumblezone:howling_constructs"
@@ -1421,13 +1421,13 @@
             }
         },
         {
-            "id": "unown-x-5",
-            "pokemon": "unown character=x",
+            "id": "unown-x-5-ender",
+            "pokemon": "unown ender character=x",
             "type": "pokemon",
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "1-100",
-            "weight": 3.769,
+            "weight": 0.03769,
             "condition": {
                 "biomes": [
                     "the_bumblezone:howling_constructs"
@@ -1440,13 +1440,13 @@
             }
         },
         {
-            "id": "unown-y-5",
-            "pokemon": "unown character=y",
+            "id": "unown-y-5-ender",
+            "pokemon": "unown ender character=y",
             "type": "pokemon",
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "1-100",
-            "weight": 3.769,
+            "weight": 0.03769,
             "condition": {
                 "biomes": [
                     "the_bumblezone:howling_constructs"
@@ -1459,13 +1459,13 @@
             }
         },
         {
-            "id": "unown-z-5",
-            "pokemon": "unown character=z",
+            "id": "unown-z-5-ender",
+            "pokemon": "unown ender character=z",
             "type": "pokemon",
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "1-100",
-            "weight": 3.769,
+            "weight": 0.03769,
             "condition": {
                 "biomes": [
                     "the_bumblezone:howling_constructs"
@@ -1478,13 +1478,13 @@
             }
         },
         {
-            "id": "unown-!-6",
-            "pokemon": "unown character=!",
+            "id": "unown-!-6-ender",
+            "pokemon": "unown ender character=!",
             "type": "pokemon",
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "1-100",
-            "weight": 1.0,
+            "weight": 0.01,
             "condition": {
                 "biomes": [
                     "the_bumblezone:howling_constructs"
@@ -1497,13 +1497,13 @@
             }
         },
         {
-            "id": "unown-?-6",
-            "pokemon": "unown character=?",
+            "id": "unown-?-6-ender",
+            "pokemon": "unown ender character=?",
             "type": "pokemon",
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "1-100",
-            "weight": 1.0,
+            "weight": 0.01,
             "condition": {
                 "biomes": [
                     "the_bumblezone:howling_constructs"

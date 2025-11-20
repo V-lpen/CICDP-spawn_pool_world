@@ -5,7 +5,7 @@
     "spawns": [
         {
             "id": "lycanroc-1",
-            "pokemon": "lycanroc",
+            "pokemon": "lycanroc wolf_form=midday",
             "presets": [
                 "natural"
             ],
@@ -31,7 +31,7 @@
         },
 	{
             "id": "lycanroc-midnight-1",
-            "pokemon": "lycanroc midnight",
+            "pokemon": "lycanroc wolf_form=midnight",
             "presets": [
                 "natural"
             ],
@@ -52,13 +52,13 @@
         },
 	{
             "id": "lycanroc-dusk-1",
-            "pokemon": "lycanroc dusk",
+            "pokemon": "lycanroc wolf_form=dusk",
             "presets": [
                 "natural"
             ],
             "type": "pokemon",
             "context": "grounded",
-            "bucket": "uncommon",
+            "bucket": "rare",
             "level": "28-44",
             "weight": 0.5,
             "condition": {

@@ -5,7 +5,7 @@
     "spawns": [
         {
             "id": "gastrodon-1",
-            "pokemon": "gastrodon",
+            "pokemon": "gastrodon sea=east",
             "type": "pokemon",
             "context": "grounded",
             "bucket": "rare",

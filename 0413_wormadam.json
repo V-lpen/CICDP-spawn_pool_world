@@ -5,7 +5,7 @@
     "spawns": [
         {
             "id": "wormadam-1",
-            "pokemon": "wormadam",
+            "pokemon": "wormadam plant-cloak",
             "presets": [
                 "natural",
                 "treetop",
@@ -37,7 +37,7 @@
         },
 		        {
             "id": "wormadam-2-sandy",
-            "pokemon": "wormadam sandy",
+            "pokemon": "wormadam sandy-cloak",
             "presets": [
                 "natural"
             ],
@@ -55,7 +55,7 @@
         },
         {
             "id": "wormadam-3-trash",
-            "pokemon": "wormadam trash",
+            "pokemon": "wormadam trash-cloak",
             "presets": [
                 "village"
             ],
