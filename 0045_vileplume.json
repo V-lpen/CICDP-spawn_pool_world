@@ -7,16 +7,16 @@
             "id": "vileplume-1",
             "pokemon": "vileplume",
             "presets": [
-                "natural",
-                "treetop"
+                "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
-            "level": "40-49",
-            "weight": 0.1,
+            "level": "35-49",
+            "weight": 0.05,
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
                     "#cobblemon:is_jungle"
                 ],
@@ -30,12 +30,13 @@
                 "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
-            "bucket": "uncommon",
-            "level": "40-49",
-            "weight": 0.1,
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "35-49",
+            "weight": 0.01,
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
                     "#cobblemon:is_temperate"
                 ],
@@ -43,20 +44,22 @@
             }
         },
         {
-            "id": "vileplume-valencian-1",
+            "id": "vileplume-valencian-3",
             "pokemon": "vileplume valencian",
             "presets": [
                 "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
-            "bucket": "uncommon",
-            "level": "40-49",
-            "weight": 0.1,
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "35-49",
+            "weight": 0.01,
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
-                    "#cobblemon:is_savanna"
+                    "#cobblemon:is_savanna",
+                    "#cobblemon:is_tropical_island"
                 ],
                 "timeRange": "night"
             }

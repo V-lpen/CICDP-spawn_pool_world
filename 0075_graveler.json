@@ -7,23 +7,19 @@
             "id": "graveler-1",
             "pokemon": "graveler",
             "presets": [
-                "natural"
+                "natural",
+                "wild"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "25-39",
-            "weight": 0.9,
+            "weight": 0.95,
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
                     "#cobblemon:is_mountain"
-                ]
-            },
-            "anticondition": {
-                "neededNearbyBlocks": [
-                    "minecraft:lava",
-                    "minecraft:water"
                 ]
             }
         },
@@ -31,15 +27,16 @@
             "id": "graveler-2",
             "pokemon": "graveler",
             "presets": [
-                "derelict"
+                "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "25-39",
-            "weight": 0.9,
+            "weight": 0.95,
             "condition": {
-                "canSeeSky": false,
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
                 "biomes": [
                     "#cobblemon:is_overworld"
                 ]
@@ -47,93 +44,28 @@
             "anticondition": {
                 "biomes": [
                     "#cobblemon:is_deep_dark"
-                ],
-                "neededNearbyBlocks": [
-                    "minecraft:lava",
-                    "minecraft:water"
                 ]
             }
         },
         {
-            "id": "graveler-3",
-            "pokemon": "graveler",
+            "id": "graveler-alolan-3",
+            "pokemon": "graveler alolan",
             "presets": [
-                "derelict"
+                "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "25-39",
-            "weight": 15,
+            "weight": 0.95,
             "condition": {
-                "canSeeSky": false,
                 "biomes": [
                     "#cobblemon:is_overworld"
                 ],
                 "neededNearbyBlocks": [
-                    "minecraft:cobblestone"
-                ],
-                "maxY": 62
-            },
-            "anticondition": {
-                "biomes": [
-                    "#cobblemon:is_deep_dark"
-                ],
-                "neededNearbyBlocks": [
-                    "minecraft:lava",
-                    "minecraft:water"
+                    "#minecraft:iron_ores"
                 ]
             }
-        },
-        {
-            "id": "graveler-alolan-1",
-            "pokemon": "graveler alolan",
-            "presets": [
-                "natural"
-            ],
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "uncommon",
-            "level": "25-39",
-            "weight": 3.0,
-            "condition": {
-                "canSeeSky": true,
-                "biomes": [
-                    "#cobblemon:is_mountain"
-                ]
-            },
-            "anticondition": {
-                "neededNearbyBlocks": [
-                    "minecraft:water",
-                    "minecraft:lava"
-                ]
-            }
-        },
-        {
-            "id": "graveler-alolan-2",
-            "pokemon": "graveler alolan",
-            "presets": [
-                "natural"
-            ],
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "uncommon",
-            "level": "25-39",
-            "weight": 9.0,
-            "condition": {
-                "canSeeSky": true,
-		"isThundering": true,
-                "biomes": [
-                    "#cobblemon:is_mountain"
-                ]
-            },
-            "anticondition": {
-                "neededNearbyBlocks": [
-                    "minecraft:water",
-                    "minecraft:lava"
-                ]
-            }
-
-}
+        }
     ]
 }

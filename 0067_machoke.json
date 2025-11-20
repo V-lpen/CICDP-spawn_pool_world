@@ -10,34 +10,22 @@
                 "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
-            "level": "28-40",
-            "weight": 0.54,
+            "level": "28-41",
+            "weight": 0.57,
+            "weightMultiplier": {
+                "multiplier": 0.25,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
                     "#cobblemon:is_hills"
-                ],
-                "timeRange": "day"
-            }
-        },
-        {
-            "id": "machoke-2",
-            "pokemon": "machoke",
-            "presets": [
-                "mineshaft"
-            ],
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "uncommon",
-            "level": "30-50",
-            "weight": 50,
-            "condition": {
-                "biomes": [
-                    "#cobblemon:is_overworld"
-                ],
-                "timeRange": "day"
+                ]
             }
         }
     ]

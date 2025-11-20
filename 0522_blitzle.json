@@ -1,5 +1,5 @@
 {
-    "enabled": "true",
+    "enabled": true,
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
@@ -7,36 +7,31 @@
             "id": "blitzle-1",
             "pokemon": "blitzle",
             "presets": [
-                "natural"
+                "natural",
+                "wild"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
-            "level": "5-12",
-            "weight": 3.5,
-            "condition": {
-                "canSeeSky": true,
-                "maxY": 120,
-                "biomes": [
-                    "#cobblemon:is_savanna"
-                ]
-            }
-        },
-		{
-            "id": "blitzle-1",
-            "pokemon": "blitzle",
-            "presets": [
-                "natural"
+            "level": "5-30",
+            "weight": 9.0,
+            "weightMultipliers": [
+                {
+                    "multiplier": 0.25,
+                    "condition": {
+                        "timeRange": "night"
+                    }
+                },
+                {
+                    "multiplier": 5.0,
+                    "condition": {
+                        "isThundering": true
+                    }
+                }
             ],
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "common",
-            "level": "5-12",
-            "weight": 15.0,
             "condition": {
-                "canSeeSky": true,
-                "maxY": 120,
-				"isThundering": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
                     "#cobblemon:is_savanna"
                 ]

@@ -7,22 +7,26 @@
             "id": "kleavor-1",
             "pokemon": "kleavor",
             "presets": [
-                "natural"
+                "natural",
+                "wild"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "rare",
-            "level": "50",
-            "weight": 0.02,
+            "level": "45-50",
+            "weight": 0.25,
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
-                    "#cobblemon:is_forest"
+                    "#cobblemon:is_forest",
+                    "#cobblemon:is_hills"
                 ],
                 "timeRange": "day"
             },
             "anticondition": {
                 "biomes": [
+                    "#cobblemon:is_freezing",
                     "#cobblemon:is_spooky"
                 ]
             }
@@ -30,27 +34,20 @@
         {
             "id": "kleavor-2",
             "pokemon": "kleavor",
+            "presets": [
+                "natural"
+            ],
             "type": "pokemon",
-            "context": "grounded",
-            "bucket": "uncommon",
-            "level": "50",
-            "weight": 0.5,
+            "spawnablePositionType": "grounded",
+            "bucket": "rare",
+            "level": "45-50",
+            "weight": 0.25,
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
-                    "#cobblemon:is_forest"
-                ],
-                "timeRange": "day",
-                "neededNearbyBlocks": [
-                    "minecraft:dark_oak_leaves"
-                ],
-                "neededBaseBlocks": [
-                    "minecraft:grass_block"
-                ]
-            },
-            "anticondition": {
-                "biomes": [
-                    "#cobblemon:is_spooky"
+                    "aether:skyroot_forest",
+                    "aether:skyroot_woodland"
                 ]
             }
         }

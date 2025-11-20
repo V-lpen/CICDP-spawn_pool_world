@@ -1,5 +1,5 @@
 {
-    "enabled": "true",
+    "enabled": true,
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
@@ -10,14 +10,58 @@
                 "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
-            "bucket": "uncommon",
-            "level": "35-50",
-            "weight": 4.0,
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "35-40",
+            "weight": 0.18,
+            "weightMultiplier": {
+                "multiplier": 5.0,
+                "condition": {
+                    "timeRange": "dawn"
+                }
+            },
             "condition": {
-                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
                     "#cobblemon:is_freezing"
+                ]
+            }
+        },
+        {
+            "id": "vanillish-2",
+            "pokemon": "vanillish",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "uncommon",
+            "level": "35-40",
+            "weight": 0.864,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_freezing"
+                ],
+                "minY": 0
+            }
+        },
+        {
+            "id": "vanillish-3",
+            "pokemon": "vanillish",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "35-40",
+            "weight": 0.54,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:nether/is_frozen"
                 ]
             }
         }

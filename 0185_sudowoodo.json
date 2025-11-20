@@ -1,18 +1,22 @@
 {
-    "enabled": "true",
+    "enabled": true,
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
         {
             "id": "sudowoodo-1",
             "pokemon": "sudowoodo",
+            "presets": [
+                "natural"
+            ],
             "type": "pokemon",
-            "context": "grounded",
-            "bucket": "rare",
+            "spawnablePositionType": "grounded",
+            "bucket": "uncommon",
             "level": "16-41",
-            "weight": 1.0,
+            "weight": 0.96,
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
                     "#cobblemon:is_forest"
                 ],

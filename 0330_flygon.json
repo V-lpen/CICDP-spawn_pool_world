@@ -1,18 +1,29 @@
 {
-    "enabled": "true",
+    "enabled": true,
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
         {
             "id": "flygon-1",
             "pokemon": "flygon",
+            "presets": [
+                "natural",
+                "wild"
+            ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "rare",
             "level": "45-52",
-            "weight": 0.02,
+            "weight": 0.25,
+            "weightMultiplier": {
+                "multiplier": 1.5,
+                "condition": {
+                    "isRaining": true
+                }
+            },
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
                     "#cobblemon:is_desert"
                 ],

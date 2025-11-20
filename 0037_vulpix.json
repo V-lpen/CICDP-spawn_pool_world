@@ -10,16 +10,23 @@
                 "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "uncommon",
-            "level": "16-30",
-            "weight": 5.94,
+            "level": "5-30",
+            "weight": 5.52,
+            "weightMultiplier": {
+                "multiplier": 2.5,
+                "condition": {
+                    "timeRange": "twilight"
+                }
+            },
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
-                    "#cobblemon:is_forest"
-                ],
-                "timeRange": "twilight"
+                    "#cobblemon:is_forest",
+                    "#cobblemon:is_taiga"
+                ]
             },
             "anticondition": {
                 "biomes": [
@@ -31,51 +38,35 @@
             "id": "vulpix-2",
             "pokemon": "vulpix",
             "presets": [
-                "cave_den"
+                "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
-            "level": "16-30",
-            "weight": 50,
+            "level": "5-30",
+            "weight": 1.9,
             "condition": {
                 "biomes": [
-                    "#cobblemon:is_forest"
+                    "#cobblemon:nether/is_forest"
                 ]
             },
             "anticondition": {
                 "biomes": [
-                    "#cobblemon:is_freezing"
+                    "#cobblemon:nether/is_frozen"
                 ]
             }
         },
         {
-            "id": "vulpix-3",
-            "pokemon": "vulpix",
-            "presets": [
-                "near_campfire"
-            ],
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "common",
-            "level": "16-30",
-            "weight": 50.0,
-            "condition": {
-                "canSeeSky": true,
-                "timeRange": "night"
-            }
-        },
-        {
-            "id": "vulpix-alolan-1",
+            "id": "vulpix-alolan-3",
             "pokemon": "vulpix alolan",
             "presets": [
                 "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "uncommon",
             "level": "5-30",
-            "weight": 5.4,
+            "weight": 5.52,
             "weightMultiplier": {
                 "multiplier": 2.5,
                 "condition": {
@@ -83,29 +74,30 @@
                 }
             },
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
-                    "#cobblemon:is_snowy_forest"
+                    "#cobblemon:is_snowy_forest",
+                    "#cobblemon:is_snowy_taiga"
                 ]
             }
         },
         {
-            "id": "vulpix-alolan-2",
+            "id": "vulpix-alolan-4",
             "pokemon": "vulpix alolan",
             "presets": [
                 "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "5-30",
-            "weight": 1.8,
+            "weight": 1.9,
             "condition": {
                 "biomes": [
-                    "#cobblemon:is_nether_frozen"
+                    "#cobblemon:nether/is_frozen"
                 ]
             }
         }
-
     ]
 }

@@ -8,98 +8,59 @@
             "pokemon": "farfetchd",
             "presets": [
                 "natural",
-				"treetop"
+                "treetop",
+                "wild"
             ],
             "type": "pokemon",
-            "context": "grounded",
-            "bucket": "rare",
-            "level": "15-38",
-            "weight": 10.0,
-            "condition": {
-                "canSeeSky": true,
-                "biomes": [
-                    "#cobblemon:is_temperate"
-                ],
-                "timeRange": "day"
-            },
-            "anticondition": {
-                "biomes": [
-                    "#cobblemon:is_spooky"
-                ]
-            }
-        },
-        {
-            "id": "farfetchd-2",
-            "pokemon": "farfetchd",
-            "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
-            "level": "15-38",
-            "weight": 50,
+            "level": "13-38",
+            "weight": 10.0,
+            "weightMultiplier": {
+                "multiplier": 0.25,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
-                    "#cobblemon:is_temperate"
+                    "#cobblemon:is_overworld"
                 ],
                 "neededNearbyBlocks": [
-                    "minecraft:sugar_cane"
-                ],
-                "timeRange": "day",
-                "minY": 62
-            },
-            "anticondition": {
-                "biomes": [
-                    "#cobblemon:is_spooky"
+                    "cobblemon:medicinal_leek"
                 ]
             }
         },
         {
-            "id": "galar-farfetchd-1",
+            "id": "farfetchd-galarian-2",
             "pokemon": "farfetchd galarian",
             "presets": [
                 "natural",
-				"treetop"
+                "wild"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "rare",
-            "level": "15-38",
-            "weight": 10.0,
-            "condition": {
-                "canSeeSky": true,
-                "biomes": [
-                    "#cobblemon:is_temperate"
-                ],
-                "timeRange": "day"
+            "level": "13-38",
+            "weight": 8.75,
+            "weightMultiplier": {
+                "multiplier": 0.25,
+                "condition": {
+                    "timeRange": "night"
+                }
             },
-            "anticondition": {
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
-                    "#cobblemon:is_spooky"
+                    "#cobblemon:is_forest"
                 ]
-            }
-        },
-        {
-            "id": "galar-farfetchd-2",
-            "pokemon": "farfetchd galarian",
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "common",
-            "level": "15-38",
-            "weight": 50,
-            "condition": {
-                "canSeeSky": true,
-                "biomes": [
-                    "#cobblemon:is_temperate"
-                ],
-                "neededNearbyBlocks": [
-                    "minecraft:sugar_cane"
-                ],
-                "timeRange": "day",
-                "minY": 62
             },
             "anticondition": {
-                "biomes": [
-                    "#cobblemon:is_spooky"
+                "neededNearbyBlocks": [
+                    "#cobblemon:water"
                 ]
             }
         }

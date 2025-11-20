@@ -4,21 +4,51 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "hisui-decidueye-1",
-            "pokemon": "decidueye hisuian",
+            "id": "decidueye-1",
+            "pokemon": "decidueye",
+            "presets": [
+                "natural",
+                "treetop"
+            ],
             "type": "pokemon",
-            "context": "grounded",
-            "bucket": "uncommon",
-            "level": "35-45",
-            "weight": 12.0,
+            "spawnablePositionType": "grounded",
+            "bucket": "ultra-rare",
+            "level": "34-53",
+            "weight": 0.4,
             "condition": {
-                "canSeeSky": true,
-                "timeRange": "day",
-                "neededBaseBlocks": [
-                    "minecraft:podzol"
-                ],
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
+                    "#cobblemon:is_forest",
+                    "aether:skyroot_forest",
+                    "aether:skyroot_woodland",
                     "#cobblemon:is_taiga"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_freezing"
+                ]
+            }
+        },
+        {
+            "id": "decidueye-hisuian-3",
+            "pokemon": "decidueye hisuian",
+            "presets": [
+                "natural",
+                "treetop"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "ultra-rare",
+            "level": "34-53",
+            "weight": 0.4,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_snowy_forest",
+                    "#cobblemon:is_snowy_taiga"
                 ]
             }
         }

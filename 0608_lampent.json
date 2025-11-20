@@ -1,40 +1,42 @@
 {
-    "enabled": "true",
+    "enabled": true,
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
         {
             "id": "lampent-1",
             "pokemon": "lampent",
+            "presets": [
+                "natural"
+            ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
-            "level": "42-65",
-            "weight": 0.198,
+            "level": "41-46",
+            "weight": 0.19,
             "condition": {
+                "biomes": [
+                    "#cobblemon:nether/is_soul_fire"
+                ]
+            }
+        },
+        {
+            "id": "lampent-2",
+            "pokemon": "lampent",
+            "presets": [
+                "mansion"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "41-46",
+            "weight": 0.95,
+            "condition": {
+                "canSeeSky": false,
                 "biomes": [
                     "#cobblemon:is_overworld"
                 ],
-				"timeRange": "night",
-                "neededNearbyBlocks": [
-                    "minecraft:candle",
-					"minecraft:white_candle",
-					"minecraft:red_candle",
-					"minecraft:pink_candle",
-					"minecraft:black_candle",
-					"minecraft:orange_candle",
-					"minecraft:magenta_candle",
-					"minecraft:blue_candle",
-					"minecraft:light_blue_candle",
-					"minecraft:yellow_candle",
-					"minecraft:lime_candle",
-					"minecraft:gray_candle",
-					"minecraft:light_gray_candle",
-					"minecraft:cyan_candle",
-					"minecraft:purple_candle",
-					"minecraft:brown_candle",
-					"minecraft:green_candle"
-                ]
+                "timeRange": "night"
             }
         }
     ]

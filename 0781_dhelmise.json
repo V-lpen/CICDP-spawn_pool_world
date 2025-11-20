@@ -1,5 +1,5 @@
 {
-    "enabled": "true",
+    "enabled": true,
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
@@ -7,47 +7,155 @@
             "id": "dhelmise-1",
             "pokemon": "dhelmise",
             "presets": [
-                "underwater"
+                "water"
             ],
             "type": "pokemon",
-            "context": "submerged",
+            "spawnablePositionType": "submerged",
             "bucket": "common",
-            "level": "20-52",
-            "weight": 2.0,
+            "level": "27-52",
+            "weight": 10.0,
             "condition": {
                 "canSeeSky": true,
                 "biomes": [
-                    "#minecraft:is_ocean"
+                    "#cobblemon:is_ocean"
                 ],
-                "neededNearbyBlocks": [
-                    "#minecraft:logs",
-                    "#minecraft:planks"
+                "structures": [
+                    "#minecraft:shipwreck"
                 ]
             }
         },
         {
             "id": "dhelmise-2",
             "pokemon": "dhelmise",
-            "presets": [
-                "underwater"
-            ],
             "type": "pokemon",
-            "context": "submerged",
+            "spawnablePositionType": "fishing",
             "bucket": "common",
-            "level": "20-52",
-            "weight": 2000.0,
+            "level": "27-52",
+            "weight": 10.0,
             "condition": {
                 "canSeeSky": true,
-                "timeRange": "night",
                 "biomes": [
-                    "#minecraft:is_ocean"
+                    "#cobblemon:is_ocean"
                 ],
-                "neededNearbyBlocks": [
-                    "minecraft:oak_trapdoor",
-                    "minecraft:spruce_trapdoor",
-                    "minecraft:dark_oak_trapdoor",
-                    "minecraft:jungle_trapdoor"
+                "structures": [
+                    "#minecraft:shipwreck"
                 ]
+            }
+        },
+        {
+            "id": "dhelmise-3",
+            "pokemon": "dhelmise",
+            "type": "pokemon",
+            "spawnablePositionType": "fishing",
+            "bucket": "rare",
+            "level": "27-52",
+            "weight": 6.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_ocean"
+                ]
+            }
+        },
+        {
+            "id": "dhelmise-4",
+            "pokemon": "dhelmise",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "submerged",
+            "bucket": "common",
+            "level": "27-52",
+            "weight": 10.0,
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_ocean"
+                ],
+                "structures": [
+                    "#minecraft:shipwreck"
+                ]
+            }
+        },
+        {
+            "id": "dhelmise-5",
+            "pokemon": "dhelmise",
+            "type": "pokemon",
+            "spawnablePositionType": "fishing",
+            "bucket": "common",
+            "level": "27-52",
+            "weight": 10.0,
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_ocean"
+                ],
+                "structures": [
+                    "#minecraft:shipwreck"
+                ]
+            }
+        },
+        {
+            "id": "dhelmise-7",
+            "pokemon": "dhelmise",
+            "type": "pokemon",
+            "spawnablePositionType": "fishing",
+            "bucket": "rare",
+            "level": "27-52",
+            "weight": 6.0,
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_ocean"
+                ]
+            }
+        },
+        {
+            "id": "dhelmise-8",
+            "pokemon": "dhelmise",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "submerged",
+            "bucket": "common",
+            "level": "27-52",
+            "weight": 20.0,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_ocean"
+                ],
+                "structures": [
+                    "#cobblemon:shipwreck_cove"
+                ],
+                "minY": -60,
+                "maxY": 13
+            }
+        },
+        {
+            "id": "dhelmise-9",
+            "pokemon": "dhelmise",
+            "type": "pokemon",
+            "spawnablePositionType": "fishing",
+            "bucket": "common",
+            "level": "27-52",
+            "weight": 20.0,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_ocean"
+                ],
+                "structures": [
+                    "#cobblemon:shipwreck_cove"
+                ],
+                "minY": -60,
+                "maxY": 13
             }
         }
     ]

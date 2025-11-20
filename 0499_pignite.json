@@ -1,5 +1,5 @@
 {
-    "enabled": "true",
+    "enabled": true,
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
@@ -10,15 +10,17 @@
                 "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "ultra-rare",
             "level": "17-42",
-            "weight": 0.9,
+            "weight": 3.6,
             "condition": {
-				"biomes": [
-                    "minecraft:crimson_forest"
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_plains"
                 ]
-			}
+            }
         },
         {
             "id": "pignite-2",
@@ -27,16 +29,15 @@
                 "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "ultra-rare",
             "level": "17-42",
-            "weight": 0.9,
+            "weight": 3.6,
             "condition": {
-                "canSeeSky": true,
                 "biomes": [
-                    "#cobblemon:is_plains"
-                ],
-                "isRaining": false
+                    "#cobblemon:nether/is_crimson",
+                    "#cobblemon:nether/is_overgrowth"
+                ]
             }
         }
     ]

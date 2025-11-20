@@ -7,24 +7,31 @@
             "id": "tarountula-1",
             "pokemon": "tarountula",
             "presets": [
-                "natural",
-                "treetop",
-                "foliage"
+                "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
-            "level": "2-19",
-            "weight": 30.0,
+            "level": "1-21",
+            "weight": 9.0,
+            "weightMultiplier": {
+                "multiplier": 0.25,
+                "condition": {
+                    "timeRange": "day"
+                }
+            },
             "condition": {
-                "canSeeSky": false,
-                "minY": 61,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
-                    "#cobblemon:is_temperate"
-                ],
-                "neededNearbyBlocks": [
-                    "minecraft:oak_leaves",
-                    "minecraft:birch_leaves"
+                    "#cobblemon:is_forest",
+                    "#cobblemon:is_spooky",
+                    "#cobblemon:is_swamp"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_freezing"
                 ]
             }
         }

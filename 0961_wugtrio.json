@@ -10,36 +10,39 @@
                 "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
-            "bucket": "uncommon",
-            "level": "26-46",
-            "weight": 5.4,
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "26-43",
+            "weight": 0.2,
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
-                    "#minecraft:is_beach"
+                    "#cobblemon:is_beach"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_freezing"
                 ]
             }
         },
         {
             "id": "wugtrio-2",
             "pokemon": "wugtrio",
+            "presets": [
+                "water"
+            ],
             "type": "pokemon",
-            "context": "grounded",
-            "bucket": "uncommon",
-            "level": "26-46",
-            "weight": 50,
+            "spawnablePositionType": "seafloor",
+            "bucket": "common",
+            "level": "26-43",
+            "weight": 0.6,
             "condition": {
                 "canSeeSky": true,
-                "minY": 61,
                 "biomes": [
-                    "#minecraft:is_beach"
-                ],
-                "neededBaseBlocks": [
-                    "minecraft:sand"
-                ],
-                "neededNearbyBlocks": [
-                    "minecraft:seagrass"
+                    "#cobblemon:is_lukewarm_ocean",
+                    "#cobblemon:is_warm_ocean"
                 ]
             }
         }

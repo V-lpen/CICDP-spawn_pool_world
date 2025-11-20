@@ -1,5 +1,5 @@
 {
-    "enabled": "true",
+    "enabled": true,
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
@@ -10,14 +10,15 @@
                 "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
-            "level": "12-47",
+            "level": "22-47",
             "weight": 6.0,
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
-                    "#cobblemon:is_freezing"
+                    "#cobblemon:is_frozen_ocean"
                 ]
             }
         },
@@ -25,15 +26,16 @@
             "id": "eiscue-2",
             "pokemon": "eiscue",
             "presets": [
-                "water_surface"
+                "water"
             ],
             "type": "pokemon",
-            "context": "surface",
+            "spawnablePositionType": "surface",
             "bucket": "common",
-            "level": "12-47",
-            "weight": 6.0,
+            "level": "22-47",
+            "weight": 2.0,
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
                     "#cobblemon:is_frozen_ocean"
                 ]
@@ -43,17 +45,32 @@
             "id": "eiscue-3",
             "pokemon": "eiscue",
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "fishing",
             "bucket": "common",
-            "level": "12-47",
-            "weight": 100.0,
+            "level": "22-47",
+            "weight": 2.0,
+            "weightMultipliers": [
+                {
+                    "multiplier": 3.0,
+                    "condition": {
+                        "minLureLevel": 2,
+                        "maxLureLevel": 2
+                    }
+                },
+                {
+                    "multiplier": 5.0,
+                    "condition": {
+                        "minLureLevel": 3
+                    }
+                }
+            ],
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
-                    "#cobblemon:is_frozen_ocean"
-                ],
-                "neededNearbyBlocks": [
-                    "minecraft:observer"
+                    "#cobblemon:is_frozen_ocean",
+                    "#cobblemon:is_glacial",
+                    "#cobblemon:is_tundra"
                 ]
             }
         }

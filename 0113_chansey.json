@@ -8,83 +8,71 @@
             "pokemon": "chansey",
             "presets": [
                 "natural",
-				"urban"
+                "urban"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "rare",
-            "level": "4-45",
-            "weight": 0.9,
+            "level": "17-45",
+            "weight": 1.125,
+            "weightMultiplier": {
+                "multiplier": 0.25,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
                     "#cobblemon:is_overworld"
-                ],
-                "timeRange": "day"
+                ]
             }
         },
         {
             "id": "chansey-2",
             "pokemon": "chansey",
+            "presets": [
+                "natural"
+            ],
             "type": "pokemon",
-            "context": "grounded",
-            "bucket": "uncommon",
-            "level": "20-25",
-            "weight": 20,
+            "spawnablePositionType": "grounded",
+            "bucket": "rare",
+            "level": "17-45",
+            "weight": 1.125,
+            "weightMultiplier": {
+                "multiplier": 0.25,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
             "condition": {
-                "canSeeSky":false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
                     "#cobblemon:is_overworld"
                 ],
-                "timeRange": "day",
-                "neededNearbyBlocks": [
-                    "cobblemon:healing_machine"
+                "structures": [
+                    "#minecraft:village"
                 ]
             }
         },
         {
             "id": "chansey-3",
             "pokemon": "chansey",
+            "presets": [
+                "natural"
+            ],
             "type": "pokemon",
-            "context": "grounded",
-            "bucket": "uncommon",
-            "level": "5-20",
-            "weight": 50,
+            "spawnablePositionType": "grounded",
+            "bucket": "rare",
+            "level": "17-45",
+            "weight": 1.125,
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
-                    "#cobblemon:is_grassland"
-                ],
-                "timeRange": "day",
-                "neededBaseBlocks": [
-                    "minecraft:hay_block"
-                ],
-                "neededNearbyBlocks": [
-                    "minecraft:lilac"
-                ]
-            }
-        },
-        {
-            "id": "chansey-4",
-            "pokemon": "chansey",
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "common",
-            "level": "40-60",
-            "weight": 50,
-            "condition": {
-                "canSeeSky": true,
-                "biomes": [
-                    "minecraft:flower_forest"
-                ],
-                "timeRange": "day",
-                "isRaining": false,
-                "minY": 63,
-                "neededBaseBlocks": [
-                    "minecraft:hay_block"
-                ],
-                "neededNearbyBlocks": [
-                    "minecraft:lilac"
+                    "#aether:is_aether"
                 ]
             }
         }

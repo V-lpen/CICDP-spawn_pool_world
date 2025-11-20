@@ -1,5 +1,5 @@
 {
-    "enabled": "true",
+    "enabled": true,
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
@@ -10,12 +10,13 @@
                 "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
-            "level": "24-40",
+            "level": "24-41",
             "weight": 0.2,
             "condition": {
                 "biomes": [
+                    "#aether:is_aether",
                     "#cobblemon:is_jungle",
                     "#cobblemon:is_magical",
                     "#cobblemon:is_mushroom"
@@ -30,15 +31,23 @@
                 "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
-            "level": "24-40",
+            "level": "24-41",
             "weight": 0.2,
             "condition": {
-                "canSeeSky": false,
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
                 "biomes": [
                     "#cobblemon:is_lush"
                 ]
+            },
+            "anticondition": {
+                "structures": [
+                    "cobblemon:shipwreck_coves/lush_shipwreck_cove"
+                ],
+                "minY": -41,
+                "maxY": 9
             }
         },
         {
@@ -48,15 +57,42 @@
                 "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
-            "bucket": "uncommon",
-            "level": "24-40",
-            "weight": 500,
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "24-41",
+            "weight": 1.0,
             "condition": {
-                "maxLight": 7,
-                "minY": 63,
-                "neededNearbyBlocks": [
-                    "minecraft:mushroom_stem"
+                "biomes": [
+                    "#cobblemon:nether/is_fungus"
+                ]
+            }
+        },
+        {
+            "id": "shiinotic-4",
+            "pokemon": "shiinotic",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "24-41",
+            "weight": 0.2,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "structures": [
+                    "cobblemon:shipwreck_coves/lush_shipwreck_cove"
+                ],
+                "minY": -41,
+                "maxY": 9
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_lush"
                 ]
             }
         }

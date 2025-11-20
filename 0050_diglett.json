@@ -7,85 +7,49 @@
             "id": "diglett-1",
             "pokemon": "diglett",
             "presets": [
-                "derelict"
+                "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
-            "level": "8-26",
+            "level": "2-27",
             "weight": 9.0,
             "condition": {
-                "canSeeSky": false,
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
                 "biomes": [
                     "#cobblemon:is_overworld"
-                ]
+                ],
+                "minY": 0
             },
             "anticondition": {
                 "biomes": [
                     "#cobblemon:is_deep_dark"
-                ],
-                "neededNearbyBlocks": [
-                    "minecraft:water"
                 ]
             }
         },
         {
-            "id": "diglett-2",
-            "pokemon": "diglett",
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "common",
-            "level": "5-25",
-            "weight": 50.0,
-            "condition": {
-                "canSeeSky": true,
-                "isRaining": false,
-                "timeRange": "afternoon, night",
-                "biomes": [
-                    "#cobblemon:is_temperate",
-                    "#cobblemon:is_arid"
-                ],
-                "neededBaseBlocks": [
-                    "minecraft:farmland"
-                ]
-            },
-            "anticondition": {
-                "biomes": [
-                    "#cobblemon:is_deep_dark"
-                ],
-                "neededNearbyBlocks": [
-                    "minecraft:wheat",
-                    "minecraft:beetroots",
-                    "minecraft:carrots",
-                    "minecraft:potatoes",
-                    "minecraft:melon_stem",
-                    "minecraft:attached_melon_stem",
-                    "minecraft:pumpkin_stem",
-                    "minecraft:attached_pumpkin_stem"
-                ]
-            }
-        },
-        {
-            "id": "alola-diglett-1",
+            "id": "diglett-alolan-2",
             "pokemon": "diglett alolan",
             "presets": [
                 "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
-            "level": "8-26",
-            "weight": 8.2,
+            "level": "2-27",
+            "weight": 9.0,
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
                 "biomes": [
-                    "#cobblemon:is_volcanic",
-		    "minecraft:basalt_deltas"
-                ]
+                    "#cobblemon:is_overworld"
+                ],
+                "maxY": 0
             },
             "anticondition": {
-                "neededNearbyBlocks": [
-                    "minecraft:water"
+                "biomes": [
+                    "#cobblemon:is_deep_dark"
                 ]
             }
         }

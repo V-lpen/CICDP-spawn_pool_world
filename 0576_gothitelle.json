@@ -1,5 +1,5 @@
 {
-    "enabled": "true",
+    "enabled": true,
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
@@ -7,31 +7,34 @@
             "id": "gothitelle-1",
             "pokemon": "gothitelle",
             "presets": [
-                "natural"
+                "mansion"
             ],
             "type": "pokemon",
-            "context": "grounded",
-            "bucket": "ultra-rare",
-            "level": "41-60",
-            "weight": 6.0,
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "41-49",
+            "weight": 0.06,
             "condition": {
-                "canSeeSky": true,
+                "canSeeSky": false,
                 "biomes": [
-                    "#cobblemon:is_spooky"
+                    "#cobblemon:is_overworld"
                 ]
             }
         },
-						        {
+        {
             "id": "gothitelle-2",
             "pokemon": "gothitelle",
+            "presets": [
+                "end_city"
+            ],
             "type": "pokemon",
-            "context": "grounded",
-            "bucket": "rare",
-            "level": "65-88",
-            "weight": 5.0,
+            "spawnablePositionType": "grounded",
+            "bucket": "uncommon",
+            "level": "41-49",
+            "weight": 0.16,
             "condition": {
                 "biomes": [
-                    "#minecraft:is_end"
+                    "#cobblemon:is_end"
                 ]
             }
         }

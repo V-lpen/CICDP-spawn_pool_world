@@ -7,15 +7,23 @@
             "id": "seel-1",
             "pokemon": "seel",
             "presets": [
-                "natural"
+                "natural",
+                "wild"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
-            "level": "11-32",
+            "level": "8-33",
             "weight": 9.0,
+            "weightMultiplier": {
+                "multiplier": 0.25,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
                     "#cobblemon:is_frozen_ocean"
                 ]
@@ -25,13 +33,19 @@
             "id": "seel-2",
             "pokemon": "seel",
             "presets": [
-                "underwater"
+                "water"
             ],
             "type": "pokemon",
-            "context": "submerged",
+            "spawnablePositionType": "submerged",
             "bucket": "common",
-            "level": "11-32",
+            "level": "8-33",
             "weight": 9.0,
+            "weightMultiplier": {
+                "multiplier": 0.25,
+                "condition": {
+                    "timeRange": "day"
+                }
+            },
             "condition": {
                 "canSeeSky": true,
                 "biomes": [
@@ -42,23 +56,90 @@
         {
             "id": "seel-3",
             "pokemon": "seel",
-            "presets": [
-                "underwater"
-            ],
             "type": "pokemon",
-            "context": "submerged",
+            "spawnablePositionType": "fishing",
             "bucket": "common",
-            "level": "11-32",
-            "weight": 50,
+            "level": "8-33",
+            "weight": 9.0,
+            "weightMultipliers": [
+                {
+                    "multiplier": 0.25,
+                    "condition": {
+                        "timeRange": "day"
+                    }
+                },
+                {
+                    "multiplier": 0.6,
+                    "condition": {
+                        "minLureLevel": 0,
+                        "maxLureLevel": 1
+                    }
+                }
+            ],
             "condition": {
                 "canSeeSky": true,
-                "timeRange": "day",
-                "minY": 61,
+                "biomes": [
+                    "#cobblemon:is_cold_ocean",
+                    "#cobblemon:is_frozen_ocean"
+                ]
+            }
+        },
+        {
+            "id": "seel-4",
+            "pokemon": "seel",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "submerged",
+            "bucket": "common",
+            "level": "8-33",
+            "weight": 9.0,
+            "weightMultiplier": {
+                "multiplier": 0.25,
+                "condition": {
+                    "timeRange": "day"
+                }
+            },
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
                     "#cobblemon:is_frozen_ocean"
-                ],
-                "neededNearbyBlocks": [
-                    "minecraft:snow"
+                ]
+            }
+        },
+        {
+            "id": "seel-5",
+            "pokemon": "seel",
+            "type": "pokemon",
+            "spawnablePositionType": "fishing",
+            "bucket": "common",
+            "level": "8-33",
+            "weight": 9.0,
+            "weightMultipliers": [
+                {
+                    "multiplier": 0.25,
+                    "condition": {
+                        "timeRange": "day"
+                    }
+                },
+                {
+                    "multiplier": 0.6,
+                    "condition": {
+                        "minLureLevel": 0,
+                        "maxLureLevel": 1
+                    }
+                }
+            ],
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_cold_ocean",
+                    "#cobblemon:is_frozen_ocean"
                 ]
             }
         }

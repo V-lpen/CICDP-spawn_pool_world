@@ -1,5 +1,5 @@
 {
-    "enabled": "true",
+    "enabled": true,
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
@@ -7,18 +7,27 @@
             "id": "lairon-1",
             "pokemon": "lairon",
             "presets": [
-                "natural"
+                "natural",
+                "wild"
             ],
             "type": "pokemon",
-            "context": "grounded",
-            "bucket": "uncommon",
-            "level": "32-50",
-            "weight": 2.0,
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "32-43",
+            "weight": 0.9,
             "condition": {
-				"biomes": [
-                    "#cobblemon:is_cave"
+                "biomes": [
+                    "#cobblemon:is_mountain"
+                ],
+                "neededNearbyBlocks": [
+                    "#minecraft:iron_ores"
                 ]
-			}
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_deep_dark"
+                ]
+            }
         },
         {
             "id": "lairon-2",
@@ -27,42 +36,23 @@
                 "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
-            "bucket": "uncommon",
-            "level": "32-50",
-            "weight": 20.0,
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "32-43",
+            "weight": 0.9,
             "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
                 "biomes": [
-                    "#cobblemon:is_mountain",
-					"#cobblemon:is_hills"
+                    "#cobblemon:is_overworld"
                 ],
-				"neededNearbyBlocks": [
-                    "minecraft:iron_ore",
-                    "minecraft:deepslate_iron_ore",
-                    "minecraft:water"
+                "neededNearbyBlocks": [
+                    "#minecraft:iron_ores"
                 ]
-            }
-        },
-        {
-            "id": "lairon-3",
-            "pokemon": "lairon",
-            "presets": [
-                "natural"
-            ],
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "uncommon",
-            "level": "32-50",
-            "weight": 10.0,
-            "condition": {
-                "canSeeSky": true,
+            },
+            "anticondition": {
                 "biomes": [
-                    "#minecraft:is_overworld"
-                ],
-				"neededNearbyBlocks": [
-                    "minecraft:iron_ore",
-                    "minecraft:deepslate_iron_ore",
-                    "minecraft:iron_block"
+                    "#cobblemon:is_deep_dark"
                 ]
             }
         }

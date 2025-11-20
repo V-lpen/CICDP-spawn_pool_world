@@ -1,5 +1,5 @@
 {
-    "enabled": "true",
+    "enabled": true,
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
@@ -7,12 +7,13 @@
             "id": "alcremie-1",
             "pokemon": "alcremie",
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
-            "level": "28-49",
-            "weight": 0.02,
+            "level": "22-50",
+            "weight": 0.5,
             "condition": {
                 "biomes": [
+                    "#aether:is_aether",
                     "#cobblemon:is_overworld"
                 ],
                 "neededNearbyBlocks": [
@@ -24,19 +25,40 @@
             "id": "alcremie-2",
             "pokemon": "alcremie",
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "uncommon",
-            "level": "28-50",
-            "weight": 1000,
+            "level": "22-50",
+            "weight": 0.16,
+            "condition": {
+                "biomes": [
+                    "#aether:is_aether",
+                    "#cobblemon:is_overworld"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:sugar_cane"
+                ]
+            }
+        },
+        {
+            "id": "alcremie-3",
+            "pokemon": "alcremie",
+            "presets": [
+                "mansion"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "22-50",
+            "weight": 0.1,
             "condition": {
                 "canSeeSky": false,
-                "maxY": 130,
-                "minY": 62,
                 "biomes": [
                     "#cobblemon:is_overworld"
                 ],
                 "neededNearbyBlocks": [
-                    "minecraft:cake"
+                    "minecraft:light_grey_carpet",
+                    "minecraft:magenta_carpet",
+                    "minecraft:white_carpet"
                 ]
             }
         }

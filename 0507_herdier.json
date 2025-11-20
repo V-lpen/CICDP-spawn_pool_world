@@ -1,5 +1,5 @@
 {
-    "enabled": "true",
+    "enabled": true,
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
@@ -11,12 +11,13 @@
                 "urban"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "16-37",
             "weight": 0.54,
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
                     "#cobblemon:is_overworld"
                 ]
@@ -24,9 +25,6 @@
             "anticondition": {
                 "biomes": [
                     "#cobblemon:is_desert"
-                ],
-                "structures": [
-                    "#minecraft:village"
                 ]
             }
         },
@@ -34,18 +32,21 @@
             "id": "herdier-2",
             "pokemon": "herdier",
             "presets": [
-                "natural",
-				"village"
+                "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "16-37",
             "weight": 0.54,
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
                     "#cobblemon:is_overworld"
+                ],
+                "structures": [
+                    "#minecraft:village"
                 ]
             },
             "anticondition": {

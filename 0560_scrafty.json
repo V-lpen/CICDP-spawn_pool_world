@@ -1,21 +1,71 @@
 {
-    "enabled": "true",
+    "enabled": true,
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
         {
             "id": "scrafty-1",
             "pokemon": "scrafty",
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "39-49",
+            "weight": 1.0,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_badlands"
+                ]
+            }
+        },
+        {
+            "id": "scrafty-2",
+            "pokemon": "scrafty",
+            "presets": [
+                "natural",
+                "urban"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "39-49",
+            "weight": 0.6,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_arid"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_badlands"
+                ]
+            }
+        },
+        {
+            "id": "scrafty-3",
+            "pokemon": "scrafty",
             "presets": [
                 "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
-            "bucket": "uncommon",
-            "level": "39-60",
-            "weight": 5.0,
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "39-49",
+            "weight": 0.6,
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_arid"
+                ],
+                "structures": [
+                    "#minecraft:village"
+                ]
+            },
+            "anticondition": {
                 "biomes": [
                     "#cobblemon:is_badlands"
                 ]

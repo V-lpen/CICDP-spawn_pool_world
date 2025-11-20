@@ -3,25 +3,27 @@
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
-		{
+        {
             "id": "magby-1",
             "pokemon": "magby",
             "presets": [
                 "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
-            "level": "12-36",
+            "level": "11-36",
             "weight": 9.0,
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
                     "#cobblemon:is_hills"
                 ],
                 "isRaining": false,
-				"neededNearbyBlocks": [
-                    "minecraft:lava", "minecraft:flowing_lava"
+                "neededNearbyBlocks": [
+                    "#cobblemon:lava",
+                    "minecraft:magma_block"
                 ]
             },
             "anticondition": {
@@ -29,7 +31,7 @@
                     "#cobblemon:is_volcanic"
                 ]
             }
-		},
+        },
         {
             "id": "magby-2",
             "pokemon": "magby",
@@ -37,12 +39,13 @@
                 "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
-            "level": "12-36",
+            "level": "11-36",
             "weight": 9.0,
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
                     "#cobblemon:is_volcanic"
                 ],
@@ -56,35 +59,31 @@
                 "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
-            "bucket": "uncommon",
-            "level": "12-36",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "11-36",
             "weight": 9.0,
             "condition": {
                 "biomes": [
-                    "#minecraft:is_nether"
-                ]
-            }
-        },
-        {
-            "id": "magby-4",
-            "pokemon": "magby",
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "common",
-            "level": "10-30",
-            "weight": 50,
-            "condition": {
-                "neededBaseBlocks": [
-                    "minecraft:magma_block"
-                ],
-                "neededNearbyBlocks": [
-                    "minecraft:lava"
+                    "#cobblemon:nether/is_basalt",
+                    "#cobblemon:nether/is_wasteland"
                 ]
             },
-            "anticondition": {
-                "neededNearbyBlocks": [
-                    "minecraft:water"
+            "drops": {
+                "amount": 3,
+                "entries": [
+                    {
+                        "item": "minecraft:blaze_powder",
+                        "percentage": 5.0
+                    },
+                    {
+                        "item": "cobblemon:magmarizer",
+                        "percentage": 2.5
+                    },
+                    {
+                        "item": "cobblemon:rawst_berry",
+                        "percentage": 2.5
+                    }
                 ]
             }
         }

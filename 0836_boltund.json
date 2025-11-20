@@ -1,5 +1,5 @@
 {
-    "enabled": "true",
+    "enabled": true,
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
@@ -11,7 +11,7 @@
                 "urban"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "25-49",
             "weight": 0.6,
@@ -22,7 +22,8 @@
                 }
             },
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
                     "#cobblemon:is_overworld"
                 ]
@@ -30,9 +31,6 @@
             "anticondition": {
                 "biomes": [
                     "#cobblemon:is_freezing"
-                ],
-                "structures": [
-                    "#minecraft:village"
                 ]
             }
         },
@@ -40,11 +38,10 @@
             "id": "boltund-2",
             "pokemon": "boltund",
             "presets": [
-                "natural",
-				"village"
+                "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "25-49",
             "weight": 0.6,
@@ -55,9 +52,13 @@
                 }
             },
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
                     "#cobblemon:is_overworld"
+                ],
+                "structures": [
+                    "#minecraft:village"
                 ]
             },
             "anticondition": {

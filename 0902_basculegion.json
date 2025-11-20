@@ -1,74 +1,96 @@
 {
-    "enabled": "true",
+    "enabled": true,
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
-{
+        {
             "id": "basculegion-1",
             "pokemon": "basculegion",
             "presets": [
-                "river",
-                "underwater"
+                "water"
             ],
             "type": "pokemon",
-            "context": "submerged",
-            "bucket": "uncommon",
-            "level": "40-55",
-            "weight": 5.0,
+            "spawnablePositionType": "submerged",
+            "bucket": "common",
+            "level": "41-53",
+            "weight": 0.2,
             "condition": {
                 "canSeeSky": true,
-				"moonPhase": "1,5,8"
+                "biomes": [
+                    "#cobblemon:is_freshwater"
+                ],
+                "moonPhase": "0,4"
             }
         },
-		{
+        {
             "id": "basculegion-2",
             "pokemon": "basculegion",
-            "presets": [
-                "river",
-                "underwater"
-            ],
             "type": "pokemon",
-            "context": "submerged",
-            "bucket": "uncommon",
-            "level": "40-55",
-            "weight": 8.0,
+            "spawnablePositionType": "fishing",
+            "bucket": "common",
+            "level": "41-53",
+            "weight": 0.2,
             "condition": {
                 "canSeeSky": true,
-				"moonPhase": "2,3,4"
+                "biomes": [
+                    "#cobblemon:is_arid",
+                    "#cobblemon:is_forest",
+                    "#cobblemon:is_freshwater",
+                    "#cobblemon:is_grassland",
+                    "#cobblemon:is_jungle",
+                    "#cobblemon:is_mountain",
+                    "#cobblemon:is_snowy_forest",
+                    "#cobblemon:is_taiga",
+                    "#cobblemon:is_tundra"
+                ],
+                "moonPhase": "0,4"
             }
         },
-		{
-            "id": "basculegion-f-1",
-            "pokemon": "basculegion f",
+        {
+            "id": "basculegion-3",
+            "pokemon": "basculegion",
             "presets": [
-                "river",
-                "underwater"
+                "water"
             ],
             "type": "pokemon",
-            "context": "submerged",
-            "bucket": "uncommon",
-            "level": "40-55",
-            "weight": 5.0,
+            "spawnablePositionType": "submerged",
+            "bucket": "common",
+            "level": "41-53",
+            "weight": 0.2,
             "condition": {
-                "canSeeSky": true,
-				"moonPhase": "1,5,8"
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_freshwater"
+                ],
+                "moonPhase": "0,4"
             }
         },
-		{
-            "id": "basculegion-f-2",
-            "pokemon": "basculegion f",
-            "presets": [
-                "river",
-                "underwater"
-            ],
+        {
+            "id": "basculegion-4",
+            "pokemon": "basculegion",
             "type": "pokemon",
-            "context": "submerged",
-            "bucket": "uncommon",
-            "level": "40-55",
-            "weight": 8.0,
+            "spawnablePositionType": "fishing",
+            "bucket": "common",
+            "level": "41-53",
+            "weight": 0.2,
             "condition": {
-                "canSeeSky": true,
-				"moonPhase": "2,3,4"
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_arid",
+                    "#cobblemon:is_forest",
+                    "#cobblemon:is_freshwater",
+                    "#cobblemon:is_grassland",
+                    "#cobblemon:is_jungle",
+                    "#cobblemon:is_mountain",
+                    "#cobblemon:is_snowy_forest",
+                    "#cobblemon:is_taiga",
+                    "#cobblemon:is_tundra"
+                ],
+                "moonPhase": "0,4"
             }
         }
     ]

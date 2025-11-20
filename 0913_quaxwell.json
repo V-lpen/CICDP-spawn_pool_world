@@ -7,32 +7,76 @@
             "id": "quaxwell-1",
             "pokemon": "quaxwell",
             "presets": [
-                "natural",
-				"river"
+                "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "ultra-rare",
-            "level": "16-40",
-            "weight": 0.9,
+            "level": "16-41",
+            "weight": 3.6,
             "condition": {
-                "canSeeSky": true
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_forest",
+                    "#cobblemon:is_grassland",
+                    "#cobblemon:is_river"
+                ],
+                "neededNearbyBlocks": [
+                    "#cobblemon:water"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_freezing"
+                ]
             }
         },
         {
             "id": "quaxwell-2",
             "pokemon": "quaxwell",
-            "presets": [
-                "river",
-                "underwater"
-            ],
             "type": "pokemon",
-            "context": "submerged",
+            "spawnablePositionType": "submerged",
             "bucket": "ultra-rare",
-            "level": "16-40",
-            "weight": 0.9,
+            "level": "16-41",
+            "weight": 3.6,
             "condition": {
-                "canSeeSky": true
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_forest",
+                    "#cobblemon:is_grassland",
+                    "#cobblemon:is_river"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_freezing"
+                ]
+            }
+        },
+        {
+            "id": "quaxwell-3",
+            "pokemon": "quaxwell",
+            "type": "pokemon",
+            "spawnablePositionType": "fishing",
+            "bucket": "ultra-rare",
+            "level": "16-41",
+            "weight": 3.6,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_forest",
+                    "#cobblemon:is_freshwater",
+                    "#cobblemon:is_grassland",
+                    "#cobblemon:is_jungle"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_freezing"
+                ]
             }
         }
     ]

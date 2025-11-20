@@ -1,5 +1,5 @@
 {
-    "enabled": "true",
+    "enabled": true,
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
@@ -10,12 +10,11 @@
                 "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
-            "level": "8-33",
-            "weight": 5.4,
+            "level": "9-34",
+            "weight": 5.7,
             "condition": {
-                "canSeeSky": true,
                 "biomes": [
                     "#cobblemon:is_overworld"
                 ],
@@ -29,21 +28,17 @@
         {
             "id": "pumpkaboo-2",
             "pokemon": "pumpkaboo",
+            "presets": [
+                "natural"
+            ],
             "type": "pokemon",
-            "context": "grounded",
-            "bucket": "common",
-            "level": "5-15",
-            "weight": 1000,
+            "spawnablePositionType": "grounded",
+            "bucket": "uncommon",
+            "level": "9-34",
+            "weight": 9.2,
             "condition": {
-                "canSeeSky": true,
                 "biomes": [
-                    "#cobblemon:is_grassland"
-                ],
-                "timeRange": "night",
-                "neededNearbyBlocks": [
-                    "minecraft:carved_pumpkin",
-                    "minecraft:pumpkin_stem",
-                    "minecraft:attached_pumpkin_stem"
+                    "#cobblemon:nether/is_overgrowth"
                 ]
             }
         }

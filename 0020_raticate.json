@@ -10,12 +10,13 @@
                 "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "20-41",
             "weight": 1.0,
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
                     "#cobblemon:is_grassland"
                 ],
@@ -24,180 +25,147 @@
             "anticondition": {
                 "biomes": [
                     "#cobblemon:is_spooky"
-                ],
-                "neededNearbyBlocks": [
-                    "minecraft:water"
                 ]
             }
         },
-		{
+        {
             "id": "raticate-2",
             "pokemon": "raticate",
             "presets": [
-                "derelict"
+                "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "20-41",
             "weight": 1.0,
             "condition": {
-                "canSeeSky": false,
-				"minY": 0,
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
                 "biomes": [
                     "#cobblemon:is_overworld"
-                ]
+                ],
+                "minY": 0
             },
             "anticondition": {
                 "biomes": [
                     "#cobblemon:is_deep_dark"
-                ],
-                "neededNearbyBlocks": [
-                    "minecraft:water"
                 ]
             }
         },
-		{
+        {
             "id": "raticate-3",
             "pokemon": "raticate",
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "common",
-            "level": "25-50",
-            "weight": 20.0,
-            "condition": {
-                "canSeeSky": true,
-                "biomes": [
-                    "#cobblemon:is_overworld"
-                ],
-                "neededNearbyBlocks": [
-                    "minecraft:cake"
-                ]
-            },
-            "anticondition": {
-                "biomes": [
-                    "#cobblemon:is_deep_dark"
-                ],
-                "neededNearbyBlocks": [
-                    "minecraft:water"
-                ]
-            }
-        },
-        {
-            "id": "raticate-alolan-1",
-            "pokemon": "raticate alolan",
             "presets": [
                 "derelict"
             ],
             "type": "pokemon",
-            "context": "grounded",
-            "bucket": "common",
-            "level": "20-41",
-            "weight": 1.0,
-            "condition": {
-                "canSeeSky": false,
-				"maxY": 0,
-                "biomes": [
-                    "#cobblemon:is_overworld"
-                ]
-            },
-            "anticondition": {
-                "biomes": [
-                    "#cobblemon:is_deep_dark"
-                ],
-                "neededNearbyBlocks": [
-                    "minecraft:water"
-                ]
-            }
-        },
-		{
-            "id": "raticate-alolan-2",
-            "pokemon": "raticate alolan",
-            "presets": [
-                "derelict"
-            ],
-            "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "uncommon",
             "level": "20-41",
-            "weight": 1.0,
+            "weight": 1.6,
             "condition": {
                 "canSeeSky": false,
-				"maxY": 0,
                 "biomes": [
                     "#cobblemon:is_overworld"
-                ]
+                ],
+                "minY": 0
             },
             "anticondition": {
                 "biomes": [
                     "#cobblemon:is_deep_dark"
-                ],
-                "neededNearbyBlocks": [
-                    "minecraft:water"
                 ]
             }
         },
         {
-            "id": "raticate-alolan-3",
+            "id": "raticate-alolan-4",
             "pokemon": "raticate alolan",
             "presets": [
                 "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "20-41",
             "weight": 1.0,
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
                 "biomes": [
-                    "#cobblemon:is_spooky"
+                    "#cobblemon:is_overworld"
                 ],
-                "timeRange": "night",
-                "minY": 63
+                "maxY": 0
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_deep_dark"
+                ]
             }
         },
-		{
-            "id": "raticate-alolan-4",
+        {
+            "id": "raticate-alolan-5",
             "pokemon": "raticate alolan",
             "presets": [
                 "derelict"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "uncommon",
             "level": "20-41",
+            "weight": 1.6,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "maxY": 0
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_deep_dark"
+                ]
+            }
+        },
+        {
+            "id": "raticate-alolan-6",
+            "pokemon": "raticate alolan",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "20-41",
             "weight": 1.0,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_spooky"
+                ],
+                "timeRange": "night"
+            }
+        },
+        {
+            "id": "raticate-alolan-7",
+            "pokemon": "raticate alolan",
+            "presets": [
+                "derelict"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "uncommon",
+            "level": "20-41",
+            "weight": 1.6,
             "condition": {
                 "canSeeSky": false,
                 "biomes": [
                     "#cobblemon:is_spooky"
-                ],
-                "minY": 63
-            }
-        },
-		{
-            "id": "raticate-alolan-5",
-            "pokemon": "raticate alolan",
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "common",
-            "level": "25-50",
-            "weight": 20.0,
-            "condition": {
-                "biomes": [
-                    "#cobblemon:is_deep_dark"
-                ],
-                "neededNearbyBlocks": [
-                    "minecraft:cake"
                 ]
             },
             "anticondition": {
                 "biomes": [
                     "#cobblemon:is_deep_dark"
-                ],
-                "neededNearbyBlocks": [
-                    "minecraft:water"
                 ]
             }
         }

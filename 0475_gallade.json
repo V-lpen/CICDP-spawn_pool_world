@@ -6,16 +6,83 @@
         {
             "id": "gallade-1",
             "pokemon": "gallade",
+            "presets": [
+                "natural"
+            ],
             "type": "pokemon",
-            "context": "grounded",
-            "bucket": "uncommon",
-            "level": "30-60",
-            "weight": 0.072,
+            "spawnablePositionType": "grounded",
+            "bucket": "rare",
+            "level": "30-52",
+            "weight": 0.0625,
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
                     "#cobblemon:is_floral",
-					"#cobblemon:is_snowy_forest"
+                    "#cobblemon:is_magical",
+                    "aether:skyroot_grove",
+                    "aether:skyroot_meadow",
+                    "#cobblemon:is_snowy_forest"
+                ]
+            }
+        },
+        {
+            "id": "gallade-2",
+            "pokemon": "gallade",
+            "presets": [
+                "natural",
+                "urban"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "rare",
+            "level": "30-52",
+            "weight": 0.0125,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ]
+            }
+        },
+        {
+            "id": "gallade-3",
+            "pokemon": "gallade",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "rare",
+            "level": "30-52",
+            "weight": 0.0125,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "structures": [
+                    "#minecraft:village"
+                ]
+            }
+        },
+        {
+            "id": "gallade-4",
+            "pokemon": "gallade",
+            "presets": [
+                "mansion"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "30-52",
+            "weight": 0.0025,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "#cobblemon:is_overworld"
                 ]
             }
         }

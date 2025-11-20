@@ -1,5 +1,5 @@
 {
-    "enabled": "true",
+    "enabled": true,
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
@@ -7,32 +7,77 @@
             "id": "sobble-1",
             "pokemon": "sobble",
             "presets": [
-                "natural",
-                "freshwater"
+                "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "ultra-rare",
             "level": "5-31",
-            "weight": 9.0,
+            "weight": 6.0,
             "condition": {
-                "canSeeSky": true
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_swamp"
+                ]
             }
         },
         {
             "id": "sobble-2",
             "pokemon": "sobble",
             "presets": [
-                "freshwater",
-                "underwater"
+                "natural"
             ],
             "type": "pokemon",
-            "context": "submerged",
+            "spawnablePositionType": "grounded",
             "bucket": "ultra-rare",
             "level": "5-31",
-            "weight": 9.0,
+            "weight": 6.0,
             "condition": {
-                "canSeeSky": true
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_jungle"
+                ],
+                "neededNearbyBlocks": [
+                    "#cobblemon:water"
+                ]
+            }
+        },
+        {
+            "id": "sobble-3",
+            "pokemon": "sobble",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "submerged",
+            "bucket": "ultra-rare",
+            "level": "5-31",
+            "weight": 6.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_jungle",
+                    "#cobblemon:is_swamp"
+                ]
+            }
+        },
+        {
+            "id": "sobble-4",
+            "pokemon": "sobble",
+            "type": "pokemon",
+            "spawnablePositionType": "fishing",
+            "bucket": "ultra-rare",
+            "level": "5-31",
+            "weight": 6.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_forest",
+                    "#cobblemon:is_jungle",
+                    "#cobblemon:is_swamp"
+                ]
             }
         }
     ]

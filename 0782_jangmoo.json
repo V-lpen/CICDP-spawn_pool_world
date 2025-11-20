@@ -1,5 +1,5 @@
 {
-    "enabled": "true",
+    "enabled": true,
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
@@ -7,17 +7,38 @@
             "id": "jangmoo-1",
             "pokemon": "jangmoo",
             "presets": [
-                "natural"
+                "natural",
+                "wild"
             ],
             "type": "pokemon",
-            "context": "grounded",
-            "bucket": "rare",
-            "level": "15-32",
-            "weight": 3.0,
+            "spawnablePositionType": "grounded",
+            "bucket": "ultra-rare",
+            "level": "5-30",
+            "weight": 6.0,
             "condition": {
                 "biomes": [
                     "#cobblemon:is_jungle"
-                ]
+                ],
+                "minY": 0
+            }
+        },
+        {
+            "id": "jangmoo-2",
+            "pokemon": "jangmoo",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "rare",
+            "level": "5-30",
+            "weight": 7.5,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_tropical_island"
+                ],
+                "minY": 0
             }
         }
     ]

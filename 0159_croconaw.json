@@ -1,5 +1,5 @@
 {
-    "enabled": "true",
+    "enabled": true,
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
@@ -10,12 +10,13 @@
                 "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "ultra-rare",
-            "level": "18-40",
-            "weight": 0.9,
+            "level": "18-41",
+            "weight": 3.6,
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
                     "#cobblemon:is_swamp"
                 ]
@@ -25,16 +26,72 @@
             "id": "croconaw-2",
             "pokemon": "croconaw",
             "presets": [
-                "underwater"
+                "water"
             ],
             "type": "pokemon",
-            "context": "submerged",
+            "spawnablePositionType": "submerged",
             "bucket": "ultra-rare",
-            "level": "18-40",
-            "weight": 0.9,
+            "level": "18-41",
+            "weight": 3.6,
             "condition": {
                 "canSeeSky": true,
                 "biomes": [
+                    "#cobblemon:is_swamp"
+                ]
+            }
+        },
+        {
+            "id": "croconaw-3",
+            "pokemon": "croconaw",
+            "type": "pokemon",
+            "spawnablePositionType": "fishing",
+            "bucket": "ultra-rare",
+            "level": "18-41",
+            "weight": 3.6,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_arid",
+                    "#cobblemon:is_jungle",
+                    "#cobblemon:is_swamp"
+                ]
+            }
+        },
+        {
+            "id": "croconaw-4",
+            "pokemon": "croconaw",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "submerged",
+            "bucket": "ultra-rare",
+            "level": "18-41",
+            "weight": 3.6,
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_swamp"
+                ]
+            }
+        },
+        {
+            "id": "croconaw-5",
+            "pokemon": "croconaw",
+            "type": "pokemon",
+            "spawnablePositionType": "fishing",
+            "bucket": "ultra-rare",
+            "level": "18-41",
+            "weight": 3.6,
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_arid",
+                    "#cobblemon:is_jungle",
                     "#cobblemon:is_swamp"
                 ]
             }

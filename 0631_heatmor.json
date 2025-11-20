@@ -1,5 +1,5 @@
 {
-    "enabled": "true",
+    "enabled": true,
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
@@ -7,15 +7,23 @@
             "id": "heatmor-1",
             "pokemon": "heatmor",
             "presets": [
-                "natural"
+                "natural",
+                "wild"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "uncommon",
-            "level": "20-48",
-            "weight": 10.0,
+            "level": "23-48",
+            "weight": 6.0,
+            "weightMultiplier": {
+                "multiplier": 0.25,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
                     "#cobblemon:is_badlands",
                     "#cobblemon:is_hills"
@@ -26,39 +34,34 @@
             "id": "heatmor-2",
             "pokemon": "heatmor",
             "presets": [
-                "natural"
+                "natural",
+                "wild"
             ],
             "type": "pokemon",
-            "context": "grounded",
-            "bucket": "uncommon",
-            "level": "20-48",
-            "weight": 10.0,
-            "condition": {
-                "biomes": [
-                    "#minecraft:is_nether"
-                ]
-            }
-        },
-        {
-            "id": "heatmor-3",
-            "pokemon": "heatmor",
-            "presets": [
-                "natural"
-            ],
-            "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
-            "level": "20-48",
-            "weight": 33.0,
+            "level": "23-48",
+            "weight": 2.0,
             "condition": {
-                "canSeeSky": false,
-                "minY": 63,
-                "maxLight": 7,
-                "minHeight": 2,
-                "minWidth": 2,
                 "biomes": [
-                    "#cobblemon:is_badlands",
-                    "#cobblemon:is_mountain"
+                    "#cobblemon:nether/is_mountain"
+                ]
+            },
+            "drops": {
+                "amount": 3,
+                "entries": [
+                    {
+                        "item": "cobblemon:flame_orb",
+                        "percentage": 5.0
+                    },
+                    {
+                        "item": "minecraft:blaze_powder",
+                        "percentage": 10.0
+                    },
+                    {
+                        "item": "cobblemon:rawst_berry",
+                        "percentage": 5.0
+                    }
                 ]
             }
         }

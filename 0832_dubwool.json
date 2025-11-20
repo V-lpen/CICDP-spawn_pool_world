@@ -1,5 +1,5 @@
 {
-    "enabled": "true",
+    "enabled": true,
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
@@ -10,12 +10,19 @@
                 "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "24-49",
             "weight": 1.0,
+            "weightMultiplier": {
+                "multiplier": 0.25,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
                     "#cobblemon:is_mountain",
                     "#cobblemon:is_plains"
@@ -29,38 +36,16 @@
                 "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
-            "bucket": "uncommon",
-            "level": "24-50",
-            "weight": 75.0,
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "24-49",
+            "weight": 1.0,
             "condition": {
-                "canSeeSky": true,
-                "timeRange": "day",
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
-                    "#cobblemon:is_mountain",
-                    "#cobblemon:is_plains"
-                ],
-                "neededNearbyBlocks": [
-                    "minecraft:cobblestone_wall",
-                    "minecraft:oak_fence"
-                ]
-            }
-        },
-								{
-            "id": "dubwool-cold-1",
-            "pokemon": "dubwool",
-            "presets": [
-                "natural"
-            ],
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "uncommon",
-            "level": "24-50",
-            "weight": 3,
-            "condition": {
-                "canSeeSky": true,
-                "biomes": [
-                    "#cobblemon:is_snowy_forest"
+                    "aether:skyroot_grove",
+                    "aether:skyroot_meadow"
                 ]
             }
         }

@@ -1,5 +1,5 @@
 {
-    "enabled": "true",
+    "enabled": true,
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
@@ -7,20 +7,49 @@
             "id": "woobat-1",
             "pokemon": "woobat",
             "presets": [
-                "natural"
+                "natural",
+                "treetop"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
-            "level": "5-30",
+            "level": "7-32",
             "weight": 9.0,
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
-                    "#cobblemon:is_jungle"
+                    "#cobblemon:is_jungle",
+                    "#cobblemon:is_savanna"
                 ],
                 "timeRange": "night",
                 "isRaining": false
+            }
+        },
+        {
+            "id": "woobat-3",
+            "pokemon": "woobat",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "7-32",
+            "weight": 9.0,
+            "weightMultiplier": {
+                "multiplier": 0.25,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_jungle",
+                    "#cobblemon:is_savanna"
+                ]
             }
         }
     ]

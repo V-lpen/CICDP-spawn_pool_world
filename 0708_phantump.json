@@ -1,5 +1,5 @@
 {
-    "enabled": "true",
+    "enabled": true,
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
@@ -8,15 +8,16 @@
             "pokemon": "phantump",
             "presets": [
                 "natural",
-				"wild"
+                "wild"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "6-31",
-            "weight": 1.8,
+            "weight": 1.9,
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
                     "#cobblemon:is_forest",
                     "#cobblemon:is_taiga"
@@ -29,39 +30,16 @@
             "pokemon": "phantump",
             "presets": [
                 "natural",
-				"wild"
+                "wild"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "6-31",
-            "weight": 5.4,
+            "weight": 9.5,
             "condition": {
-                "biomes": [
-                    "#cobblemon:is_nether_forest",
-                    "#cobblemon:is_nether_warped"
-                ]
-            },
-            "anticondition": {
-                "biomes": [
-                    "#minecraft:is_nether"
-                ]
-            }
-        },
-        {
-            "id": "phantump-3",
-            "pokemon": "phantump",
-            "presets": [
-                "natural",
-				"wild"
-            ],
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "common",
-            "level": "6-31",
-            "weight": 9.0,
-            "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
                     "#cobblemon:is_spooky"
                 ],

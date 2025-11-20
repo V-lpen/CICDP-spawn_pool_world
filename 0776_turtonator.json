@@ -1,5 +1,5 @@
 {
-    "enabled": "true",
+    "enabled": true,
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
@@ -7,18 +7,17 @@
             "id": "turtonator-1",
             "pokemon": "turtonator",
             "presets": [
-                "natural"
+                "natural",
+                "wild"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "uncommon",
-            "level": "18-32",
-            "weight": 2.0,
+            "level": "24-49",
+            "weight": 10.0,
             "condition": {
                 "biomes": [
-                    "minecraft:basalt_deltas",
-                    "#cobblemon:is_thermal",
-                    "#cobblemon:is_volcanic"
+                    "#cobblemon:nether/is_basalt"
                 ]
             }
         }

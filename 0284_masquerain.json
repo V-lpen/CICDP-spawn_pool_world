@@ -1,5 +1,5 @@
 {
-    "enabled": "true",
+    "enabled": true,
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
@@ -7,31 +7,38 @@
             "id": "masquerain-1",
             "pokemon": "masquerain",
             "presets": [
-                "water_surface",
-                "freshwater"
+                "water"
             ],
             "type": "pokemon",
-            "context": "surface",
-            "bucket": "common",
+            "spawnablePositionType": "surface",
+            "bucket": "uncommon",
             "level": "22-45",
-            "weight": 0.2,
+            "weight": 0.96,
             "condition": {
-                "canSeeSky": true,
-                "timeRange": "night",
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_freshwater"
+                ],
                 "isRaining": false
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_freezing"
+                ]
             }
         },
-		{
+        {
             "id": "masquerain-2",
             "pokemon": "masquerain",
             "presets": [
-                "water_surface"
+                "water"
             ],
             "type": "pokemon",
-            "context": "surface",
-            "bucket": "common",
+            "spawnablePositionType": "surface",
+            "bucket": "uncommon",
             "level": "22-45",
-            "weight": 1.0,
+            "weight": 1.6,
             "condition": {
                 "biomes": [
                     "#the_bumblezone:the_bumblezone"
@@ -39,8 +46,8 @@
             },
             "anticondition": {
                 "structures": [
-					"#the_bumblezone:sempiternal_sanctums"
-				]
+                    "#the_bumblezone:sempiternal_sanctums"
+                ]
             }
         }
     ]

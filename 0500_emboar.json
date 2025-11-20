@@ -1,5 +1,5 @@
 {
-    "enabled": "true",
+    "enabled": true,
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
@@ -10,15 +10,18 @@
                 "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "ultra-rare",
             "level": "36-53",
-            "weight": 0.1,
+            "weight": 0.4,
             "condition": {
-				"biomes": [
-                    "minecraft:crimson_forest"
-                ]
-			}
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_plains"
+                ],
+                "isRaining": false
+            }
         },
         {
             "id": "emboar-2",
@@ -27,16 +30,15 @@
                 "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "ultra-rare",
             "level": "36-53",
-            "weight": 0.1,
+            "weight": 0.4,
             "condition": {
-                "canSeeSky": true,
                 "biomes": [
-                    "#cobblemon:is_plains"
-                ],
-                "isRaining": false
+                    "#cobblemon:nether/is_crimson",
+                    "#cobblemon:nether/is_overgrowth"
+                ]
             }
         }
     ]

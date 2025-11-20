@@ -10,47 +10,13 @@
                 "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "22-45",
             "weight": 1.0,
             "condition": {
                 "biomes": [
-                    "#cobblemon:is_sandy"
-                ]
-            }
-        },
-        {
-            "id": "sandslash-2",
-            "pokemon": "sandslash alolan",
-            "presets": [
-                "natural"
-            ],
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "uncommon",
-            "level": "22-45",
-            "weight": 3.0,
-            "condition": {
-                "biomes": [
-                    "#cobblemon:is_glacial"
-                ]
-            }
-        },
-        {
-            "id": "sandslash-3",
-            "pokemon": "sandslash alolan",
-            "presets": [
-                "natural"
-            ],
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "uncommon",
-            "level": "22-45",
-            "weight": 1.0,
-            "condition": {
-                "biomes": [
-                    "#cobblemon:is_snowy_forest"
+                    "#cobblemon:is_arid"
                 ]
             }
         }

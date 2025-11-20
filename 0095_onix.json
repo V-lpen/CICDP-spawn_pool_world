@@ -7,58 +7,40 @@
             "id": "onix-1",
             "pokemon": "onix",
             "presets": [
-                "derelict"
+                "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
-            "bucket": "common",
-            "level": "20-38",
-            "weight": 100,
+            "spawnablePositionType": "grounded",
+            "bucket": "uncommon",
+            "level": "14-39",
+            "weight": 5.52,
             "condition": {
-                "canSeeSky": false,
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
                 "biomes": [
                     "#cobblemon:is_overworld"
-                ],
-                "minHeight": 5,
-                "minWidth":3
+                ]
             },
             "anticondition": {
                 "biomes": [
                     "#cobblemon:is_deep_dark"
-                ],
-                "neededNearbyBlocks": [
-                    "minecraft:water",
-                    "minecraft:lava"
                 ]
             }
         },
         {
             "id": "onix-2",
             "pokemon": "onix",
+            "presets": [
+                "natural"
+            ],
             "type": "pokemon",
-            "context": "grounded",
-            "bucket": "common",
-            "level": "10-30",
-            "weight": 50,
+            "spawnablePositionType": "grounded",
+            "bucket": "uncommon",
+            "level": "14-39",
+            "weight": 1.84,
             "condition": {
-                "canSeeSky": true,
                 "biomes": [
-                    "#cobblemon:is_hills"
-                ],
-                "minHeight": 5,
-                "minWidth":3,
-                "neededBaseBlocks": [
-                    "minecraft:dirt"
-                ],
-                "neededNearbyBlocks": [
-                    "minecraft:iron_ore"
-                ]
-            },
-            "anticondition": {
-                "neededNearbyBlocks": [
-                    "minecraft:water",
-                    "minecraft:lava",
-                    "minecraft:stonecutter"
+                    "#cobblemon:nether/is_basalt"
                 ]
             }
         }

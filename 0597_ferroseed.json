@@ -3,34 +3,58 @@
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
-	 {
+        {
             "id": "ferroseed-1",
             "pokemon": "ferroseed",
-	    "presets": [
+            "presets": [
                 "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
-            "bucket": "uncommon",
-            "level": "15-25",
-            "weight": 9,
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "6-31",
+            "weight": 9.0,
             "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
                 "biomes": [
-                    "#cobblemon:is_forest"					
+                    "#cobblemon:is_lush"
                 ]
+            },
+            "anticondition": {
+                "structures": [
+                    "cobblemon:shipwreck_coves/lush_shipwreck_cove"
+                ],
+                "minY": -41,
+                "maxY": 9
             }
-	},
-	 {
+        },
+        {
             "id": "ferroseed-2",
             "pokemon": "ferroseed",
+            "presets": [
+                "natural"
+            ],
             "type": "pokemon",
-            "context": "grounded",
-            "bucket": "rare",
-            "level": "15-25",
-            "weight": 5.4,
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "6-31",
+            "weight": 9.0,
             "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
                 "biomes": [
-                    "#cobblemon:is_cave"					
+                    "#cobblemon:is_overworld"
+                ],
+                "structures": [
+                    "cobblemon:shipwreck_coves/lush_shipwreck_cove"
+                ],
+                "minY": -41,
+                "maxY": 9
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_lush"
                 ]
             }
         }

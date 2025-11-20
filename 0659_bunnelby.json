@@ -1,5 +1,5 @@
 {
-    "enabled": "true",
+    "enabled": true,
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
@@ -10,15 +10,16 @@
                 "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "1-24",
-            "weight": 9.0,
+            "weight": 5.4,
             "condition": {
                 "biomes": [
                     "#cobblemon:is_hills",
                     "#cobblemon:is_temperate"
-                ]
+                ],
+                "minY": 32
             }
         }
     ]

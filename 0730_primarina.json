@@ -1,5 +1,5 @@
 {
-    "enabled": "true",
+    "enabled": true,
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
@@ -10,12 +10,13 @@
                 "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "ultra-rare",
             "level": "34-53",
-            "weight": 0.1,
+            "weight": 0.4,
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
                     "#cobblemon:is_coast"
                 ]
@@ -25,17 +26,102 @@
             "id": "primarina-2",
             "pokemon": "primarina",
             "presets": [
-                "underwater"
+                "water"
             ],
             "type": "pokemon",
-            "context": "submerged",
+            "spawnablePositionType": "submerged",
             "bucket": "ultra-rare",
             "level": "34-53",
-            "weight": 0.1,
+            "weight": 0.4,
             "condition": {
                 "canSeeSky": true,
                 "biomes": [
                     "#cobblemon:is_coast"
+                ]
+            }
+        },
+        {
+            "id": "primarina-3",
+            "pokemon": "primarina",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "surface",
+            "bucket": "ultra-rare",
+            "level": "34-53",
+            "weight": 0.4,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_coast"
+                ]
+            }
+        },
+        {
+            "id": "primarina-4",
+            "pokemon": "primarina",
+            "type": "pokemon",
+            "spawnablePositionType": "fishing",
+            "bucket": "ultra-rare",
+            "level": "34-53",
+            "weight": 0.4,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_coast",
+                    "#cobblemon:is_ocean",
+                    "#cobblemon:is_tropical_island"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_freezing"
+                ]
+            }
+        },
+        {
+            "id": "primarina-5",
+            "pokemon": "primarina",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "submerged",
+            "bucket": "ultra-rare",
+            "level": "34-53",
+            "weight": 0.4,
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_coast"
+                ]
+            }
+        },
+        {
+            "id": "primarina-6",
+            "pokemon": "primarina",
+            "type": "pokemon",
+            "spawnablePositionType": "fishing",
+            "bucket": "ultra-rare",
+            "level": "34-53",
+            "weight": 0.4,
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_coast",
+                    "#cobblemon:is_ocean",
+                    "#cobblemon:is_tropical_island"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_freezing"
                 ]
             }
         }

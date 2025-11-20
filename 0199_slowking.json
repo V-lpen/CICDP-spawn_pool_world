@@ -10,14 +10,15 @@
                 "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "37-49",
-            "weight": 0.54,
+            "weight": 0.15,
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
-                    "#minecraft:is_beach"
+                    "#cobblemon:is_beach"
                 ]
             }
         },
@@ -25,61 +26,148 @@
             "id": "slowking-2",
             "pokemon": "slowking",
             "type": "pokemon",
-            "context": "grounded",
-            "bucket": "uncommon",
-            "level": "37-45",
-            "weight": 50,
+            "spawnablePositionType": "fishing",
+            "bucket": "common",
+            "level": "37-49",
+            "weight": 0.05,
+            "weightMultipliers": [
+                {
+                    "multiplier": 3.0,
+                    "condition": {
+                        "minLureLevel": 2,
+                        "maxLureLevel": 2
+                    }
+                },
+                {
+                    "multiplier": 5.0,
+                    "condition": {
+                        "minLureLevel": 3
+                    }
+                }
+            ],
             "condition": {
                 "canSeeSky": true,
-                "minY": 61,
                 "biomes": [
-                    "#minecraft:is_beach"
-                ],
-                "neededBaseBlocks": [
-                    "minecraft:sand"
-                ],
-                "neededNearbyBlocks": [
-                    "minecraft:seagrass"
+                    "#cobblemon:is_beach"
                 ]
             }
         },
         {
-            "id": "galar-slowking-1",
+            "id": "slowking-3",
+            "pokemon": "slowking",
+            "type": "pokemon",
+            "spawnablePositionType": "fishing",
+            "bucket": "common",
+            "level": "37-49",
+            "weight": 0.05,
+            "weightMultipliers": [
+                {
+                    "multiplier": 3.0,
+                    "condition": {
+                        "minLureLevel": 2,
+                        "maxLureLevel": 2
+                    }
+                },
+                {
+                    "multiplier": 5.0,
+                    "condition": {
+                        "minLureLevel": 3
+                    }
+                }
+            ],
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_beach"
+                ]
+            }
+        },
+        {
+            "id": "slowking-galarian-4",
             "pokemon": "slowking galarian",
             "presets": [
                 "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
-            "bucket": "uncommon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
             "level": "37-49",
-            "weight": 0.54,
+            "weight": 0.15,
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
-                    "#minecraft:is_beach"
+                    "minecraft:mushroom_fields",
+                    "#cobblemon:is_tropical_island"
+                ],
+                "neededNearbyBlocks": [
+                    "#cobblemon:water"
                 ]
             }
         },
         {
-            "id": "galar-slowking-2",
+            "id": "slowking-galarian-5",
             "pokemon": "slowking galarian",
             "type": "pokemon",
-            "context": "grounded",
-            "bucket": "uncommon",
-            "level": "37-45",
-            "weight": 50,
+            "spawnablePositionType": "fishing",
+            "bucket": "common",
+            "level": "37-49",
+            "weight": 0.05,
+            "weightMultipliers": [
+                {
+                    "multiplier": 3.0,
+                    "condition": {
+                        "minLureLevel": 2,
+                        "maxLureLevel": 2
+                    }
+                },
+                {
+                    "multiplier": 5.0,
+                    "condition": {
+                        "minLureLevel": 3
+                    }
+                }
+            ],
             "condition": {
                 "canSeeSky": true,
-                "minY": 61,
                 "biomes": [
-                    "#minecraft:is_beach"
-                ],
-                "neededBaseBlocks": [
-                    "minecraft:sand"
-                ],
-                "neededNearbyBlocks": [
-                    "minecraft:seagrass"
+                    "minecraft:mushroom_fields",
+                    "#cobblemon:is_tropical_island"
+                ]
+            }
+        },
+        {
+            "id": "slowking-galarian-6",
+            "pokemon": "slowking galarian",
+            "type": "pokemon",
+            "spawnablePositionType": "fishing",
+            "bucket": "common",
+            "level": "37-49",
+            "weight": 0.05,
+            "weightMultipliers": [
+                {
+                    "multiplier": 3.0,
+                    "condition": {
+                        "minLureLevel": 2,
+                        "maxLureLevel": 2
+                    }
+                },
+                {
+                    "multiplier": 5.0,
+                    "condition": {
+                        "minLureLevel": 3
+                    }
+                }
+            ],
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "minecraft:mushroom_fields",
+                    "#cobblemon:is_tropical_island"
                 ]
             }
         }

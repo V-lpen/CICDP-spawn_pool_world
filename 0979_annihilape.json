@@ -11,33 +11,13 @@
                 "treetop"
             ],
             "type": "pokemon",
-            "context": "grounded",
-            "bucket": "uncommon",
-            "level": "45-52",
-            "weight": 0.54,
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "35-54",
+            "weight": 0.06,
             "condition": {
-                "canSeeSky": true,
-                "biomes": [
-                    "#cobblemon:is_hills",
-                    "#cobblemon:is_jungle"
-                ]
-            }
-        },
-        {
-            "id": "annihilape-2",
-            "pokemon": "annihilape",
-            "presets": [
-                "natural"
-            ],
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "rare",
-            "level": "50-70",
-            "weight": 80.0,
-            "condition": {
-                "canSeeSky": true,
-                "isRaining": false,
-                "timeRange": "noon",
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
                     "#cobblemon:is_hills",
                     "#cobblemon:is_jungle"

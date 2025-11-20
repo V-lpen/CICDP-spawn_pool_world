@@ -8,71 +8,202 @@
             "pokemon": "persian",
             "presets": [
                 "natural",
-				"urban"
+                "urban"
             ],
             "type": "pokemon",
-            "context": "grounded",
-            "bucket": "uncommon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
             "level": "28-44",
             "weight": 1.0,
+            "weightMultiplier": {
+                "multiplier": 1.5,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
-                    "#cobblemon:is_temperate"
+                    "#cobblemon:is_overworld"
                 ],
-                "timeRange": "night",
                 "isRaining": false
             },
             "anticondition": {
                 "biomes": [
-                    "#cobblemon:is_spooky"
+                    "#cobblemon:is_arid",
+                    "#cobblemon:is_freezing",
+                    "#cobblemon:is_taiga"
                 ]
             }
         },
         {
             "id": "persian-2",
             "pokemon": "persian",
+            "presets": [
+                "natural"
+            ],
             "type": "pokemon",
-            "context": "grounded",
-            "bucket": "uncommon",
-            "level": "28-50",
-            "weight": 50.0,
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "28-44",
+            "weight": 1.0,
+            "weightMultiplier": {
+                "multiplier": 1.5,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
-                    "#cobblemon:is_temperate"
+                    "#cobblemon:is_overworld"
                 ],
-                "timeRange": "night",
                 "isRaining": false,
-                "neededNearbyBlocks": [
-                    "minecraft:gold_block"
+                "structures": [
+                    "#minecraft:village"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_arid",
+                    "#cobblemon:is_freezing",
+                    "#cobblemon:is_taiga"
                 ]
             }
         },
         {
-            "id": "persian-alolan-1",
+            "id": "persian-3",
+            "pokemon": "persian",
+            "presets": [
+                "natural",
+                "urban"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "28-44",
+            "weight": 1.0,
+            "weightMultiplier": {
+                "multiplier": 1.5,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_arid"
+                ]
+            }
+        },
+        {
+            "id": "persian-4",
+            "pokemon": "persian",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "28-44",
+            "weight": 1.0,
+            "weightMultiplier": {
+                "multiplier": 1.5,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_arid"
+                ],
+                "structures": [
+                    "#minecraft:village"
+                ]
+            }
+        },
+        {
+            "id": "persian-alolan-5",
             "pokemon": "persian alolan",
             "presets": [
                 "natural",
-				"urban"
+                "illager_structures"
             ],
             "type": "pokemon",
-            "context": "grounded",
-            "bucket": "uncommon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
             "level": "28-44",
-            "weight": 1.0,
+            "weight": 6.0,
+            "weightMultiplier": {
+                "multiplier": 1.5,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
-                    "#cobblemon:is_temperate"
+                    "#cobblemon:is_overworld"
                 ],
-                "timeRange": "night",
                 "isRaining": false
             },
             "anticondition": {
                 "biomes": [
-                    "#cobblemon:is_spooky"
+                    "#cobblemon:is_arid",
+                    "#cobblemon:is_freezing"
                 ]
+            }
+        },
+        {
+            "id": "persian-alolan-6",
+            "pokemon": "persian alolan",
+            "presets": [
+                "natural",
+                "illager_structures"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "28-44",
+            "weight": 6.0,
+            "weightMultiplier": {
+                "multiplier": 1.5,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_arid",
+                    "#cobblemon:is_freezing"
+                ]
+            }
+        },
+        {
+            "id": "persian-alolan-7",
+            "pokemon": "persian alolan",
+            "presets": [
+                "illager_structures"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "uncommon",
+            "level": "28-44",
+            "weight": 9.6,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "minY": 62
             }
         }
     ]

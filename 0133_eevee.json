@@ -10,31 +10,40 @@
                 "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "ultra-rare",
-            "level": "5-32",
-            "weight": 9.0,
+            "level": "5-33",
+            "weight": 4.8,
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
                     "#cobblemon:is_overworld"
                 ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_ocean",
+                    "#cobblemon:is_temperate"
+                ]
             }
         },
-		{
+        {
             "id": "eevee-2",
             "pokemon": "eevee",
             "presets": [
                 "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "rare",
-            "level": "5-32",
+            "level": "5-33",
             "weight": 10.0,
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
+                    "#aether:is_aether",
                     "#cobblemon:is_temperate"
                 ]
             }
@@ -42,32 +51,60 @@
         {
             "id": "eevee-3",
             "pokemon": "eevee",
+            "presets": [
+                "natural",
+                "urban"
+            ],
             "type": "pokemon",
-            "context": "grounded",
-            "bucket": "common",
-            "level": "5-20",
-            "weight": 50.0,
+            "spawnablePositionType": "grounded",
+            "bucket": "uncommon",
+            "level": "5-33",
+            "weight": 1.84,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ]
+            }
+        },
+        {
+            "id": "eevee-4",
+            "pokemon": "eevee",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "uncommon",
+            "level": "5-33",
+            "weight": 1.84,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "structures": [
+                    "#minecraft:village"
+                ]
+            }
+        },
+        {
+            "id": "eevee-5",
+            "pokemon": "eevee",
+            "presets": [
+                "mansion"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "uncommon",
+            "level": "5-33",
+            "weight": 9.2,
             "condition": {
                 "canSeeSky": false,
-                "timeRange": "day",
-                "isRaining": false,
-                "neededBaseBlocks": [
-                    "minecraft:hay_block"
-                ],
-                "neededNearbyBlocks": [
-                    "cobblemon:water_stone_ore",
-                    "cobblemon:thunder_stone_ore",
-                    "cobblemon:fire_stone_ore",
-                    "cobblemon:ice_stone_ore",
-                    "cobblemon:leaf_stone_ore",
-                    "cobblemon:deepslate_water_stone_ore",
-                    "cobblemon:deepslate_thunder_stone_ore",
-                    "cobblemon:deepslate_fire_stone_ore",
-                    "cobblemon:deepslate_ice_stone_ore",
-                    "cobblemon:deepslate_leaf_stone_ore"
-                ],
                 "biomes": [
-                    "#cobblemon:is_temperate"
+                    "#cobblemon:is_overworld"
                 ]
             }
         }

@@ -7,15 +7,16 @@
             "id": "probopass-1",
             "pokemon": "probopass",
             "presets": [
-                "derelict"
+                "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "uncommon",
-            "level": "38-52",
-            "weight": 0.06,
+            "level": "33-53",
+            "weight": 0.48,
             "condition": {
-                "canSeeSky": false,
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
                 "biomes": [
                     "#cobblemon:is_overworld"
                 ]
@@ -23,25 +24,6 @@
             "anticondition": {
                 "biomes": [
                     "#cobblemon:is_deep_dark"
-                ]
-            }
-        },
-        {
-            "id": "probopass-2",
-            "pokemon": "probopass",
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "rare",
-            "level": "45-60",
-            "weight": 25,
-            "condition": {
-                "canSeeSky": true,
-                "biomes": [
-                    "#cobblemon:is_overworld"
-                ],
-                "neededNearbyBlocks": [
-                    "minecraft:lodestone",
-                    "minecraft:redstone_block"
                 ]
             }
         }

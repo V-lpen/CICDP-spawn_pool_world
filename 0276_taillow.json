@@ -7,19 +7,46 @@
             "id": "taillow-1",
             "pokemon": "taillow",
             "presets": [
-                "natural"
+                "natural",
+                "treetop"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
-            "level": "8-35",
-            "weight": 3.0,
+            "level": "2-27",
+            "weight": 9.0,
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
-                    "#cobblemon:is_forest",
-                    "#cobblemon:is_temperate",
-					"#cobblemon:is_plains"
+                    "#cobblemon:is_sky",
+                    "#cobblemon:is_temperate"
+                ],
+                "timeRange": "day"
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_spooky"
+                ]
+            }
+        },
+        {
+            "id": "taillow-3",
+            "pokemon": "taillow",
+            "presets": [
+                "natural",
+                "treetop"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "2-27",
+            "weight": 9.0,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#aether:is_aether"
                 ]
             }
         }

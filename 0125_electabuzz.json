@@ -10,60 +10,22 @@
                 "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
-            "bucket": "common",
-            "level": "30-49",
-            "weight": 0.54,
-            "condition": {
-                "canSeeSky": true,
-                "biomes": [
-                    "#cobblemon:is_plains"
-                ],
-                "isThundering": true
-            }
-        },
-        {
-            "id": "electabuzz-2",
-            "pokemon": "electabuzz",
-            "presets": [
-                "natural"
-            ],
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "common",
-            "level": "30-49",
-            "weight": 0.18,
-            "condition": {
-                "canSeeSky": true,
-                "biomes": [
-                    "#cobblemon:is_plains"
-                ],
-				"neededNearbyBlocks": [
-                    "minecraft:lightning_rod"
-                ]
-            }
-        },
-        {
-            "id": "electabuzz-3",
-            "pokemon": "electabuzz",
-            "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "uncommon",
-            "level": "10-30",
-            "weight": 50,
+            "level": "30-50",
+            "weight": 0.304,
+            "weightMultiplier": {
+                "multiplier": 5.0,
+                "condition": {
+                    "isThundering": true
+                }
+            },
             "condition": {
-                "canSeeSky": true,
-                "minY": 63,
-                "timeRange": "day",
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
-                    "#cobblemon:is_overworld"
-                ],
-				"neededNearbyBlocks": [
-                    "minecraft:lightning_rod"
-                ],
-                "neededBaseBlocks": [
-                    "minecraft:copper_block",
-                    "minecraft:waxed_copper_block"
+                    "#cobblemon:is_hills",
+                    "#cobblemon:is_plains"
                 ]
             }
         }

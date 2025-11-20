@@ -7,78 +7,184 @@
             "id": "pincurchin-1",
             "pokemon": "pincurchin",
             "presets": [
-                "natural"
+                "water"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "seafloor",
             "bucket": "uncommon",
-            "level": "15-41",
-            "weight": 6.0,
+            "level": "19-44",
+            "weight": 10.0,
             "condition": {
                 "canSeeSky": true,
                 "biomes": [
-                    "#minecraft:is_beach"
+                    "#cobblemon:is_coast",
+                    "#cobblemon:is_ocean"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:kelp_plant",
+                    "minecraft:seagrass"
                 ]
             }
         },
         {
             "id": "pincurchin-2",
             "pokemon": "pincurchin",
-            "presets": [
-                "underwater"
-            ],
             "type": "pokemon",
-            "context": "submerged",
-            "bucket": "common",
-            "level": "15-41",
-            "weight": 2.0,
+            "spawnablePositionType": "fishing",
+            "bucket": "uncommon",
+            "level": "19-44",
+            "weight": 6.0,
             "condition": {
                 "canSeeSky": true,
                 "biomes": [
-                    "#minecraft:is_ocean"
+                    "#cobblemon:is_coast",
+                    "#cobblemon:is_ocean"
                 ]
             },
             "anticondition": {
-                "biomes": [
-                    "#cobblemon:is_reef"
-                ]
+                "minLureLevel": 1
             }
         },
         {
             "id": "pincurchin-3",
             "pokemon": "pincurchin",
-            "presets": [
-                "underwater"
-            ],
             "type": "pokemon",
-            "context": "submerged",
+            "spawnablePositionType": "fishing",
             "bucket": "common",
-            "level": "15-41",
-            "weight": 10.0,
+            "level": "19-44",
+            "weight": 2.0,
+            "weightMultiplier": {
+                "multiplier": 3.0,
+                "condition": {
+                    "minLureLevel": 3
+                }
+            },
             "condition": {
                 "canSeeSky": true,
                 "biomes": [
-                    "#cobblemon:is_reef"
-                ]
+                    "#cobblemon:is_coast",
+                    "#cobblemon:is_ocean"
+                ],
+                "minLureLevel": 1
             }
         },
         {
             "id": "pincurchin-4",
             "pokemon": "pincurchin",
             "type": "pokemon",
-            "context": "grounded",
-            "bucket": "common",
-            "level": "1-20",
-            "weight": 300,
+            "spawnablePositionType": "fishing",
+            "bucket": "uncommon",
+            "level": "19-44",
+            "weight": 6.0,
             "condition": {
-                "canSeeSky": true,
-                "maxY": 62,
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
-                    "#minecraft:is_beach"
-                ],
-                "neededBaseBlocks": [
-                    "minecraft:sand"
+                    "#cobblemon:is_coast",
+                    "#cobblemon:is_ocean"
                 ]
+            },
+            "anticondition": {
+                "minLureLevel": 1
+            }
+        },
+        {
+            "id": "pincurchin-5",
+            "pokemon": "pincurchin",
+            "type": "pokemon",
+            "spawnablePositionType": "fishing",
+            "bucket": "common",
+            "level": "19-44",
+            "weight": 2.0,
+            "weightMultiplier": {
+                "multiplier": 3.0,
+                "condition": {
+                    "minLureLevel": 3
+                }
+            },
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_coast",
+                    "#cobblemon:is_ocean"
+                ],
+                "minLureLevel": 1
+            }
+        },
+        {
+            "id": "pincurchin-6",
+            "pokemon": "pincurchin",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "seafloor",
+            "bucket": "uncommon",
+            "level": "19-44",
+            "weight": 10.0,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "structures": [
+                    "cobblemon:shipwreck_coves/submerged_shipwreck_cove"
+                ],
+                "minY": -60,
+                "maxY": 13
+            }
+        },
+        {
+            "id": "pincurchin-7",
+            "pokemon": "pincurchin",
+            "type": "pokemon",
+            "spawnablePositionType": "fishing",
+            "bucket": "uncommon",
+            "level": "19-44",
+            "weight": 6.0,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "structures": [
+                    "cobblemon:shipwreck_coves/submerged_shipwreck_cove"
+                ],
+                "minY": -60,
+                "maxY": 13
+            },
+            "anticondition": {
+                "minLureLevel": 1
+            }
+        },
+        {
+            "id": "pincurchin-8",
+            "pokemon": "pincurchin",
+            "type": "pokemon",
+            "spawnablePositionType": "fishing",
+            "bucket": "common",
+            "level": "19-44",
+            "weight": 2.0,
+            "weightMultiplier": {
+                "multiplier": 3.0,
+                "condition": {
+                    "minLureLevel": 3
+                }
+            },
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "minLureLevel": 1,
+                "structures": [
+                    "cobblemon:shipwreck_coves/submerged_shipwreck_cove"
+                ],
+                "minY": -60,
+                "maxY": 13
             }
         }
     ]

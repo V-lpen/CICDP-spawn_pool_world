@@ -1,18 +1,23 @@
 {
-    "enabled": "true",
+    "enabled": true,
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
         {
             "id": "spinarak-1",
             "pokemon": "spinarak",
+            "presets": [
+                "natural",
+                "treetop"
+            ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
-            "level": "5-25",
+            "level": "1-25",
             "weight": 5.4,
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
                     "#cobblemon:is_forest",
                     "#cobblemon:is_jungle",
@@ -30,13 +35,17 @@
         {
             "id": "spinarak-2",
             "pokemon": "spinarak",
+            "presets": [
+                "natural"
+            ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
-            "level": "5-25",
-            "weight": 5.4,
+            "level": "1-25",
+            "weight": 1.8,
             "condition": {
-                "canSeeSky": false,
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
                 "biomes": [
                     "#cobblemon:is_overworld"
                 ]
@@ -44,6 +53,68 @@
             "anticondition": {
                 "biomes": [
                     "#cobblemon:is_deep_dark"
+                ]
+            }
+        },
+        {
+            "id": "spinarak-3",
+            "pokemon": "spinarak",
+            "presets": [
+                "derelict"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "1-25",
+            "weight": 5.4,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "minY": 0
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_deep_dark"
+                ]
+            }
+        },
+        {
+            "id": "spinarak-4",
+            "pokemon": "spinarak",
+            "presets": [
+                "webs",
+                "natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "1-25",
+            "weight": 9.0,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7
+            }
+        },
+        {
+            "id": "spinarak-5",
+            "pokemon": "spinarak",
+            "presets": [
+                "mansion"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "1-25",
+            "weight": 9.0,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:cobweb"
                 ]
             }
         }

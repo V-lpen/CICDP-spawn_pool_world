@@ -7,13 +7,67 @@
             "id": "poltchageist-1",
             "pokemon": "poltchageist",
             "type": "pokemon",
-            "context": "grounded",
-            "bucket": "rare",
-            "level": "15-48",
-            "weight": 7.8,
+            "spawnablePositionType": "grounded",
+            "bucket": "uncommon",
+            "level": "6-31",
+            "weight": 9.2,
             "condition": {
-                "canSeeSky": true,
+                "canSeeSky": false,
                 "biomes": [
+                    "#cobblemon:is_arid",
+                    "#cobblemon:is_bamboo",
+                    "#cobblemon:is_cherry_blossom",
+                    "#cobblemon:is_forest",
+                    "#cobblemon:is_island",
+                    "#cobblemon:is_jungle",
+                    "#cobblemon:is_ocean",
+                    "#cobblemon:is_swamp",
+                    "#cobblemon:is_thermal",
+                    "#cobblemon:is_volcanic"
+                ],
+                "timeRange": "day",
+                "structures": [
+                    "#minecraft:village"
+                ],
+                "minY": 62
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_magical",
+                    "#cobblemon:is_spooky"
+                ]
+            }
+        },
+        {
+            "id": "poltchageist-2",
+            "pokemon": "poltchageist",
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "uncommon",
+            "level": "6-31",
+            "weight": 9.2,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_arid",
+                    "#cobblemon:is_bamboo",
+                    "#cobblemon:is_cherry_blossom",
+                    "#cobblemon:is_forest",
+                    "#cobblemon:is_island",
+                    "#cobblemon:is_jungle",
+                    "#cobblemon:is_ocean",
+                    "#cobblemon:is_swamp",
+                    "#cobblemon:is_thermal",
+                    "#cobblemon:is_volcanic"
+                ],
+                "timeRange": "night",
+                "structures": [
+                    "#minecraft:village"
+                ],
+                "minY": 62
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_magical",
                     "#cobblemon:is_spooky"
                 ]
             }

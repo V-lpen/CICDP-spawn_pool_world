@@ -6,45 +6,18 @@
         {
             "id": "fraxure-1",
             "pokemon": "fraxure",
+            "presets": [
+                "natural",
+                "wild"
+            ],
             "type": "pokemon",
-            "context": "grounded",
-            "bucket": "rare",
-            "level": "36-40",
-            "weight": 0.9,
+            "spawnablePositionType": "grounded",
+            "bucket": "ultra-rare",
+            "level": "38-41",
+            "weight": 3.6,
             "condition": {
-                "canSeeSky": false,
                 "biomes": [
-                    "#cobblemon:is_cave"					
-                ]
-            }
-        },
-	           {
-            "id": "fraxure-2",
-            "pokemon": "fraxure",
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "rare",
-            "level": "36-40",
-            "weight": 0.9,
-            "condition": {
-                "canSeeSky": true,
-                "biomes": [
-                    "#cobblemon:is_cave"					
-                ]
-            }
-        },
-	            {
-            "id": "fraxure-3",
-            "pokemon": "fraxure",
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "rare",
-            "level": "36-40",
-            "weight": 0.5,
-            "condition": {
-                "canSeeSky": true,
-                "biomes": [
-                    "#cobblemon:is_mountain"					
+                    "#cobblemon:is_mountain"
                 ]
             }
         }

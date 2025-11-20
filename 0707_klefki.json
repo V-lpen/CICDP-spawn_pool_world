@@ -1,5 +1,5 @@
 {
-    "enabled": "true",
+    "enabled": true,
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
@@ -7,17 +7,17 @@
             "id": "klefki-1",
             "pokemon": "klefki",
             "presets": [
-                "natural"
+                "natural",
+                "urban"
             ],
             "type": "pokemon",
-            "context": "grounded",
-            "bucket": "rare",
-            "level": "20-40",
-            "weight": 5.0,
+            "spawnablePositionType": "grounded",
+            "bucket": "uncommon",
+            "level": "22-47",
+            "weight": 6.0,
             "condition": {
-                "canSeeSky": false,
                 "biomes": [
-                    "#cobblemon:is_plains"
+                    "#cobblemon:is_overworld"
                 ]
             }
         },
@@ -25,22 +25,37 @@
             "id": "klefki-2",
             "pokemon": "klefki",
             "presets": [
-                "desert_pyramid"
+                "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
+            "bucket": "uncommon",
+            "level": "22-47",
+            "weight": 6.0,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "structures": [
+                    "#minecraft:village"
+                ]
+            }
+        },
+        {
+            "id": "klefki-3",
+            "pokemon": "klefki",
+            "presets": [
+                "mansion"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
-            "level": "12-30",
-            "weight": 5.4,
+            "level": "22-47",
+            "weight": 2.0,
             "condition": {
                 "canSeeSky": false,
                 "biomes": [
-                    "#cobblemon:is_sandy"
-                ]
-            },
-            "anticondition": {
-                "biomes": [
-                    "#cobblemon:is_deep_dark"
+                    "#cobblemon:is_overworld"
                 ]
             }
         }

@@ -7,64 +7,23 @@
             "id": "lopunny-1",
             "pokemon": "lopunny",
             "presets": [
-                "natural"
+                "natural",
+                "wild"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
-            "level": "36-48",
-            "weight": 0.1,
+            "level": "30-48",
+            "weight": 0.6,
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
                     "#cobblemon:is_forest",
                     "#cobblemon:is_hills",
-					"#cobblemon:is_snowy_forest"
-                ]
-            }
-        },
-        {
-            "id": "lopunny-2",
-            "pokemon": "lopunny",
-            "presets": [
-                "near_crops"
-            ],
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "uncommon",
-            "level": "20-45",
-            "weight": 50,
-            "condition": {
-                "canSeeSky": true,
-                "timeRange": "day",
-                "biomes": [
-                    "#cobblemon:is_forest",
-                    "#cobblemon:is_hills",
-					"#cobblemon:is_snowy_forest"
-                ]
-            }
-        },
-        {
-            "id": "lopunny-3",
-            "pokemon": "lopunny",
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "uncommon",
-            "level": "20-60",
-            "weight": 500,
-            "condition": {
-                "canSeeSky": true,
-                "timeRange": "day",
-                "biomes": [
-                    "#cobblemon:is_forest",
-                    "#cobblemon:is_hills",
-					"#cobblemon:is_snowy_forest"
-                ],
-                "neededBaseBlocks": [
-                    "minecraft:grass_block"
-                ],
-                "neededNearbyBlocks": [
-                    "minecraft:carrots"
+                    "#cobblemon:is_snowy_forest",
+                    "#cobblemon:is_snowy_taiga",
+                    "#cobblemon:is_taiga"
                 ]
             }
         }

@@ -8,38 +8,52 @@
             "pokemon": "jynx",
             "presets": [
                 "natural",
-				"urban"
+                "urban"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "uncommon",
-            "level": "30-45",
-            "weight": 0.2,
+            "level": "30-46",
+            "weight": 0.32,
+            "weightMultiplier": {
+                "multiplier": 0.25,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
-                    "#cobblemon:is_snowy_forest",
-                    "#cobblemon:is_tundra"
+                    "#cobblemon:is_freezing"
                 ]
             }
         },
         {
             "id": "jynx-2",
             "pokemon": "jynx",
+            "presets": [
+                "natural"
+            ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "uncommon",
-            "level": "30-45",
-            "weight": 50,
+            "level": "30-46",
+            "weight": 0.32,
+            "weightMultiplier": {
+                "multiplier": 0.25,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
             "condition": {
-                "canSeeSky": true,
-                "timeRange": "day",
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
-                    "#cobblemon:is_snowy_forest",
-                    "#cobblemon:is_tundra"
+                    "#cobblemon:is_freezing"
                 ],
-                "neededNearbyBlocks": [
-                    "minecraft:note_block"
+                "structures": [
+                    "#minecraft:village"
                 ]
             }
         }

@@ -1,5 +1,5 @@
 {
-    "enabled": "true",
+    "enabled": true,
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
@@ -7,10 +7,10 @@
             "id": "lanturn-1",
             "pokemon": "lanturn",
             "presets": [
-                "underwater"
+                "water"
             ],
             "type": "pokemon",
-            "context": "submerged",
+            "spawnablePositionType": "submerged",
             "bucket": "common",
             "level": "27-46",
             "weight": 0.6,
@@ -18,25 +18,125 @@
                 "canSeeSky": true,
                 "biomes": [
                     "#cobblemon:is_deep_ocean"
-                ]
+                ],
+                "maxY": 48
             }
         },
         {
             "id": "lanturn-2",
             "pokemon": "lanturn",
+            "type": "pokemon",
+            "spawnablePositionType": "fishing",
+            "bucket": "common",
+            "level": "27-46",
+            "weight": 1.0,
+            "weightMultiplier": {
+                "multiplier": 0.6,
+                "condition": {
+                    "minLureLevel": 0,
+                    "maxLureLevel": 1
+                }
+            },
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_ocean"
+                ]
+            }
+        },
+        {
+            "id": "lanturn-3",
+            "pokemon": "lanturn",
             "presets": [
-                "ocean_ruins"
+                "water"
             ],
             "type": "pokemon",
-            "bucket": "uncommon",
-            "level": "27-50",
-            "context": "submerged",
-            "weight": 20,
+            "spawnablePositionType": "submerged",
+            "bucket": "common",
+            "level": "27-46",
+            "weight": 0.6,
             "condition": {
-                "isRaining": false,
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
-                    "#minecraft:is_ocean"
+                    "#cobblemon:is_deep_ocean"
+                ],
+                "maxY": 48
+            }
+        },
+        {
+            "id": "lanturn-4",
+            "pokemon": "lanturn",
+            "type": "pokemon",
+            "spawnablePositionType": "fishing",
+            "bucket": "common",
+            "level": "27-46",
+            "weight": 1.0,
+            "weightMultiplier": {
+                "multiplier": 0.6,
+                "condition": {
+                    "minLureLevel": 0,
+                    "maxLureLevel": 1
+                }
+            },
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_ocean"
                 ]
+            }
+        },
+        {
+            "id": "lanturn-5",
+            "pokemon": "lanturn",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "submerged",
+            "bucket": "common",
+            "level": "27-46",
+            "weight": 0.6,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "structures": [
+                    "cobblemon:shipwreck_coves/submerged_shipwreck_cove"
+                ],
+                "minY": -60,
+                "maxY": 13
+            }
+        },
+        {
+            "id": "lanturn-6",
+            "pokemon": "lanturn",
+            "type": "pokemon",
+            "spawnablePositionType": "fishing",
+            "bucket": "common",
+            "level": "27-46",
+            "weight": 1.0,
+            "weightMultiplier": {
+                "multiplier": 0.6,
+                "condition": {
+                    "minLureLevel": 0,
+                    "maxLureLevel": 1
+                }
+            },
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "structures": [
+                    "cobblemon:shipwreck_coves/submerged_shipwreck_cove"
+                ],
+                "minY": -60,
+                "maxY": 13
             }
         }
     ]

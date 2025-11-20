@@ -1,53 +1,54 @@
 {
-    "enabled": "true",
+    "enabled": true,
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "slugma-1",
+            "id": "slugma-3",
             "pokemon": "slugma",
             "presets": [
                 "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
-            "level": "8-25",
-            "weight": 1.8,
+            "level": "1-25",
+            "weight": 5.4,
             "condition": {
                 "biomes": [
-                    "minecraft:basalt_deltas",
-                    "minecraft:nether_wastes"
+                    "#cobblemon:nether/is_basalt",
+                    "#cobblemon:nether/is_wasteland"
                 ]
             }
         },
         {
-            "id": "slugma-2",
+            "id": "slugma-4",
             "pokemon": "slugma",
             "presets": [
-                "lava_surface"
+                "lava"
             ],
             "type": "pokemon",
-            "context": "surface",
+            "spawnablePositionType": "surface",
             "bucket": "common",
-            "level": "8-25",
+            "level": "1-25",
             "weight": 9.0,
             "condition": {
                 "biomes": [
-                    "#minecraft:is_nether"
+                    "#minecraft:is_nether",
+                    "#cobblemon:is_volcanic"
                 ]
             }
         },
         {
-            "id": "slugma-3",
+            "id": "slugma-1",
             "pokemon": "slugma",
             "presets": [
-                "lava_surface"
+                "lava"
             ],
             "type": "pokemon",
-            "context": "surface",
+            "spawnablePositionType": "surface",
             "bucket": "common",
-            "level": "8-25",
+            "level": "1-25",
             "weight": 1.8,
             "condition": {
                 "biomes": [
@@ -61,39 +62,22 @@
             }
         },
         {
-            "id": "slugma-4",
+            "id": "slugma-2",
             "pokemon": "slugma",
             "presets": [
                 "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
-            "level": "8-25",
+            "level": "1-25",
             "weight": 9.0,
             "condition": {
                 "biomes": [
                     "#cobblemon:is_volcanic"
                 ],
-				"neededNearbyBlocks": [
-                    "minecraft:lava"
-                ]
-            }
-        },
-        {
-            "id": "slugma-5",
-            "pokemon": "slugma",
-            "presets": [
-                "lava_surface"
-            ],
-            "type": "pokemon",
-            "context": "surface",
-            "bucket": "common",
-            "level": "8-25",
-            "weight": 9.0,
-            "condition": {
-                "biomes": [
-                    "#cobblemon:is_volcanic"
+                "neededNearbyBlocks": [
+                    "#cobblemon:lava"
                 ]
             }
         }

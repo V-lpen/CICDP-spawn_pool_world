@@ -7,33 +7,17 @@
             "id": "nidoking-1",
             "pokemon": "nidoking",
             "presets": [
-                "natural"
+                "natural",
+                "wild"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "uncommon",
-            "level": "37-50",
-            "weight": 0.1,
+            "level": "37-51",
+            "weight": 0.08,
             "condition": {
-                "canSeeSky": true,
-                "biomes": [
-                    "#cobblemon:is_savanna"
-                ],
-                "timeRange": "day"
-            }
-        },
-        {
-            "id": "nidoking-2",
-            "pokemon": "nidoking",
-            "presets": [
-                "near_water"
-            ],
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "uncommon",
-            "level": "45-60",
-            "weight": 25.0,
-            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
                     "#cobblemon:is_savanna"
                 ]

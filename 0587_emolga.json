@@ -8,41 +8,24 @@
             "pokemon": "emolga",
             "presets": [
                 "natural",
-				"treetop"
+                "treetop"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "uncommon",
-            "level": "10-43",
+            "level": "18-43",
             "weight": 10.0,
+            "weightMultiplier": {
+                "multiplier": 5.0,
+                "condition": {
+                    "isThundering": true
+                }
+            },
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
                     "#cobblemon:is_taiga"
-                ]
-            }
-        },
-        {
-            "id": "emolga-3",
-            "pokemon": "emolga",
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "common",
-            "level": "13-40",
-            "weight": 500.0,
-            "condition": {
-                "canSeeSky": true,
-                "timeRange": "day",
-                "biomes": [
-                    "#cobblemon:is_taiga"
-                ],
-                "neededBaseBlocks": [
-                    "minecraft:grass_block"
-                ],
-                "neededNearbyBlocks": [
-                    "minecraft:pumpkin",
-                    "minecraft:carved_pumpkin",
-                    "minecraft:melon"
                 ]
             }
         }

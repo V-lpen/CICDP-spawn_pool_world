@@ -10,30 +10,44 @@
                 "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
-            "level": "12-27",
-            "weight": 0.9,
+            "level": "16-27",
+            "weight": 0.95,
+            "weightMultiplier": {
+                "multiplier": 1.5,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
                     "#cobblemon:is_floral"
                 ]
             }
         },
-		{
+        {
             "id": "jigglypuff-2",
             "pokemon": "jigglypuff",
             "presets": [
                 "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
-            "level": "12-27",
-            "weight": 0.18,
+            "level": "16-27",
+            "weight": 0.19,
+            "weightMultiplier": {
+                "multiplier": 1.5,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
                     "#cobblemon:is_plains"
                 ]
@@ -44,30 +58,23 @@
                 ]
             }
         },
-		{
+        {
             "id": "jigglypuff-3",
             "pokemon": "jigglypuff",
             "presets": [
                 "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
-            "level": "10-25",
-            "weight": 75,
+            "level": "16-27",
+            "weight": 0.95,
             "condition": {
-                "canSeeSky": true,
-                "isRaining": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
-                    "#cobblemon:is_overworld"
-                ],
-                "neededNearbyBlocks": [
-                    "minecraft:jukebox"
-                ]
-            },
-            "anticondition": {
-                "biomes": [
-                    "#minecraft:is_ocean"
+                    "aether:skyroot_grove",
+                    "aether:skyroot_meadow"
                 ]
             }
         }

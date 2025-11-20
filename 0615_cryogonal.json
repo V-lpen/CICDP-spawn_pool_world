@@ -1,5 +1,5 @@
 {
-    "enabled": "true",
+    "enabled": true,
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
@@ -10,16 +10,22 @@
                 "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "uncommon",
-            "level": "16-51",
-            "weight": 10.0,
+            "level": "27-52",
+            "weight": 2.0,
+            "weightMultiplier": {
+                "multiplier": 5.0,
+                "condition": {
+                    "isRaining": true
+                }
+            },
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
                     "#cobblemon:is_freezing"
-                ],
-                "isRaining": true
+                ]
             }
         },
         {
@@ -29,17 +35,13 @@
                 "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
-            "level": "16-51",
-            "weight": 100.0,
+            "level": "27-52",
+            "weight": 2.0,
             "condition": {
-                "canSeeSky": true,
                 "biomes": [
-                    "#cobblemon:is_freezing"
-                ],
-                "neededNearbyBlocks": [
-                    "minecraft:blue_ice"
+                    "#cobblemon:nether/is_frozen"
                 ]
             }
         }

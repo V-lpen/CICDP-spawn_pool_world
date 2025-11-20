@@ -1,19 +1,85 @@
 {
-    "enabled": "true",
+    "enabled": true,
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
         {
+            "id": "stunfisk-2",
+            "pokemon": "stunfisk",
+            "type": "pokemon",
+            "spawnablePositionType": "fishing",
+            "bucket": "common",
+            "level": "22-47",
+            "weight": 2.0,
+            "weightMultipliers": [
+                {
+                    "multiplier": 3.0,
+                    "condition": {
+                        "minLureLevel": 2,
+                        "maxLureLevel": 2
+                    }
+                },
+                {
+                    "multiplier": 5.0,
+                    "condition": {
+                        "minLureLevel": 3
+                    }
+                }
+            ],
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_arid",
+                    "#cobblemon:is_jungle",
+                    "#cobblemon:is_swamp"
+                ]
+            }
+        },
+        {
+            "id": "stunfisk-3",
+            "pokemon": "stunfisk",
+            "type": "pokemon",
+            "spawnablePositionType": "fishing",
+            "bucket": "common",
+            "level": "22-47",
+            "weight": 2.0,
+            "weightMultipliers": [
+                {
+                    "multiplier": 3.0,
+                    "condition": {
+                        "minLureLevel": 2,
+                        "maxLureLevel": 2
+                    }
+                },
+                {
+                    "multiplier": 5.0,
+                    "condition": {
+                        "minLureLevel": 3
+                    }
+                }
+            ],
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_arid",
+                    "#cobblemon:is_jungle",
+                    "#cobblemon:is_swamp"
+                ]
+            }
+        },
+        {
             "id": "stunfisk-1",
             "pokemon": "stunfisk",
             "presets": [
-                "underwater"
+                "water"
             ],
             "type": "pokemon",
-            "context": "seafloor",
-            "bucket": "uncommon",
-            "level": "15-40",
-            "weight": 9.0,
+            "spawnablePositionType": "seafloor",
+            "bucket": "common",
+            "level": "22-47",
+            "weight": 2.0,
             "condition": {
                 "canSeeSky": true,
                 "biomes": [
@@ -22,24 +88,22 @@
             }
         },
         {
-            "id": "galar-stunfisk-1",
+            "id": "stunfisk-galarian-4",
             "pokemon": "stunfisk galarian",
             "presets": [
-                "underwater"
+                "natural"
             ],
             "type": "pokemon",
-            "context": "seafloor",
-            "bucket": "uncommon",
-            "level": "15-40",
-            "weight": 12.0,
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "22-47",
+            "weight": 2.0,
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
                     "#cobblemon:is_swamp"
-                ],
-		"neededNearbyBlocks": [
-			"minecraft:mud"
-]
+                ]
             }
         }
     ]

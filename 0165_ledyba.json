@@ -1,18 +1,23 @@
 {
-    "enabled": "true",
+    "enabled": true,
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
         {
             "id": "ledyba-1",
             "pokemon": "ledyba",
+            "presets": [
+                "natural",
+                "treetop"
+            ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
-            "level": "5-26",
+            "level": "2-27",
             "weight": 10.0,
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
                     "#cobblemon:is_temperate"
                 ],
@@ -22,6 +27,45 @@
             "anticondition": {
                 "biomes": [
                     "#cobblemon:is_freezing"
+                ]
+            }
+        },
+        {
+            "id": "ledyba-2",
+            "pokemon": "ledyba",
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "2-27",
+            "weight": 7.0,
+            "condition": {
+                "biomes": [
+                    "the_bumblezone:floral_meadow"
+                ]
+            },
+            "anticondition": {
+                "structures": [
+                    "#the_bumblezone:sempiternal_sanctums"
+                ]
+            }
+        },
+        {
+            "id": "ledyba-3",
+            "pokemon": "ledyba",
+            "presets": [
+                "natural",
+                "treetop"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "2-27",
+            "weight": 7.0,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#aether:is_aether"
                 ]
             }
         }

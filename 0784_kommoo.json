@@ -1,5 +1,5 @@
 {
-    "enabled": "true",
+    "enabled": true,
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
@@ -7,17 +7,38 @@
             "id": "kommoo-1",
             "pokemon": "kommoo",
             "presets": [
-                "natural"
+                "natural",
+                "wild"
             ],
             "type": "pokemon",
-            "context": "grounded",
-            "bucket": "rare",
-            "level": "45-55",
-            "weight": 0.2,
+            "spawnablePositionType": "grounded",
+            "bucket": "ultra-rare",
+            "level": "45-60",
+            "weight": 0.4,
             "condition": {
                 "biomes": [
                     "#cobblemon:is_jungle"
-                ]
+                ],
+                "minY": 0
+            }
+        },
+        {
+            "id": "kommoo-2",
+            "pokemon": "kommoo",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "rare",
+            "level": "45-60",
+            "weight": 0.25,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_tropical_island"
+                ],
+                "minY": 0
             }
         }
     ]

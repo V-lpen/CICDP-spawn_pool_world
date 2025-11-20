@@ -1,5 +1,5 @@
 {
-    "enabled": "true",
+    "enabled": true,
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
@@ -7,31 +7,38 @@
             "id": "surskit-1",
             "pokemon": "surskit",
             "presets": [
-                "water_surface",
-                "freshwater"
+                "water"
             ],
             "type": "pokemon",
-            "context": "surface",
-            "bucket": "common",
+            "spawnablePositionType": "surface",
+            "bucket": "uncommon",
             "level": "2-27",
-            "weight": 1.8,
+            "weight": 5.04,
             "condition": {
-                "canSeeSky": true,
-                "timeRange": "night",
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_freshwater"
+                ],
                 "isRaining": false
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_freezing"
+                ]
             }
         },
-		{
+        {
             "id": "surskit-2",
             "pokemon": "surskit",
             "presets": [
-                "water_surface"
+                "water"
             ],
             "type": "pokemon",
-            "context": "surface",
-            "bucket": "common",
+            "spawnablePositionType": "surface",
+            "bucket": "uncommon",
             "level": "2-27",
-            "weight": 9.0,
+            "weight": 8.4,
             "condition": {
                 "biomes": [
                     "#the_bumblezone:the_bumblezone"
@@ -39,8 +46,8 @@
             },
             "anticondition": {
                 "structures": [
-					"#the_bumblezone:sempiternal_sanctums"
-				]
+                    "#the_bumblezone:sempiternal_sanctums"
+                ]
             }
         }
     ]

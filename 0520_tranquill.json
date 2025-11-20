@@ -1,22 +1,23 @@
 {
-    "enabled": "true",
+    "enabled": true,
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "tranquill-1",
+            "id": "tranquill-2",
             "pokemon": "tranquill",
             "presets": [
                 "natural",
                 "treetop"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "21-36",
             "weight": 0.9,
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
                     "#cobblemon:is_mountain",
                     "#cobblemon:is_sky"
@@ -25,18 +26,20 @@
             }
         },
         {
-            "id": "tranquill-2",
+            "id": "tranquill-3",
             "pokemon": "tranquill",
             "presets": [
+                "natural",
                 "urban"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "21-36",
             "weight": 0.9,
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
                     "#cobblemon:is_overworld"
                 ],
@@ -46,29 +49,30 @@
                 "biomes": [
                     "#cobblemon:is_arid",
                     "#cobblemon:is_tundra"
-                ],
-                "structures": [
-                    "#minecraft:village"
                 ]
             }
         },
         {
-            "id": "tranquill-3",
+            "id": "tranquill-4",
             "pokemon": "tranquill",
             "presets": [
-				"village"
+                "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "21-36",
             "weight": 0.9,
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
                     "#cobblemon:is_overworld"
                 ],
-                "timeRange": "day"
+                "timeRange": "day",
+                "structures": [
+                    "#minecraft:village"
+                ]
             },
             "anticondition": {
                 "biomes": [

@@ -7,47 +7,28 @@
             "id": "pelipper-1",
             "pokemon": "pelipper",
             "presets": [
-                "natural"
+                "natural",
+                "treetop"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
-            "level": "25-40",
-            "weight": 5.0,
+            "level": "25-44",
+            "weight": 1.0,
             "condition": {
-                "canSeeSky": true,
-                "biomes": [
-                    "#cobblemon:is_coast"
-                ]
-            },
-            "anticondition": {
-                "biomes": [
-                    "#cobblemon:is_spooky"
-                ]
-            }
-        },
-        {
-            "id": "pelipper-2",
-            "pokemon": "pelipper",
-            "presets": [
-                "natural"
-            ],
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "common",
-            "level": "25-40",
-            "weight": 10.0,
-            "condition": {
-                "canSeeSky": true,
-                "isRaining": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
                     "#cobblemon:is_coast",
-                    "#cobblemon:is_plains"
-                ]
+                    "#cobblemon:is_ocean",
+                    "#cobblemon:is_sky",
+                    "#cobblemon:is_tropical_island"
+                ],
+                "timeRange": "day"
             },
             "anticondition": {
                 "biomes": [
-                    "#cobblemon:is_spooky"
+                    "#cobblemon:is_freezing"
                 ]
             }
         }

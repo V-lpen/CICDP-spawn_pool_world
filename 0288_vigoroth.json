@@ -1,5 +1,5 @@
 {
-    "enabled": "true",
+    "enabled": true,
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
@@ -7,18 +7,20 @@
             "id": "vigoroth-1",
             "pokemon": "vigoroth",
             "presets": [
-                "natural"
+                "natural",
+                "treetop",
+                "wild"
             ],
             "type": "pokemon",
-            "context": "grounded",
-            "bucket": "uncommon",
-            "level": "18-40",
-            "weight": 7.0,
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "18-44",
+            "weight": 0.18,
             "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
-                    "#cobblemon:is_forest",
-                    "#cobblemon:is_jungle",
-                    "#cobblemon:is_plains"
+                    "#cobblemon:is_jungle"
                 ]
             }
         }

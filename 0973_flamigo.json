@@ -10,19 +10,72 @@
                 "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
-            "level": "8-36",
-            "weight": 9.0,
-            "condition": {
-                "canSeeSky": true,
-                "biomes": [
-                    "#cobblemon:is_freshwater"
-                ]
+            "level": "25-50",
+            "weight": 6.0,
+            "weightMultiplier": {
+                "multiplier": 0.25,
+                "condition": {
+                    "timeRange": "night"
+                }
             },
-            "anticondition": {
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
-                    "#cobblemon:is_freezing"
+                    "#cobblemon:is_jungle",
+                    "#cobblemon:is_savanna",
+                    "#cobblemon:is_swamp",
+                    "#cobblemon:is_tropical_island"
+                ],
+                "neededNearbyBlocks": [
+                    "#cobblemon:water"
+                ]
+            }
+        },
+        {
+            "id": "flamigo-2",
+            "pokemon": "flamigo",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "surface",
+            "bucket": "uncommon",
+            "level": "25-50",
+            "weight": 6.0,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_jungle",
+                    "#cobblemon:is_savanna",
+                    "#cobblemon:is_swamp",
+                    "#cobblemon:is_tropical_island"
+                ],
+                "timeRange": "day"
+            }
+        },
+        {
+            "id": "flamigo-4",
+            "pokemon": "flamigo",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "uncommon",
+            "level": "25-50",
+            "weight": 6.0,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#aether:is_aether"
+                ],
+                "neededNearbyBlocks": [
+                    "#cobblemon:water"
                 ]
             }
         }

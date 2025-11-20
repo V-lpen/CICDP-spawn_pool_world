@@ -1,22 +1,23 @@
 {
-    "enabled": "true",
+    "enabled": true,
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "unfezant-1",
+            "id": "unfezant-2",
             "pokemon": "unfezant",
             "presets": [
                 "natural",
                 "treetop"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "32-49",
             "weight": 0.1,
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
                     "#cobblemon:is_mountain",
                     "#cobblemon:is_sky"
@@ -25,18 +26,20 @@
             }
         },
         {
-            "id": "unfezant-2",
+            "id": "unfezant-3",
             "pokemon": "unfezant",
             "presets": [
+                "natural",
                 "urban"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "32-49",
             "weight": 0.1,
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
                     "#cobblemon:is_overworld"
                 ],
@@ -46,29 +49,30 @@
                 "biomes": [
                     "#cobblemon:is_arid",
                     "#cobblemon:is_tundra"
-                ],
-                "structures": [
-                    "#minecraft:village"
                 ]
             }
         },
         {
-            "id": "unfezant-3",
+            "id": "unfezant-4",
             "pokemon": "unfezant",
             "presets": [
-				"village"
+                "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "32-49",
             "weight": 0.1,
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
                     "#cobblemon:is_overworld"
                 ],
-                "timeRange": "day"
+                "timeRange": "day",
+                "structures": [
+                    "#minecraft:village"
+                ]
             },
             "anticondition": {
                 "biomes": [

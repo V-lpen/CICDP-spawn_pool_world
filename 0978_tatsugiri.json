@@ -1,5 +1,5 @@
 {
-    "enabled": "true",
+    "enabled": true,
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
@@ -8,10 +8,29 @@
             "pokemon": "tatsugiri",
             "presets": [
                 "natural",
-				"wild"
+                "wild"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
+            "bucket": "rare",
+            "level": "23-48",
+            "weight": 10.0,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_swamp"
+                ]
+            }
+        },
+        {
+            "id": "tatsugiri-2",
+            "pokemon": "tatsugiri",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "submerged",
             "bucket": "rare",
             "level": "23-48",
             "weight": 10.0,
@@ -23,19 +42,59 @@
             }
         },
         {
-            "id": "tatsugiri-2",
+            "id": "tatsugiri-3",
             "pokemon": "tatsugiri",
-            "presets": [
-                "underwater"
-            ],
             "type": "pokemon",
-            "context": "submerged",
+            "spawnablePositionType": "fishing",
             "bucket": "rare",
             "level": "23-48",
             "weight": 10.0,
             "condition": {
                 "canSeeSky": true,
                 "biomes": [
+                    "#cobblemon:is_bamboo",
+                    "#cobblemon:is_forest",
+                    "#cobblemon:is_jungle",
+                    "#cobblemon:is_swamp"
+                ]
+            }
+        },
+        {
+            "id": "tatsugiri-4",
+            "pokemon": "tatsugiri",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "submerged",
+            "bucket": "rare",
+            "level": "23-48",
+            "weight": 10.0,
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_swamp"
+                ]
+            }
+        },
+        {
+            "id": "tatsugiri-5",
+            "pokemon": "tatsugiri",
+            "type": "pokemon",
+            "spawnablePositionType": "fishing",
+            "bucket": "rare",
+            "level": "23-48",
+            "weight": 10.0,
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_bamboo",
+                    "#cobblemon:is_forest",
+                    "#cobblemon:is_jungle",
                     "#cobblemon:is_swamp"
                 ]
             }

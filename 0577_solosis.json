@@ -1,5 +1,5 @@
 {
-    "enabled": "true",
+    "enabled": true,
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
@@ -10,29 +10,32 @@
                 "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
-            "bucket": "rare",
-            "level": "5-35",
-            "weight": 9.0,
+            "spawnablePositionType": "grounded",
+            "bucket": "uncommon",
+            "level": "4-29",
+            "weight": 1.68,
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
-                    "#cobblemon:is_magical"
-                ],
-                "timeRange": "day"
+                    "#cobblemon:is_overworld"
+                ]
             }
         },
-				        {
+        {
             "id": "solosis-2",
             "pokemon": "solosis",
+            "presets": [
+                "natural"
+            ],
             "type": "pokemon",
-            "context": "grounded",
-            "bucket": "common",
-            "level": "35-58",
-            "weight": 6.0,
+            "spawnablePositionType": "grounded",
+            "bucket": "uncommon",
+            "level": "4-29",
+            "weight": 1.68,
             "condition": {
                 "biomes": [
-                    "#minecraft:is_end"
+                    "#cobblemon:is_end"
                 ]
             }
         }

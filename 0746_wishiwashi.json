@@ -6,14 +6,71 @@
         {
             "id": "wishiwashi-1",
             "pokemon": "wishiwashi",
+            "presets": [
+                "water"
+            ],
             "type": "pokemon",
-            "context": "submerged",
-            "bucket": "rare",
-            "level": "5-30",
-            "weight": 9,
+            "spawnablePositionType": "submerged",
+            "bucket": "common",
+            "level": "1-18",
+            "weight": 10.0,
             "condition": {
                 "canSeeSky": true,
                 "biomes": [
+                    "#cobblemon:is_ocean"
+                ]
+            }
+        },
+        {
+            "id": "wishiwashi-2",
+            "pokemon": "wishiwashi",
+            "type": "pokemon",
+            "spawnablePositionType": "fishing",
+            "bucket": "common",
+            "level": "1-18",
+            "weight": 10.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_coast",
+                    "#cobblemon:is_ocean"
+                ]
+            }
+        },
+        {
+            "id": "wishiwashi-3",
+            "pokemon": "wishiwashi",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "submerged",
+            "bucket": "common",
+            "level": "1-18",
+            "weight": 10.0,
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_ocean"
+                ]
+            }
+        },
+        {
+            "id": "wishiwashi-4",
+            "pokemon": "wishiwashi",
+            "type": "pokemon",
+            "spawnablePositionType": "fishing",
+            "bucket": "common",
+            "level": "1-18",
+            "weight": 10.0,
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_coast",
                     "#cobblemon:is_ocean"
                 ]
             }

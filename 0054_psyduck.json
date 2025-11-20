@@ -7,53 +7,120 @@
             "id": "psyduck-1",
             "pokemon": "psyduck",
             "presets": [
-                "natural",
-				"freshwater"
+                "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
-            "level": "12-32",
+            "level": "7-32",
             "weight": 5.4,
             "condition": {
-                "canSeeSky": true
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_swamp"
+                ]
             }
         },
         {
             "id": "psyduck-2",
             "pokemon": "psyduck",
             "presets": [
-                "freshwater",
-                "underwater"
+                "natural"
             ],
             "type": "pokemon",
-            "context": "submerged",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
-            "level": "12-32",
+            "level": "7-32",
             "weight": 5.4,
             "condition": {
-                "canSeeSky": true
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_forest",
+                    "#cobblemon:is_freshwater",
+                    "#cobblemon:is_grassland",
+                    "#cobblemon:is_magical",
+                    "#cobblemon:is_tropical_island"
+                ],
+                "neededNearbyBlocks": [
+                    "#cobblemon:water"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_freezing",
+                    "#cobblemon:is_swamp"
+                ]
             }
         },
         {
             "id": "psyduck-3",
             "pokemon": "psyduck",
-            "type": "pokemon",
             "presets": [
-                "water_surface"
+                "water"
             ],
+            "type": "pokemon",
+            "spawnablePositionType": "submerged",
             "bucket": "common",
-            "level": "12-32",
-            "weight": 50,
+            "level": "7-32",
+            "weight": 5.4,
             "condition": {
                 "canSeeSky": true,
-                "timeRange": "day",
-                "neededNearbyBlocks": [
-                    "minecraft:grass",
-                    "minecraft:tall_grass"
-                ],
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
-                    "#cobblemon:is_temperate"
+                    "#cobblemon:is_forest",
+                    "#cobblemon:is_freshwater",
+                    "#cobblemon:is_grassland",
+                    "#cobblemon:is_magical",
+                    "#cobblemon:is_tropical_island"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_freezing"
+                ]
+            }
+        },
+        {
+            "id": "psyduck-4",
+            "pokemon": "psyduck",
+            "type": "pokemon",
+            "spawnablePositionType": "fishing",
+            "bucket": "common",
+            "level": "7-32",
+            "weight": 1.8,
+            "weightMultipliers": [
+                {
+                    "multiplier": 3.0,
+                    "condition": {
+                        "minLureLevel": 2,
+                        "maxLureLevel": 2
+                    }
+                },
+                {
+                    "multiplier": 5.0,
+                    "condition": {
+                        "minLureLevel": 3
+                    }
+                }
+            ],
+            "condition": {
+                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_forest",
+                    "#cobblemon:is_freshwater",
+                    "#cobblemon:is_grassland",
+                    "#cobblemon:is_magical",
+                    "#cobblemon:is_tropical_island"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_freezing"
                 ]
             }
         }

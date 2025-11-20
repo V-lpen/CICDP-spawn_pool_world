@@ -6,17 +6,167 @@
         {
             "id": "wattrel-1",
             "pokemon": "wattrel",
+            "presets": [
+                "natural"
+            ],
             "type": "pokemon",
-            "context": "grounded",
-            "bucket": "uncommon",
-            "level": "20-54",
-            "weight": 2.8,
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "3-28",
+            "weight": 1.8,
+            "weightMultiplier": {
+                "multiplier": 5.0,
+                "condition": {
+                    "isThundering": true
+                }
+            },
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
-		            "#cobblemon:is_mountain"
+                    "#cobblemon:is_island",
+                    "#cobblemon:is_ocean",
+                    "#cobblemon:is_sky"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_freezing"
+                ]
+            }
+        },
+        {
+            "id": "wattrel-2",
+            "pokemon": "wattrel",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "3-28",
+            "weight": 1.8,
+            "weightMultiplier": {
+                "multiplier": 5.0,
+                "condition": {
+                    "isThundering": true
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_coast"
                 ],
-		        "timeRange": "day"
+                "timeRange": "night"
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_beach",
+                    "#cobblemon:is_freezing"
+                ]
+            }
+        },
+        {
+            "id": "wattrel-3",
+            "pokemon": "wattrel",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "surface",
+            "bucket": "uncommon",
+            "level": "3-28",
+            "weight": 9.0,
+            "weightMultiplier": {
+                "multiplier": 5.0,
+                "condition": {
+                    "isThundering": true
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_coast",
+                    "#cobblemon:is_island",
+                    "#cobblemon:is_ocean",
+                    "#cobblemon:is_sky"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_beach",
+                    "#cobblemon:is_freezing"
+                ]
+            }
+        },
+        {
+            "id": "wattrel-5",
+            "pokemon": "wattrel",
+            "type": "pokemon",
+            "spawnablePositionType": "fishing",
+            "bucket": "uncommon",
+            "level": "3-28",
+            "weight": 5.04,
+            "weightMultiplier": {
+                "multiplier": 5.0,
+                "condition": {
+                    "isThundering": true
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_ocean",
+                    "#cobblemon:is_sky"
+                ],
+                "timeRange": "day"
+            },
+            "anticondition": {
+                "minLureLevel": 1,
+                "biomes": [
+                    "#cobblemon:is_freezing"
+                ]
+            }
+        },
+        {
+            "id": "wattrel-6",
+            "pokemon": "wattrel",
+            "type": "pokemon",
+            "spawnablePositionType": "fishing",
+            "bucket": "common",
+            "level": "3-28",
+            "weight": 1.8,
+            "weightMultipliers": [
+                {
+                    "multiplier": 5.0,
+                    "condition": {
+                        "isThundering": true
+                    }
+                },
+                {
+                    "multiplier": 3.0,
+                    "condition": {
+                        "minLureLevel": 3
+                    }
+                }
+            ],
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_ocean",
+                    "#cobblemon:is_sky"
+                ],
+                "timeRange": "day",
+                "minLureLevel": 1
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_freezing"
+                ]
             }
         }
     ]

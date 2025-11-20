@@ -8,70 +8,26 @@
             "pokemon": "pachirisu",
             "presets": [
                 "natural",
-				"treetop"
+                "treetop"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "uncommon",
-            "level": "13-40",
+            "level": "16-41",
             "weight": 10.0,
-            "condition": {
-                "canSeeSky": true,
-                "biomes": [
-                    "#cobblemon:is_forest"
-                ]
+            "weightMultiplier": {
+                "multiplier": 5.0,
+                "condition": {
+                    "isThundering": true
+                }
             },
-            "anticondition": {
-                "biomes": [
-                    "#cobblemon:is_spooky"
-                ]
-            }
-        },
-        {
-            "id": "pachirisu-2",
-            "pokemon": "pachirisu",
-            "presets": [
-                "near_crops"
-            ],
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "common",
-            "level": "13-40",
-            "weight": 50.0,
             "condition": {
-                "canSeeSky": true,
-                "timeRange": "day",
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
-                    "#cobblemon:is_forest"
-                ]
-            },
-            "anticondition": {
-                "biomes": [
-                    "#cobblemon:is_spooky"
-                ]
-            }
-        },
-        {
-            "id": "pachirisu-3",
-            "pokemon": "pachirisu",
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "common",
-            "level": "13-40",
-            "weight": 500.0,
-            "condition": {
-                "canSeeSky": true,
-                "timeRange": "day",
-                "biomes": [
-                    "#cobblemon:is_forest"
-                ],
-                "neededBaseBlocks": [
-                    "minecraft:grass_block"
-                ],
-                "neededNearbyBlocks": [
-                    "minecraft:pumpkin",
-                    "minecraft:carved_pumpkin",
-                    "minecraft:melon"
+                    "#cobblemon:is_forest",
+                    "aether:skyroot_forest",
+                    "aether:skyroot_woodland"
                 ]
             },
             "anticondition": {

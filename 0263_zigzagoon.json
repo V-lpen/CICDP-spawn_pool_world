@@ -10,126 +10,67 @@
                 "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
-            "level": "4-25",
-            "weight": 5.0,
-            "condition": {
-                "canSeeSky": true,
-                "biomes": [
-                    "#cobblemon:is_grassland",
-                    "#cobblemon:is_forest"
-                ],
-                "timeRange": "night"
+            "level": "1-24",
+            "weight": 9.0,
+            "weightMultiplier": {
+                "multiplier": 1.5,
+                "condition": {
+                    "timeRange": "night"
+                }
             },
-            "anticondition": {
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
-                    "#cobblemon:is_spooky"
+                    "#cobblemon:is_temperate"
                 ]
             }
         },
-		{
+        {
             "id": "zigzagoon-2",
             "pokemon": "zigzagoon",
             "presets": [
                 "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
-            "level": "4-25",
-            "weight": 1.0,
+            "level": "1-24",
+            "weight": 9.0,
             "condition": {
-                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
-                    "#cobblemon:is_overworld"
-                ],
-                "neededNearbyBlocks": [
-                    "minecraft:crafting_table",
-                    "minecraft:chest",
-                    "minecraft:furnace"
-                ]
-            }
-        },
-		{
-            "id": "zigzagoon-3",
-            "pokemon": "zigzagoon",
-            "presets": [
-                "foliage",
-                "urban",
-                "river"
-            ],
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "common",
-            "level": "4-25",
-            "weight": 2.0,
-            "condition": {
-                "canSeeSky": true,
-                "biomes": [
-                    "#cobblemon:is_overworld"
+                    "aether:skyroot_forest",
+                    "aether:skyroot_woodland"
                 ]
             }
         },
         {
-            "id": "zigzagoon-galarian-1",
+            "id": "zigzagoon-galarian-3",
             "pokemon": "zigzagoon galarian",
             "presets": [
-                "natural"
-            ],
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "common",
-            "level": "4-25",
-            "weight": 4.0,
-            "condition": {
-                "canSeeSky": true,
-                "biomes": [
-                    "#cobblemon:is_grassland",
-                    "#cobblemon:is_forest"
-                ]
-            }
-        },
-		{
-            "id": "zigzagoon-galarian-2",
-            "pokemon": "zigzagoon galarian",
-            "presets": [
-                "urban",
                 "natural",
-                "river"
+                "wild"
             ],
             "type": "pokemon",
-            "context": "grounded",
-            "bucket": "uncommon",
-            "level": "4-25",
-            "weight": 5.0,
-            "condition": {
-                "canSeeSky": true,
-                "biomes": [
-                    "#cobblemon:is_overworld"
-                ]
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "1-24",
+            "weight": 9.0,
+            "weightMultiplier": {
+                "multiplier": 1.5,
+                "condition": {
+                    "timeRange": "night"
+                }
             },
-            "anticondition": {
-                "biomes": [
-                    "#minecraft:is_ocean"
-                ]
-            }
-        },
-		{
-            "id": "zigzagoon-cold-1",
-            "pokemon": "zigzagoon",
-            "presets": [
-                "natural"
-            ],
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "uncommon",
-            "level": "4-25",
-            "weight": 5.94,
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
-                    "#cobblemon:is_snowy_forest"
+                    "#cobblemon:is_taiga"
                 ]
             }
         }

@@ -1,5 +1,5 @@
 {
-    "enabled": "true",
+    "enabled": true,
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
@@ -11,10 +11,10 @@
                 "urban"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "36-51",
-            "weight": 0.02,
+            "weight": 0.03,
             "weightMultiplier": {
                 "multiplier": 0.25,
                 "condition": {
@@ -22,17 +22,16 @@
                 }
             },
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
                     "#cobblemon:is_overworld"
                 ]
             },
             "anticondition": {
                 "biomes": [
-                    "#cobblemon:is_sandy"
-                ],
-                "structures": [
-                    "#minecraft:village"
+                    "#cobblemon:is_sandy",
+                    "#cobblemon:is_tundra"
                 ]
             }
         },
@@ -40,14 +39,13 @@
             "id": "conkeldurr-2",
             "pokemon": "conkeldurr",
             "presets": [
-                "natural",
-				"village"
+                "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "36-51",
-            "weight": 0.02,
+            "weight": 0.03,
             "weightMultiplier": {
                 "multiplier": 0.25,
                 "condition": {
@@ -55,14 +53,19 @@
                 }
             },
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
                     "#cobblemon:is_overworld"
+                ],
+                "structures": [
+                    "#minecraft:village"
                 ]
             },
             "anticondition": {
                 "biomes": [
-                    "#cobblemon:is_sandy"
+                    "#cobblemon:is_sandy",
+                    "#cobblemon:is_tundra"
                 ]
             }
         }

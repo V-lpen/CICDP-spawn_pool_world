@@ -8,38 +8,41 @@
             "pokemon": "pinsir",
             "presets": [
                 "natural",
-                "treetop"
+                "wild"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "rare",
-            "level": "20-50",
+            "level": "25-50",
             "weight": 10.0,
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
-                    "#cobblemon:is_jungle"
+                    "#cobblemon:is_jungle",
+                    "#cobblemon:is_tropical_island"
                 ],
-                "timeRange": "day"
+                "timeRange": "night"
             }
         },
         {
             "id": "pinsir-2",
             "pokemon": "pinsir",
             "presets": [
-                "honey_tree"
+                "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
-            "bucket": "common",
-            "level": "20-50",
-            "weight": 50.0,
+            "spawnablePositionType": "grounded",
+            "bucket": "rare",
+            "level": "25-50",
+            "weight": 10.0,
             "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
-                    "#cobblemon:is_temperate",
-                    "#cobblemon:is_floral"
-                ],
-                "timeRange": "day"
+                    "aether:skyroot_forest",
+                    "aether:skyroot_woodland"
+                ]
             }
         }
     ]

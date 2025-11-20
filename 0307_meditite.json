@@ -10,35 +10,47 @@
                 "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
-            "bucket": "uncommon",
-            "level": "5-40",
-            "weight": 5,
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "3-28",
+            "weight": 1.8,
+            "weightMultiplier": {
+                "multiplier": 0.25,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
-                    "#cobblemon:is_forest",
-                    "#cobblemon:is_hills",
-					"#cobblemon:is_snowy"
+                    "#cobblemon:is_peak"
                 ]
             }
         },
         {
             "id": "meditite-2",
             "pokemon": "meditite",
+            "presets": [
+                "natural",
+                "jungle_pyramid"
+            ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
-            "level": "10-40",
-            "weight": 9.0,
+            "level": "3-28",
+            "weight": 54.0,
+            "weightMultiplier": {
+                "multiplier": 0.25,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
             "condition": {
-                "canSeeSky": true,
                 "biomes": [
                     "#cobblemon:is_overworld"
                 ],
-                "neededNearbyBlocks": [
-                    "#minecraft:sweet_berry_bush"
-                ]
+                "minY": 48
             }
         }
     ]

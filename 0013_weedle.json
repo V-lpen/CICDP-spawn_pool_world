@@ -8,30 +8,45 @@
             "pokemon": "weedle",
             "presets": [
                 "natural",
-                "treetop",
-                "foliage"
+                "treetop"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
-            "level": "2-19",
-            "weight": 30.0,
+            "level": "1-20",
+            "weight": 7.0,
             "condition": {
-                "canSeeSky": false,
-                "minY": 61,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
                     "#cobblemon:is_forest",
-                    "#cobblemon:is_jungle"
-                ],
-                "neededNearbyBlocks": [
-                    "minecraft:oak_leaves",
-                    "minecraft:birch_leaves",
-                    "minecraft:jungle_leaves"
+                    "#cobblemon:is_jungle",
+                    "aether:skyroot_forest",
+                    "aether:skyroot_woodland"
                 ]
             },
             "anticondition": {
                 "biomes": [
                     "#cobblemon:is_freezing"
+                ]
+            }
+        },
+        {
+            "id": "weedle-2",
+            "pokemon": "weedle",
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "1-20",
+            "weight": 3.0,
+            "condition": {
+                "biomes": [
+                    "#the_bumblezone:the_bumblezone"
+                ]
+            },
+            "anticondition": {
+                "structures": [
+                    "#the_bumblezone:sempiternal_sanctums"
                 ]
             }
         }

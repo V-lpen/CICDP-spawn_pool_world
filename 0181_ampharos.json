@@ -1,40 +1,39 @@
 {
-    "enabled": "true",
+    "enabled": true,
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
         {
             "id": "ampharos-1",
             "pokemon": "ampharos",
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "common",
-            "level": "30-51",
-            "weight": 0.1,
-            "condition": {
-                "canSeeSky": true,
-                "biomes": [
-                    "#cobblemon:is_highlands",
-                    "#cobblemon:is_plains"
-                ],
-                "timeRange": "day"
-            }
-        },
-								{
-            "id": "ampharos-cold-1",
-            "pokemon": "ampharos",
             "presets": [
                 "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "30-51",
             "weight": 0.1,
+            "weightMultipliers": [
+                {
+                    "multiplier": 0.25,
+                    "condition": {
+                        "timeRange": "night"
+                    }
+                },
+                {
+                    "multiplier": 5.0,
+                    "condition": {
+                        "isThundering": true
+                    }
+                }
+            ],
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
-                    "#cobblemon:is_snowy_forest"
+                    "#cobblemon:is_highlands",
+                    "#cobblemon:is_plains"
                 ]
             }
         }

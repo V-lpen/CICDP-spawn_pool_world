@@ -1,5 +1,5 @@
 {
-    "enabled": "true",
+    "enabled": true,
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
@@ -7,17 +7,25 @@
             "id": "flittle-1",
             "pokemon": "flittle",
             "presets": [
-                "natural"
+                "natural",
+                "wild"
             ],
             "type": "pokemon",
-            "context": "grounded",
-            "bucket": "common",
-            "level": "5-25",
-            "weight": 4.0,
+            "spawnablePositionType": "grounded",
+            "bucket": "uncommon",
+            "level": "1-26",
+            "weight": 5.04,
+            "weightMultiplier": {
+                "multiplier": 0.25,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
-                    "#cobblemon:is_mountain"
+                    "#cobblemon:is_arid"
                 ]
             }
         }

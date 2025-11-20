@@ -8,53 +8,68 @@
             "pokemon": "caterpie",
             "presets": [
                 "natural",
-                "treetop",
-                "foliage"
+                "foliage",
+                "treetop"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
-            "level": "2-19",
-            "weight": 30.0,
+            "level": "1-20",
+            "weight": 7.0,
             "condition": {
-                "canSeeSky": false,
-                "minY": 61,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
-                    "#cobblemon:is_temperate"
-                ],
-                "neededNearbyBlocks": [
-                    "minecraft:oak_leaves",
-                    "minecraft:birch_leaves"
+                    "#cobblemon:is_forest",
+                    "#cobblemon:is_plains",
+                    "aether:skyroot_forest",
+                    "aether:skyroot_woodland"
                 ]
             },
             "anticondition": {
                 "biomes": [
+                    "#cobblemon:is_freezing",
                     "#cobblemon:is_spooky"
                 ]
             }
         },
-		{
-            "id": "caterpie-valencian-1",
+        {
+            "id": "caterpie-valencian-3",
             "pokemon": "caterpie valencian",
             "presets": [
                 "natural",
-                "treetop",
-                "foliage"
+                "treetop"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
-            "level": "2-19",
-            "weight": 30.0,
+            "level": "1-20",
+            "weight": 7.0,
             "condition": {
-                "canSeeSky": false,
-                "minY": 61,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
-                    "#cobblemon:is_jungle"
-                ],
-                "neededNearbyBlocks": [
-                    "minecraft:jungle_leaves",
-                    "minecraft:oak_leaves"
+                    "#cobblemon:is_jungle",
+                    "#cobblemon:is_tropical_island"
+                ]
+            }
+        },
+        {
+            "id": "caterpie-valencian-4",
+            "pokemon": "caterpie valencian",
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "1-20",
+            "weight": 4.5,
+            "condition": {
+                "biomes": [
+                    "the_bumblezone:floral_meadow"
+                ]
+            },
+            "anticondition": {
+                "structures": [
+                    "#the_bumblezone:sempiternal_sanctums"
                 ]
             }
         }

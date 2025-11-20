@@ -11,33 +11,13 @@
                 "treetop"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
-            "level": "12-30",
+            "level": "6-31",
             "weight": 5.4,
             "condition": {
-                "canSeeSky": true,
-                "biomes": [
-                    "#cobblemon:is_hills",
-                    "#cobblemon:is_jungle"
-                ]
-            }
-        },
-        {
-            "id": "mankey-2",
-            "pokemon": "mankey",
-            "presets": [
-                "natural"
-            ],
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "common",
-            "level": "5-25",
-            "weight": 500.0,
-            "condition": {
-                "canSeeSky": true,
-                "isRaining": false,
-                "timeRange": "noon",
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
                     "#cobblemon:is_hills",
                     "#cobblemon:is_jungle"

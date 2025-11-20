@@ -1,5 +1,5 @@
 {
-    "enabled": "true",
+    "enabled": true,
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
@@ -7,17 +7,17 @@
             "id": "gothita-1",
             "pokemon": "gothita",
             "presets": [
-                "natural"
+                "mansion"
             ],
             "type": "pokemon",
-            "context": "grounded",
-            "bucket": "uncommon",
-            "level": "5-35",
-            "weight": 5.0,
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "4-29",
+            "weight": 5.4,
             "condition": {
-                "canSeeSky": true,
+                "canSeeSky": false,
                 "biomes": [
-                    "#cobblemon:is_spooky"
+                    "#cobblemon:is_overworld"
                 ]
             }
         },
@@ -25,31 +25,16 @@
             "id": "gothita-2",
             "pokemon": "gothita",
             "presets": [
-                "mansion"
+                "end_city"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "uncommon",
-            "level": "5-35",
-            "weight": 8,
-            "condition": {
-                "canSeeSky": false,
-                "biomes": [
-                    "minecraft:dark_forest"
-                ]
-            }
-        },
-		        {
-            "id": "gothita-3",
-            "pokemon": "gothita",
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "common",
-            "level": "35-68",
-            "weight": 5.0,
+            "level": "4-29",
+            "weight": 8.4,
             "condition": {
                 "biomes": [
-                    "#minecraft:is_end"
+                    "#cobblemon:is_end"
                 ]
             }
         }

@@ -10,30 +10,32 @@
                 "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "ultra-rare",
             "level": "36-53",
-            "weight": 0.1,
+            "weight": 0.4,
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
-                    "#cobblemon:is_volcanic"
-                ],
-                "isRaining": false
+                    "#cobblemon:is_badlands"
+                ]
             }
         },
         {
             "id": "skeledirge-2",
             "pokemon": "skeledirge",
+            "presets": [
+                "natural"
+            ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "ultra-rare",
             "level": "36-53",
-            "weight": 0.1,
+            "weight": 0.4,
             "condition": {
                 "biomes": [
-                    "minecraft:basalt_deltas",
-					"incendium:volcanic_deltas"
+                    "#cobblemon:nether/is_wasteland"
                 ]
             }
         }

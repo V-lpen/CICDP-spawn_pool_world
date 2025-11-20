@@ -6,18 +6,20 @@
         {
             "id": "silicobra-1",
             "pokemon": "silicobra",
+            "presets": [
+                "natural",
+                "wild"
+            ],
             "type": "pokemon",
-            "context": "grounded",
-            "bucket": "uncommon",
-            "level": "15-35",
-            "weight": 4,
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "7-32",
+            "weight": 9.0,
             "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
                     "#cobblemon:is_desert"
-                ],
-				"neededNearbyBlocks": [
-                    "minecraft:sand",
-                    "minecraft:red_sand"
                 ]
             }
         }

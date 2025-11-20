@@ -10,39 +10,41 @@
                 "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
-            "bucket": "uncommon",
-            "level": "10-32",
-            "weight": 1.98,
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "8-33",
+            "weight": 1.9,
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
-                    "#cobblemon:is_jungle"
+                    "#cobblemon:is_jungle",
+                    "#cobblemon:is_savanna"
                 ]
             }
         },
         {
-            "id": "exeggcute-2",
-            "pokemon": "exeggcute",
+            "id": "exeggcute-alola-2",
+            "pokemon": "exeggcute region_bias=alola",
+            "presets": [
+                "natural"
+            ],
             "type": "pokemon",
-            "context": "grounded",
-            "bucket": "common",
-            "level": "10-32",
-            "weight": 50,
+            "spawnablePositionType": "grounded",
+            "bucket": "uncommon",
+            "level": "8-33",
+            "weight": 9.2,
             "condition": {
-                "canSeeSky": true,
-                "minY": 63,
-                "timeRange": "day",
-                "neededNearbyBlocks": [
-                    "minecraft:sand"
-                ],
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
-                    "#cobblemon:is_jungle"
+                    "#cobblemon:is_beach",
+                    "#cobblemon:is_tropical_island"
                 ]
             },
             "anticondition": {
-                "neededNearbyBlocks": [
-                    "minecraft:water"
+                "biomes": [
+                    "#cobblemon:is_freezing"
                 ]
             }
         }

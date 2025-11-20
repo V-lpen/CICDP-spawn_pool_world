@@ -7,22 +7,26 @@
             "id": "scyther-1",
             "pokemon": "scyther",
             "presets": [
-                "natural"
+                "natural",
+                "wild"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "rare",
-            "level": "20-50",
-            "weight": 1.98,
+            "level": "25-50",
+            "weight": 1.75,
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
-                    "#cobblemon:is_forest"
+                    "#cobblemon:is_forest",
+                    "#cobblemon:is_hills"
                 ],
                 "timeRange": "day"
             },
             "anticondition": {
                 "biomes": [
+                    "#cobblemon:is_freezing",
                     "#cobblemon:is_spooky"
                 ]
             }
@@ -31,15 +35,17 @@
             "id": "scyther-2",
             "pokemon": "scyther",
             "presets": [
-                "natural"
+                "natural",
+                "wild"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "uncommon",
-            "level": "20-50",
-            "weight": 1.98,
+            "level": "25-50",
+            "weight": 1.84,
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
                     "#cobblemon:is_jungle"
                 ],
@@ -53,28 +59,16 @@
                 "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
-            "bucket": "common",
-            "level": "20-50",
-            "weight": 30,
+            "spawnablePositionType": "grounded",
+            "bucket": "rare",
+            "level": "25-50",
+            "weight": 1.75,
             "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
-                    "#cobblemon:is_forest",
-                    "#cobblemon:is_jungle"
-                ],
-                "timeRange": "day",
-                "isRaining": false,
-                "minY": 63,
-                "neededNearbyBlocks": [
-                    "minecraft:tall_grass"
-                ]
-            },
-            "anticondition": {
-                "biomes": [
-                    "#cobblemon:is_spooky"
-                ],
-                "neededNearbyBlocks": [
-                    "minecraft:grass"
+                    "aether:skyroot_forest",
+                    "aether:skyroot_woodland"
                 ]
             }
         }

@@ -1,5 +1,5 @@
 {
-    "enabled": "true",
+    "enabled": true,
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
@@ -10,12 +10,19 @@
                 "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
-            "level": "8-32",
+            "level": "7-32",
             "weight": 5.4,
+            "weightMultiplier": {
+                "multiplier": 5.0,
+                "condition": {
+                    "isThundering": true
+                }
+            },
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
                     "#cobblemon:is_badlands",
                     "#cobblemon:is_jungle",
@@ -28,15 +35,16 @@
             "id": "joltik-2",
             "pokemon": "joltik",
             "presets": [
-                "derelict"
+                "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
-            "level": "8-32",
+            "level": "7-32",
             "weight": 5.4,
             "condition": {
-                "canSeeSky": false,
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
                 "biomes": [
                     "#cobblemon:is_overworld"
                 ]
@@ -51,22 +59,45 @@
             "id": "joltik-3",
             "pokemon": "joltik",
             "presets": [
-                "spiderwebs"
+                "webs",
+                "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
-            "level": "5-32",
-            "weight": 500,
+            "level": "7-32",
+            "weight": 9.0,
             "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7
+            }
+        },
+        {
+            "id": "joltik-4",
+            "pokemon": "joltik",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "7-32",
+            "weight": 1.8,
+            "weightMultiplier": {
+                "multiplier": 5.0,
+                "condition": {
+                    "isThundering": true
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
                     "#cobblemon:is_overworld"
-                ]
-            },
-            "anticondition": {
+                ],
+                "timeRange": "night",
                 "neededNearbyBlocks": [
-                    "minecraft:water",
-                    "minecraft:lava"
+                    "minecraft:lightning_rod"
                 ]
             }
         }

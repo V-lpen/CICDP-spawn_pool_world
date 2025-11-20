@@ -1,5 +1,5 @@
 {
-    "enabled": "true",
+    "enabled": true,
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
@@ -7,17 +7,47 @@
             "id": "nacli-1",
             "pokemon": "nacli",
             "presets": [
-                "natural"
+                "natural",
+                "wild"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
-            "level": "8-24",
-            "weight": 6.0,
+            "level": "3-28",
+            "weight": 5.4,
             "condition": {
-                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
-                    "#cobblemon:is_overworld"
+                    "#cobblemon:is_badlands"
+                ]
+            }
+        },
+        {
+            "id": "nacli-2",
+            "pokemon": "nacli",
+            "presets": [
+                "salt",
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "3-28",
+            "weight": 9.0
+        },
+        {
+            "id": "nacli-3",
+            "pokemon": "nacli",
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "3-28",
+            "weight": 9.0,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:nether/is_quartz"
                 ]
             }
         }

@@ -1,5 +1,5 @@
 {
-    "enabled": "true",
+    "enabled": true,
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
@@ -7,19 +7,27 @@
             "id": "skorupi-1",
             "pokemon": "skorupi",
             "presets": [
-                "natural"
+                "natural",
+                "wild"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
-            "level": "12-39",
-            "weight": 6.0,
+            "level": "8-33",
+            "weight": 1.8,
+            "weightMultiplier": {
+                "multiplier": 1.5,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
+                    "#cobblemon:is_badlands",
                     "#cobblemon:is_desert"
-                ],
-                "timeRange": "night"
+                ]
             }
         }
     ]

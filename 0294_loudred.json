@@ -1,5 +1,5 @@
 {
-    "enabled": "true",
+    "enabled": true,
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
@@ -7,15 +7,16 @@
             "id": "loudred-1",
             "pokemon": "loudred",
             "presets": [
-                "derelict"
+                "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "uncommon",
             "level": "20-39",
-            "weight": 0.9,
+            "weight": 1.44,
             "condition": {
-                "canSeeSky": false,
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
                 "biomes": [
                     "#cobblemon:is_deep_dark"
                 ]
@@ -28,37 +29,21 @@
                 "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
-            "bucket": "uncommon",
-            "level": "20-40",
-            "weight": 9.0,
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "20-39",
+            "weight": 0.18,
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
                 "biomes": [
-                    "#cobblemon:is_mountain",
-                    "#cobblemon:is_temperate"
-                ]
-            }
-        },
-        {
-            "id": "loudred-3",
-            "pokemon": "loudred",
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "uncommon",
-            "level": "20-35",
-            "weight": 50.0,
-            "condition": {
-                "canSeeSky": true,
+                    "#cobblemon:is_overworld"
+                ],
+                "maxY": 0
+            },
+            "anticondition": {
                 "biomes": [
-                    "#cobblemon:is_mountain",
-                    "#cobblemon:is_temperate"
-                ],
-                "neededBaseBlocks": [
-                    "minecraft:coarse_dirt"
-                ],
-                "neededNearbyBlocks": [
-                    "minecraft:tall_grass"
+                    "#cobblemon:is_deep_dark"
                 ]
             }
         }

@@ -1,5 +1,5 @@
 {
-    "enabled": "true",
+    "enabled": true,
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
@@ -10,46 +10,18 @@
                 "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
-            "level": "2-19",
+            "level": "1-19",
             "weight": 9.0,
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
                     "#cobblemon:is_forest",
                     "#cobblemon:is_swamp"
                 ],
                 "timeRange": "night"
-            },
-            "anticondition": {
-                "biomes": [
-                    "#cobblemon:is_freezing"
-                ]
-            }
-        },
-        {
-            "id": "kricketot-2",
-            "pokemon": "kricketot",
-            "presets": [
-                "natural"
-            ],
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "common",
-            "level": "5-20",
-            "weight": 50,
-            "condition": {
-                "canSeeSky": true,
-                "biomes": [
-                    "#cobblemon:is_temperate",
-                    "#cobblemon:is_swamp",
-                    "#cobblemon:is_arid"
-                ],
-                "timeRange": "twilight",
-                "neededNearbyBlocks": [
-                    "minecraft:tall_grass"
-                ]
             },
             "anticondition": {
                 "biomes": [

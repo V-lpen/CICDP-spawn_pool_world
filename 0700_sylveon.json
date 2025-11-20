@@ -10,20 +10,83 @@
                 "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "ultra-rare",
-            "level": "15-52",
-            "weight": 1.0,
+            "level": "28-53",
+            "weight": 1.2,
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
                     "#cobblemon:is_floral",
-                    "#cobblemon:is_magical"
+                    "#cobblemon:is_magical",
+                    "aether:skyroot_grove",
+                    "aether:skyroot_meadow"
                 ]
             },
             "anticondition": {
                 "biomes": [
                     "#cobblemon:is_spooky"
+                ]
+            }
+        },
+        {
+            "id": "sylveon-2",
+            "pokemon": "sylveon",
+            "presets": [
+                "natural",
+                "urban"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "uncommon",
+            "level": "28-53",
+            "weight": 0.025,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ]
+            }
+        },
+        {
+            "id": "sylveon-3",
+            "pokemon": "sylveon",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "uncommon",
+            "level": "28-53",
+            "weight": 0.025,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "structures": [
+                    "#minecraft:village"
+                ]
+            }
+        },
+        {
+            "id": "sylveon-4",
+            "pokemon": "sylveon",
+            "presets": [
+                "mansion"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "uncommon",
+            "level": "28-53",
+            "weight": 0.125,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "#cobblemon:is_overworld"
                 ]
             }
         }

@@ -6,14 +6,26 @@
         {
             "id": "smoliv-1",
             "pokemon": "smoliv",
-            "presets": [],
+            "presets": [
+                "natural"
+            ],
             "type": "pokemon",
-            "context": "grounded",
-            "bucket": "common",
-            "level": "5-15",
-            "weight": 5,
+            "spawnablePositionType": "grounded",
+            "bucket": "uncommon",
+            "level": "1-26",
+            "weight": 8.4,
+            "weightMultiplier": {
+                "multiplier": 0.25,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
             "condition": {
-                "biomes": ["#cobblemon:is_floral"]
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_savanna"
+                ]
             }
         }
     ]

@@ -1,23 +1,36 @@
 {
-    "enabled": "true",
+    "enabled": true,
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "sirfetchd",
+            "id": "sirfetchd-1",
             "pokemon": "sirfetchd",
             "presets": [
-                "freshwater"
+                "natural",
+                "wild"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "rare",
-            "level": "35-50",
-            "weight": 0.8,
+            "level": "33-51",
+            "weight": 1.25,
+            "weightMultiplier": {
+                "multiplier": 0.25,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
-                    "#cobblemon:is_freshwater"
+                    "#cobblemon:is_forest"
+                ]
+            },
+            "anticondition": {
+                "neededNearbyBlocks": [
+                    "#cobblemon:water"
                 ]
             }
         }

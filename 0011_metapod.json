@@ -8,53 +8,68 @@
             "pokemon": "metapod",
             "presets": [
                 "natural",
-                "treetop",
-                "foliage"
+                "foliage",
+                "treetop"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
-            "level": "7-20",
-            "weight": 20.0,
+            "level": "7-21",
+            "weight": 2.0,
             "condition": {
-                "canSeeSky": false,
-                "minY": 61,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
-                    "#cobblemon:is_temperate"
-                ],
-                "neededNearbyBlocks": [
-                    "minecraft:oak_leaves",
-                    "minecraft:birch_leaves"
+                    "#cobblemon:is_forest",
+                    "#cobblemon:is_plains",
+                    "aether:skyroot_forest",
+                    "aether:skyroot_woodland"
                 ]
             },
             "anticondition": {
                 "biomes": [
+                    "#cobblemon:is_freezing",
                     "#cobblemon:is_spooky"
                 ]
             }
         },
-		{
-            "id": "metapod-valencian-1",
+        {
+            "id": "metapod-valencian-3",
             "pokemon": "metapod valencian",
             "presets": [
                 "natural",
-                "treetop",
-                "foliage"
+                "treetop"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
-            "level": "7-20",
-            "weight": 20.0,
+            "level": "7-21",
+            "weight": 2.0,
             "condition": {
-                "canSeeSky": false,
-                "minY": 61,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
-                    "#cobblemon:is_jungle"
-                ],
-                "neededNearbyBlocks": [
-                    "minecraft:oak_leaves",
-                    "minecraft:jungle_leaves"
+                    "#cobblemon:is_jungle",
+                    "#cobblemon:is_tropical_island"
+                ]
+            }
+        },
+        {
+            "id": "metapod-valencian-4",
+            "pokemon": "metapod valencian",
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "7-21",
+            "weight": 1.0,
+            "condition": {
+                "biomes": [
+                    "the_bumblezone:floral_meadow"
+                ]
+            },
+            "anticondition": {
+                "structures": [
+                    "#the_bumblezone:sempiternal_sanctums"
                 ]
             }
         }

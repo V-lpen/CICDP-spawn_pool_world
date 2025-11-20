@@ -10,12 +10,13 @@
                 "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
-            "level": "28-47",
+            "level": "28-48",
             "weight": 1.0,
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
                     "#cobblemon:is_coast"
                 ]
@@ -24,29 +25,118 @@
         {
             "id": "kingler-2",
             "pokemon": "kingler",
+            "presets": [
+                "water"
+            ],
             "type": "pokemon",
-            "context": "grounded",
-            "bucket": "uncommon",
-            "level": "28-50",
-            "weight": 50,
+            "spawnablePositionType": "seafloor",
+            "bucket": "common",
+            "level": "28-48",
+            "weight": 0.2,
             "condition": {
                 "canSeeSky": true,
-                "minY": 61,
-                "timeRange": "day",
                 "biomes": [
-                    "#minecraft:is_beach"
-                ],
-                "neededBaseBlocks": [
-                    "minecraft:sand"
-                ],
-                "neededNearbyBlocks": [
-                    "minecraft:stone_button"
+                    "#cobblemon:is_coast",
+                    "#cobblemon:is_ocean"
                 ]
+            }
+        },
+        {
+            "id": "kingler-3",
+            "pokemon": "kingler",
+            "type": "pokemon",
+            "spawnablePositionType": "fishing",
+            "bucket": "common",
+            "level": "28-48",
+            "weight": 1.0,
+            "weightMultiplier": {
+                "multiplier": 0.6,
+                "condition": {
+                    "minLureLevel": 0,
+                    "maxLureLevel": 1
+                }
             },
-            "anticondition": {
-                "neededNearbyBlocks": [
-                    "minecraft:water"
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_coast",
+                    "#cobblemon:is_ocean"
                 ]
+            }
+        },
+        {
+            "id": "kingler-4",
+            "pokemon": "kingler",
+            "type": "pokemon",
+            "spawnablePositionType": "fishing",
+            "bucket": "common",
+            "level": "28-48",
+            "weight": 1.0,
+            "weightMultiplier": {
+                "multiplier": 0.6,
+                "condition": {
+                    "minLureLevel": 0,
+                    "maxLureLevel": 1
+                }
+            },
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_coast",
+                    "#cobblemon:is_ocean"
+                ]
+            }
+        },
+        {
+            "id": "kingler-5",
+            "pokemon": "kingler",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "seafloor",
+            "bucket": "common",
+            "level": "28-48",
+            "weight": 0.2,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "structures": [
+                    "cobblemon:shipwreck_coves/submerged_shipwreck_cove"
+                ],
+                "minY": -60,
+                "maxY": 13
+            }
+        },
+        {
+            "id": "kingler-6",
+            "pokemon": "kingler",
+            "type": "pokemon",
+            "spawnablePositionType": "fishing",
+            "bucket": "common",
+            "level": "28-48",
+            "weight": 1.0,
+            "weightMultiplier": {
+                "multiplier": 0.6,
+                "condition": {
+                    "minLureLevel": 0,
+                    "maxLureLevel": 1
+                }
+            },
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "structures": [
+                    "cobblemon:shipwreck_coves/submerged_shipwreck_cove"
+                ],
+                "minY": -60,
+                "maxY": 13
             }
         }
     ]

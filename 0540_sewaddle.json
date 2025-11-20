@@ -1,5 +1,5 @@
 {
-    "enabled": "true",
+    "enabled": true,
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
@@ -7,22 +7,24 @@
             "id": "sewaddle-1",
             "pokemon": "sewaddle",
             "presets": [
-                "natural"
+                "natural",
+                "wild"
             ],
             "type": "pokemon",
-            "context": "grounded",
-            "bucket": "uncommon",
-            "level": "5-30",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "6-31",
             "weight": 9.0,
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
                     "#cobblemon:is_forest"
-                ],
-                "timeRange": "day"
+                ]
             },
             "anticondition": {
                 "biomes": [
+                    "#cobblemon:is_freezing",
                     "#cobblemon:is_spooky"
                 ]
             }

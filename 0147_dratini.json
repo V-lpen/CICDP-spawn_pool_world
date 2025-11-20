@@ -7,75 +7,143 @@
             "id": "dratini-1",
             "pokemon": "dratini",
             "presets": [
-                "water_surface"
+                "water"
             ],
             "type": "pokemon",
+            "spawnablePositionType": "surface",
             "bucket": "rare",
-            "level": "15-30",
-            "weight": 9.0,
+            "level": "5-30",
+            "weight": 7.5,
             "condition": {
-                "canSeeSky": false,
-				"maxY": 32,
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
                 "biomes": [
                     "#cobblemon:is_overworld"
-                ]
+                ],
+                "maxY": 32
             }
         },
-		{
+        {
             "id": "dratini-2",
             "pokemon": "dratini",
             "presets": [
-                "underwater"
+                "water"
             ],
             "type": "pokemon",
-            "context": "submerged",
+            "spawnablePositionType": "submerged",
             "bucket": "rare",
-            "level": "15-30",
-            "weight": 9.0,
+            "level": "5-30",
+            "weight": 7.5,
             "condition": {
-                "canSeeSky": false,
-				"maxY": 32,
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
                 "biomes": [
                     "#cobblemon:is_overworld"
-                ]
+                ],
+                "maxY": 32
             }
         },
         {
             "id": "dratini-3",
             "pokemon": "dratini",
             "presets": [
-                "water_surface"
+                "water",
+                "ocean_ruins"
             ],
             "type": "pokemon",
-            "bucket": "common",
-            "level": "15-30",
-            "weight": 50.0,
+            "spawnablePositionType": "submerged",
+            "bucket": "uncommon",
+            "level": "5-30",
+            "weight": 84.0,
             "condition": {
-                "canSeeSky": false,
-                "timeRange": "day",
-				"maxY": 32,
+                "canSeeSky": true,
                 "biomes": [
-                    "#cobblemon:is_overworld"
-                ],
-                "neededNearbyBlocks": [
-                    "minecraft:prismarine"
+                    "#cobblemon:is_ocean"
                 ]
             }
         },
-		{
+        {
             "id": "dratini-4",
             "pokemon": "dratini",
+            "type": "pokemon",
+            "spawnablePositionType": "fishing",
+            "bucket": "rare",
+            "level": "5-30",
+            "weight": 1.5,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#aether:is_aether",
+                    "#cobblemon:is_overworld"
+                ],
+                "maxY": 32
+            }
+        },
+        {
+            "id": "dratini-5",
+            "pokemon": "dratini",
+            "type": "pokemon",
+            "spawnablePositionType": "fishing",
+            "bucket": "ultra-rare",
+            "level": "5-30",
+            "weight": 6.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#aether:is_aether",
+                    "#cobblemon:is_magical",
+                    "#cobblemon:is_ocean"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_frozen_ocean"
+                ]
+            }
+        },
+        {
+            "id": "dratini-6",
+            "pokemon": "dratini",
             "presets": [
-                "twilight_zone"
+                "water",
+                "ocean_ruins"
             ],
             "type": "pokemon",
-            "context": "submerged",
-            "bucket": "rare",
-            "level": "15-30",
-            "weight": 10.0,
+            "spawnablePositionType": "submerged",
+            "bucket": "uncommon",
+            "level": "5-30",
+            "weight": 84.0,
             "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
-                    "#minecraft:is_ocean"
+                    "#cobblemon:is_ocean"
+                ]
+            }
+        },
+        {
+            "id": "dratini-7",
+            "pokemon": "dratini",
+            "type": "pokemon",
+            "spawnablePositionType": "fishing",
+            "bucket": "ultra-rare",
+            "level": "5-30",
+            "weight": 6.0,
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#aether:is_aether",
+                    "#cobblemon:is_magical",
+                    "#cobblemon:is_ocean"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_frozen_ocean"
                 ]
             }
         }

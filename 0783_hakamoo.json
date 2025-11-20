@@ -1,5 +1,5 @@
 {
-    "enabled": "true",
+    "enabled": true,
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
@@ -7,17 +7,38 @@
             "id": "hakamoo-1",
             "pokemon": "hakamoo",
             "presets": [
-                "natural"
+                "natural",
+                "wild"
             ],
             "type": "pokemon",
-            "context": "grounded",
-            "bucket": "rare",
+            "spawnablePositionType": "grounded",
+            "bucket": "ultra-rare",
             "level": "35-42",
-            "weight": 0.8,
+            "weight": 3.6,
             "condition": {
                 "biomes": [
                     "#cobblemon:is_jungle"
-                ]
+                ],
+                "minY": 0
+            }
+        },
+        {
+            "id": "hakamoo-2",
+            "pokemon": "hakamoo",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "rare",
+            "level": "35-42",
+            "weight": 2.25,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_tropical_island"
+                ],
+                "minY": 0
             }
         }
     ]

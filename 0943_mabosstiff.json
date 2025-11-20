@@ -1,5 +1,5 @@
 {
-    "enabled": "true",
+    "enabled": true,
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
@@ -8,15 +8,16 @@
             "pokemon": "mabosstiff",
             "presets": [
                 "natural",
-                "pillager_outpost"
+                "urban"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "30-51",
-            "weight": 10.0,
+            "weight": 0.6,
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
                     "#cobblemon:is_overworld"
                 ]
@@ -26,21 +27,19 @@
             "id": "mabosstiff-2",
             "pokemon": "mabosstiff",
             "presets": [
-                "natural",
-                "urban"
+                "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "30-51",
             "weight": 0.6,
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
                     "#cobblemon:is_overworld"
-                ]
-            },
-            "anticondition": {
+                ],
                 "structures": [
                     "#minecraft:village"
                 ]
@@ -51,15 +50,16 @@
             "pokemon": "mabosstiff",
             "presets": [
                 "natural",
-				"village"
+                "pillager_outpost"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "30-51",
-            "weight": 0.6,
+            "weight": 10.0,
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
                     "#cobblemon:is_overworld"
                 ]
@@ -73,12 +73,13 @@
                 "mansion"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "30-51",
             "weight": 10.0,
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
                     "#cobblemon:is_overworld"
                 ]

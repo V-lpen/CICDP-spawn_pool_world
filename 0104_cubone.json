@@ -7,41 +7,58 @@
             "id": "cubone-1",
             "pokemon": "cubone",
             "presets": [
-                "natural"
+                "natural",
+                "wild"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
-            "level": "12-32",
+            "level": "7-32",
             "weight": 1.8,
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
-                    "#cobblemon:is_sandy"
+                    "#cobblemon:is_badlands",
+                    "#cobblemon:is_desert"
                 ]
             }
         },
         {
-            "id": "cubone-2",
-            "pokemon": "cubone",
+            "id": "cubone-alola-2",
+            "pokemon": "cubone region_bias=alola",
             "presets": [
-                "natural"
+                "natural",
+                "wild"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
-            "level": "12-32",
-            "weight": 50,
+            "level": "7-32",
+            "weight": 5.4,
             "condition": {
-                "canSeeSky": true,
-                "timeRange": "day",
-                "minY": 63,
-                "neededNearbyBlocks": [
-                    "minecraft:bone_block",
-                    "minecraft:skeleton_skull"
-                ],
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
-                    "#cobblemon:is_sandy"
+                    "#cobblemon:is_volcanic"
+                ]
+            }
+        },
+        {
+            "id": "cubone-alola-3",
+            "pokemon": "cubone region_bias=alola",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "7-32",
+            "weight": 9.0,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:nether/is_desert"
                 ]
             }
         }

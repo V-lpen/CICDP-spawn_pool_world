@@ -10,54 +10,73 @@
                 "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
-            "level": "21-39",
-            "weight": 0.9,
+            "level": "21-40",
+            "weight": 0.95,
+            "weightMultiplier": {
+                "multiplier": 0.25,
+                "condition": {
+                    "timeRange": "day"
+                }
+            },
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
                     "#cobblemon:is_jungle"
-                ],
-                "timeRange": "night"
+                ]
             }
         },
-		{
+        {
             "id": "gloom-2",
             "pokemon": "gloom",
             "presets": [
                 "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
-            "bucket": "uncommon",
-            "level": "21-39",
-            "weight": 0.9,
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "21-40",
+            "weight": 0.19,
+            "weightMultiplier": {
+                "multiplier": 0.25,
+                "condition": {
+                    "timeRange": "day"
+                }
+            },
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
                     "#cobblemon:is_temperate"
-                ],
-                "timeRange": "night"
+                ]
             }
         },
-		{
-            "id": "gloom-valencian-1",
+        {
+            "id": "gloom-valencian-3",
             "pokemon": "gloom valencian",
             "presets": [
                 "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
-            "bucket": "uncommon",
-            "level": "21-39",
-            "weight": 0.9,
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "21-40",
+            "weight": 0.19,
+            "weightMultiplier": {
+                "multiplier": 0.25,
+                "condition": {
+                    "timeRange": "day"
+                }
+            },
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
-                    "#cobblemon:is_savanna"
-                ],
-                "timeRange": "night"
+                    "#cobblemon:is_savanna",
+                    "#cobblemon:is_tropical_island"
+                ]
             }
         }
     ]

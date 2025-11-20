@@ -1,23 +1,78 @@
 {
-    "enabled": "true",
+    "enabled": true,
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
         {
             "id": "skiploom-1",
             "pokemon": "skiploom",
+            "presets": [
+                "natural",
+                "treetop"
+            ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "18-34",
+            "weight": 0.9,
+            "weightMultiplier": {
+                "multiplier": 0.25,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_plains"
+                ],
+                "isRaining": false
+            }
+        },
+        {
+            "id": "skiploom-3",
+            "pokemon": "skiploom",
+            "presets": [
+                "natural",
+                "treetop"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "18-34",
             "weight": 0.9,
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
-                    "#cobblemon:is_plains"
+                    "aether:skyroot_grove",
+                    "aether:skyroot_meadow"
                 ],
-                "timeRange": "day",
                 "isRaining": false
+            }
+        },
+        {
+            "id": "skiploom-4",
+            "pokemon": "skiploom",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "18-34",
+            "weight": 0.9,
+            "condition": {
+                "biomes": [
+                    "the_bumblezone:floral_meadow"
+                ],
+                "isRaining": false
+            },
+            "anticondition": {
+                "structures": [
+                    "#the_bumblezone:sempiternal_sanctums"
+                ]
             }
         }
     ]

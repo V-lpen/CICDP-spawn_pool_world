@@ -10,14 +10,21 @@
                 "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
-            "level": "15-32",
-            "weight": 1.8,
+            "level": "2-27",
+            "weight": 5.7,
+            "weightMultiplier": {
+                "multiplier": 5.0,
+                "condition": {
+                    "isThundering": true
+                }
+            },
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
-                    "#cobblemon:is_swamp"
+                    "#cobblemon:is_freshwater"
                 ]
             }
         }

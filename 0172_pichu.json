@@ -10,41 +10,22 @@
                 "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "uncommon",
-            "level": "4-20",
-            "weight": 1.8,
+            "level": "1-21",
+            "weight": 5.04,
+            "weightMultiplier": {
+                "multiplier": 5.0,
+                "condition": {
+                    "isThundering": true
+                }
+            },
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
                     "#cobblemon:is_forest"
-                ],
-                "timeRange": "day"
-            },
-            "anticondition": {
-                "biomes": [
-                    "#cobblemon:is_spooky"
                 ]
-            }
-        },
-        {
-            "id": "pichu-2",
-            "pokemon": "pichu",
-            "presets": [
-                "natural"
-            ],
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "common",
-            "level": "20-35",
-            "weight": 25.0,
-            "condition": {
-                "canSeeSky": true,
-                "isThundering": true,
-                "biomes": [
-                    "#cobblemon:is_temperate"
-                ],
-                "timeRange": "day"
             },
             "anticondition": {
                 "biomes": [

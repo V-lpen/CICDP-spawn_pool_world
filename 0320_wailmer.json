@@ -7,13 +7,13 @@
             "id": "wailmer-1",
             "pokemon": "wailmer",
             "presets": [
-                "underwater"
+                "water"
             ],
             "type": "pokemon",
-            "context": "submerged",
+            "spawnablePositionType": "submerged",
             "bucket": "uncommon",
-            "level": "18-40",
-            "weight": 1.8,
+            "level": "15-40",
+            "weight": 1.68,
             "condition": {
                 "canSeeSky": true,
                 "biomes": [
@@ -24,20 +24,105 @@
         {
             "id": "wailmer-2",
             "pokemon": "wailmer",
-            "presets": [
-                "water_surface"
-            ],
             "type": "pokemon",
-            "context": "surface",
-            "bucket": "common",
-            "level": "5-40",
-            "weight": 1000,
+            "spawnablePositionType": "fishing",
+            "bucket": "uncommon",
+            "level": "15-40",
+            "weight": 1.68,
             "condition": {
                 "canSeeSky": true,
-                "timeRange": "twilight,noon",
                 "biomes": [
-                    "#minecraft:is_ocean"
+                    "#cobblemon:is_ocean"
                 ]
+            },
+            "anticondition": {
+                "minLureLevel": 1
+            }
+        },
+        {
+            "id": "wailmer-3",
+            "pokemon": "wailmer",
+            "type": "pokemon",
+            "spawnablePositionType": "fishing",
+            "bucket": "common",
+            "level": "15-40",
+            "weight": 1.68,
+            "weightMultiplier": {
+                "multiplier": 3.0,
+                "condition": {
+                    "minLureLevel": 3
+                }
+            },
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_ocean"
+                ],
+                "minLureLevel": 1
+            }
+        },
+        {
+            "id": "wailmer-4",
+            "pokemon": "wailmer",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "submerged",
+            "bucket": "uncommon",
+            "level": "15-40",
+            "weight": 1.68,
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_deep_ocean"
+                ]
+            }
+        },
+        {
+            "id": "wailmer-5",
+            "pokemon": "wailmer",
+            "type": "pokemon",
+            "spawnablePositionType": "fishing",
+            "bucket": "uncommon",
+            "level": "15-40",
+            "weight": 1.68,
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_ocean"
+                ]
+            },
+            "anticondition": {
+                "minLureLevel": 1
+            }
+        },
+        {
+            "id": "wailmer-6",
+            "pokemon": "wailmer",
+            "type": "pokemon",
+            "spawnablePositionType": "fishing",
+            "bucket": "common",
+            "level": "15-40",
+            "weight": 1.68,
+            "weightMultiplier": {
+                "multiplier": 3.0,
+                "condition": {
+                    "minLureLevel": 3
+                }
+            },
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_ocean"
+                ],
+                "minLureLevel": 1
             }
         }
     ]

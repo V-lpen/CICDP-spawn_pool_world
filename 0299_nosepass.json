@@ -7,15 +7,16 @@
             "id": "nosepass-1",
             "pokemon": "nosepass",
             "presets": [
-                "derelict"
+                "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "uncommon",
-            "level": "16-37",
-            "weight": 5.94,
+            "level": "13-38",
+            "weight": 5.52,
             "condition": {
-                "canSeeSky": false,
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
                 "biomes": [
                     "#cobblemon:is_overworld"
                 ]
@@ -23,25 +24,6 @@
             "anticondition": {
                 "biomes": [
                     "#cobblemon:is_deep_dark"
-                ]
-            }
-        },
-        {
-            "id": "nosepass-2",
-            "pokemon": "nosepass",
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "common",
-            "level": "16-37",
-            "weight": 25,
-            "condition": {
-                "canSeeSky": true,
-                "biomes": [
-                    "#cobblemon:is_overworld"
-                ],
-                "neededNearbyBlocks": [
-                    "minecraft:lodestone",
-                    "minecraft:redstone_block"
                 ]
             }
         }

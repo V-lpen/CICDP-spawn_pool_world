@@ -10,37 +10,21 @@
                 "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "uncommon",
-            "level": "20-45",
-            "weight": 0.02,
+            "level": "20-46",
+            "weight": 0.32,
+            "weightMultiplier": {
+                "multiplier": 0.25,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
                     "#cobblemon:is_hills"
-                ],
-                "timeRange": "day"
-            }
-        },
-        {
-            "id": "hitmonchan-2",
-            "pokemon": "hitmonchan",
-            "presets": [
-                "natural"
-            ],
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "uncommon",
-            "level": "20-45",
-            "weight": 50,
-            "condition": {
-                "canSeeSky": true,
-                "biomes": [
-                    "#cobblemon:is_hills"
-                ],
-                "timeRange": "day",
-                "neededNearbyBlocks": [
-                    "minecraft:stripped_oak_log"
                 ]
             }
         }

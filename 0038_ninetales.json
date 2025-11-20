@@ -10,16 +10,23 @@
                 "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "uncommon",
-            "level": "31-50",
-            "weight": 0.06,
+            "level": "25-51",
+            "weight": 0.48,
+            "weightMultiplier": {
+                "multiplier": 2.5,
+                "condition": {
+                    "timeRange": "twilight"
+                }
+            },
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
-                    "#cobblemon:is_forest"
-                ],
-                "timeRange": "twilight"
+                    "#cobblemon:is_forest",
+                    "#cobblemon:is_taiga"
+                ]
             },
             "anticondition": {
                 "biomes": [
@@ -31,62 +38,64 @@
             "id": "ninetales-2",
             "pokemon": "ninetales",
             "presets": [
-                "cave_den"
+                "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
-            "level": "30-45",
-            "weight": 25,
+            "level": "25-51",
+            "weight": 0.1,
             "condition": {
                 "biomes": [
-                    "#cobblemon:is_forest"
+                    "#cobblemon:nether/is_forest"
                 ]
             },
             "anticondition": {
                 "biomes": [
-                    "#cobblemon:is_freezing"
+                    "#cobblemon:nether/is_frozen"
                 ]
             }
         },
         {
-            "id": "ninetales-alolan-1",
+            "id": "ninetales-alolan-3",
             "pokemon": "ninetales alolan",
             "presets": [
                 "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "uncommon",
-            "level": "31-50",
-            "weight": 0.06,
+            "level": "25-51",
+            "weight": 0.48,
+            "weightMultiplier": {
+                "multiplier": 2.5,
+                "condition": {
+                    "timeRange": "twilight"
+                }
+            },
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
-                    "#cobblemon:is_snowy_forest"
-                ],
-                "timeRange": "twilight"
+                    "#cobblemon:is_snowy_forest",
+                    "#cobblemon:is_snowy_taiga"
+                ]
             }
         },
-		{
-            "id": "ninetales-alolan-2",
+        {
+            "id": "ninetales-alolan-4",
             "pokemon": "ninetales alolan",
             "presets": [
                 "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
-            "bucket": "uncommon",
-            "level": "16-30",
-            "weight": 50,
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "25-51",
+            "weight": 0.1,
             "condition": {
-                "canSeeSky": true,
-                "isRaining": true,
                 "biomes": [
-                    "#cobblemon:is_snowy_forest"
-                ],
-                "neededNearbyBlocks": [
-                    "minecraft:grass"
+                    "#cobblemon:nether/is_frozen"
                 ]
             }
         }

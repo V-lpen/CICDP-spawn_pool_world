@@ -10,57 +10,41 @@
                 "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
-            "bucket": "uncommon",
-            "level": "33-53",
-            "weight": 0.02,
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "28-53",
+            "weight": 0.1,
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
-                    "#cobblemon:is_jungle"
+                    "#cobblemon:is_jungle",
+                    "#cobblemon:is_savanna"
                 ]
             }
         },
         {
-            "id": "exeggutor-2",
-            "pokemon": "exeggutor",
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "uncommon",
-            "level": "30-50",
-            "weight": 50,
-            "condition": {
-                "canSeeSky": true,
-                "minY": 63,
-                "timeRange": "day",
-                "neededNearbyBlocks": [
-                    "minecraft:sand"
-                ],
-                "biomes": [
-                    "#cobblemon:is_jungle"
-                ]
-            },
-            "anticondition": {
-                "neededNearbyBlocks": [
-                    "minecraft:water"
-                ]
-            }
-        },
-        {
-            "id": "alola-exeggutor-1",
+            "id": "exeggutor-alolan-2",
             "pokemon": "exeggutor alolan",
             "presets": [
                 "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "uncommon",
-            "level": "33-53",
-            "weight": 1.2,
+            "level": "28-53",
+            "weight": 0.8,
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
-                    "#minecraft:is_beach"
+                    "#cobblemon:is_beach",
+                    "#cobblemon:is_tropical_island"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_freezing"
                 ]
             }
         }

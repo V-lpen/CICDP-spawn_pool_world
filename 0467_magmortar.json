@@ -10,31 +10,37 @@
                 "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
-            "level": "50-54",
-            "weight": 0.1,
+            "level": "45-54",
+            "weight": 0.05,
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
                     "#cobblemon:is_hills"
                 ],
                 "isRaining": false,
-				"neededNearbyBlocks": [
-                    "minecraft:lava", "minecraft:flowing_lava"
+                "neededNearbyBlocks": [
+                    "#cobblemon:lava",
+                    "minecraft:magma_block"
                 ]
             }
         },
         {
             "id": "magmortar-2",
             "pokemon": "magmortar",
+            "presets": [
+                "natural"
+            ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
-            "level": "50-54",
-            "weight": 0.1,
+            "level": "45-54",
+            "weight": 0.05,
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
                     "#cobblemon:is_volcanic"
                 ],
@@ -44,36 +50,35 @@
         {
             "id": "magmortar-3",
             "pokemon": "magmortar",
+            "presets": [
+                "natural"
+            ],
             "type": "pokemon",
-            "context": "grounded",
-            "bucket": "uncommon",
-            "level": "50-54",
-            "weight": 0.1,
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "45-54",
+            "weight": 0.05,
             "condition": {
                 "biomes": [
-                    "#minecraft:is_nether"
-                ]
-            }
-        },
-        {
-            "id": "magmortar-4",
-            "pokemon": "magmortar",
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "uncommon",
-            "level": "10-30",
-            "weight": 10,
-            "condition": {
-                "neededBaseBlocks": [
-                    "minecraft:magma_block"
-                ],
-                "neededNearbyBlocks": [
-                    "minecraft:lava"
+                    "#cobblemon:nether/is_basalt",
+                    "#cobblemon:nether/is_wasteland"
                 ]
             },
-            "anticondition": {
-                "neededNearbyBlocks": [
-                    "minecraft:water"
+            "drops": {
+                "amount": 3,
+                "entries": [
+                    {
+                        "item": "minecraft:blaze_powder",
+                        "percentage": 25.0
+                    },
+                    {
+                        "item": "cobblemon:magmarizer",
+                        "percentage": 10.0
+                    },
+                    {
+                        "item": "cobblemon:rawst_berry",
+                        "percentage": 10.0
+                    }
                 ]
             }
         }

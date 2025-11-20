@@ -8,83 +8,71 @@
             "pokemon": "blissey",
             "presets": [
                 "natural",
-				"urban"
+                "urban"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "rare",
-            "level": "46-54",
-            "weight": 0.1,
+            "level": "40-54",
+            "weight": 0.125,
+            "weightMultiplier": {
+                "multiplier": 0.25,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
                     "#cobblemon:is_overworld"
-                ],
-                "timeRange": "day"
+                ]
             }
         },
         {
             "id": "blissey-2",
             "pokemon": "blissey",
+            "presets": [
+                "natural"
+            ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "rare",
-            "level": "40-60",
-            "weight": 20,
+            "level": "40-54",
+            "weight": 0.125,
+            "weightMultiplier": {
+                "multiplier": 0.25,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
             "condition": {
-                "canSeeSky":false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
                     "#cobblemon:is_overworld"
                 ],
-                "timeRange": "day",
-                "neededNearbyBlocks": [
-                    "cobblemon:healing_machine"
+                "structures": [
+                    "#minecraft:village"
                 ]
             }
         },
         {
             "id": "blissey-3",
             "pokemon": "blissey",
+            "presets": [
+                "natural"
+            ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "rare",
-            "level": "40-60",
-            "weight": 50,
+            "level": "40-54",
+            "weight": 0.125,
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
-                    "#cobblemon:is_grassland"
-                ],
-                "timeRange": "day",
-                "neededBaseBlocks": [
-                    "minecraft:hay_block"
-                ],
-                "neededNearbyBlocks": [
-                    "minecraft:lilac"
-                ]
-            }
-        },
-        {
-            "id": "blissey-4",
-            "pokemon": "blissey",
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "uncommon",
-            "level": "40-60",
-            "weight": 50,
-            "condition": {
-                "canSeeSky": true,
-                "biomes": [
-                    "minecraft:flower_forest"
-                ],
-                "timeRange": "day",
-                "isRaining": false,
-                "minY": 63,
-                "neededBaseBlocks": [
-                    "minecraft:hay_block"
-                ],
-                "neededNearbyBlocks": [
-                    "minecraft:lilac"
+                    "#aether:is_aether"
                 ]
             }
         }

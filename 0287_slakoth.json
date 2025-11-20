@@ -1,5 +1,5 @@
 {
-    "enabled": "true",
+    "enabled": true,
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
@@ -7,16 +7,19 @@
             "id": "slakoth-1",
             "pokemon": "slakoth",
             "presets": [
-                "natural"
+                "natural",
+                "treetop",
+                "wild"
             ],
             "type": "pokemon",
-            "context": "grounded",
-            "bucket": "uncommon",
-            "level": "5-20",
-            "weight": 5.0,
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "3-28",
+            "weight": 1.8,
             "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
-                    "#cobblemon:is_forest",
                     "#cobblemon:is_jungle"
                 ]
             }

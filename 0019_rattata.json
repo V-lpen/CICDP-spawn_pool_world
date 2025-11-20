@@ -10,12 +10,13 @@
                 "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
-            "level": "4-25",
+            "level": "1-25",
             "weight": 9.0,
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
                     "#cobblemon:is_grassland"
                 ],
@@ -24,169 +25,142 @@
             "anticondition": {
                 "biomes": [
                     "#cobblemon:is_spooky"
-                ],
-                "neededNearbyBlocks": [
-                    "minecraft:water"
                 ]
             }
         },
-		{
+        {
             "id": "rattata-2",
             "pokemon": "rattata",
             "presets": [
-                "derelict"
+                "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
-            "level": "4-25",
+            "level": "1-25",
             "weight": 9.0,
             "condition": {
-                "canSeeSky": false,
-				"minY": 0,
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
                 "biomes": [
                     "#cobblemon:is_overworld"
-                ]
+                ],
+                "minY": 0
             },
             "anticondition": {
                 "biomes": [
                     "#cobblemon:is_deep_dark"
-                ],
-                "neededNearbyBlocks": [
-                    "minecraft:water"
                 ]
             }
         },
-		{
+        {
             "id": "rattata-3",
             "pokemon": "rattata",
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "common",
-            "level": "10-25",
-            "weight": 50.0,
-            "condition": {
-                "canSeeSky": true,
-                "biomes": [
-                    "#cobblemon:is_overworld"
-                ],
-                "neededNearbyBlocks": [
-                    "minecraft:cake"
-                ]
-            },
-            "anticondition": {
-                "biomes": [
-                    "#cobblemon:is_deep_dark"
-                ]
-            }
-        },
-        {
-            "id": "rattata-alolan-1",
-            "pokemon": "rattata alolan",
             "presets": [
                 "derelict"
             ],
             "type": "pokemon",
-            "context": "grounded",
-            "bucket": "common",
-            "level": "4-25",
-            "weight": 9.0,
-            "condition": {
-                "canSeeSky": false,
-				"maxY": 0,
-                "biomes": [
-                    "#cobblemon:is_overworld"
-                ]
-            },
-            "anticondition": {
-                "biomes": [
-                    "#cobblemon:is_deep_dark"
-                ],
-                "neededNearbyBlocks": [
-                    "minecraft:water"
-                ]
-            }
-        },
-		{
-            "id": "rattata-alolan-2",
-            "pokemon": "rattata alolan",
-            "presets": [
-                "derelict"
-            ],
-            "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "uncommon",
-            "level": "4-25",
-            "weight": 9.0,
+            "level": "1-25",
+            "weight": 8.4,
             "condition": {
                 "canSeeSky": false,
-				"maxY": 0,
                 "biomes": [
                     "#cobblemon:is_overworld"
-                ]
+                ],
+                "minY": 0
             },
             "anticondition": {
                 "biomes": [
                     "#cobblemon:is_deep_dark"
-                ],
-                "neededNearbyBlocks": [
-                    "minecraft:water"
                 ]
             }
         },
         {
-            "id": "rattata-alolan-3",
+            "id": "rattata-alolan-4",
             "pokemon": "rattata alolan",
             "presets": [
                 "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
-            "level": "4-25",
+            "level": "1-25",
             "weight": 9.0,
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
                 "biomes": [
-                    "#cobblemon:is_spooky"
+                    "#cobblemon:is_overworld"
                 ],
-                "timeRange": "night",
-                "minY": 63
+                "maxY": 0
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_deep_dark"
+                ]
             }
         },
-		{
-            "id": "rattata-alolan-4",
+        {
+            "id": "rattata-alolan-5",
             "pokemon": "rattata alolan",
             "presets": [
                 "derelict"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "uncommon",
-            "level": "4-25",
+            "level": "1-25",
+            "weight": 8.4,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "maxY": 0
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_deep_dark"
+                ]
+            }
+        },
+        {
+            "id": "rattata-alolan-6",
+            "pokemon": "rattata alolan",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "1-25",
             "weight": 9.0,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_spooky"
+                ],
+                "timeRange": "night"
+            }
+        },
+        {
+            "id": "rattata-alolan-7",
+            "pokemon": "rattata alolan",
+            "presets": [
+                "derelict"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "uncommon",
+            "level": "1-25",
+            "weight": 8.4,
             "condition": {
                 "canSeeSky": false,
                 "biomes": [
                     "#cobblemon:is_spooky"
-                ],
-                "minY": 63
-            }
-        },
-		{
-            "id": "rattata-alolan-5",
-            "pokemon": "rattata alolan",
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "common",
-            "level": "10-25",
-            "weight": 50.0,
-            "condition": {
-                "biomes": [
-                    "#cobblemon:is_deep_dark"
-                ],
-                "neededNearbyBlocks": [
-                    "minecraft:cake"
                 ]
             },
             "anticondition": {

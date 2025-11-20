@@ -10,34 +10,19 @@
                 "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "rare",
-            "level": "12-39",
-            "weight": 9.0,
+            "level": "24-39",
+            "weight": 7.5,
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
+                    "aether:skyroot_forest",
+                    "aether:skyroot_woodland",
+                    "#cobblemon:is_snowy_forest",
                     "#cobblemon:is_forest",
                     "#cobblemon:is_hills"
-                ]
-            }
-        },
-        {
-            "id": "munchlax-2",
-            "pokemon": "munchlax",
-            "presets": [
-                "honey_tree"
-            ],
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "common",
-            "level": "5-25",
-            "weight": 50,
-            "condition": {
-                "canSeeSky": true,
-                "biomes": [
-                    "#cobblemon:is_temperate",
-                    "#cobblemon:is_floral"
                 ]
             }
         }

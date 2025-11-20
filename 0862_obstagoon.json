@@ -7,50 +7,27 @@
             "id": "obstagoon-1",
             "pokemon": "obstagoon",
             "presets": [
-                "natural"
+                "natural",
+                "wild"
             ],
             "type": "pokemon",
-            "context": "grounded",
-            "bucket": "uncommon",
-            "level": "35-50",
-            "weight": 1.0,
-            "condition": {
-                "canSeeSky": true,
-                "biomes": [
-                    "#cobblemon:is_grassland",
-                    "#cobblemon:is_forest"
-                ],
-                "timeRange": "night"
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "35-52",
+            "weight": 0.1,
+            "weightMultiplier": {
+                "multiplier": 1.5,
+                "condition": {
+                    "timeRange": "night"
+                }
             },
-            "anticondition": {
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
-                    "#cobblemon:is_spooky"
+                    "#cobblemon:is_taiga"
                 ]
             }
-        },
-		{
-            "id": "obstagoon-2",
-            "pokemon": "obstagoon",
-            "presets": [
-                "natural",
-                "river"
-            ],
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "uncommon",
-            "level": "35-50",
-            "weight": 1.0,
-            "condition": {
-                "canSeeSky": true,
-                "biomes": [
-                    "#cobblemon:is_overworld"
-                ]
-            },
-	    "anticondition": {
-		"biomes": [
-			"minecraft:is_ocean"
-]
-}
         }
     ]
 }

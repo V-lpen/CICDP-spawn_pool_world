@@ -7,46 +7,46 @@
             "id": "tropius-1",
             "pokemon": "tropius",
             "presets": [
-                "natural"
+                "natural",
+                "wild"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "uncommon",
-            "level": "23-44",
-            "weight": 5,
-            "condition": {
-                "biomes": [
-					"#cobblemon:is_jungle"
-                ]
+            "level": "21-46",
+            "weight": 6.0,
+            "weightMultiplier": {
+                "multiplier": 0.25,
+                "condition": {
+                    "timeRange": "night"
+                }
             },
-            "anticondition": {
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
-                    "#cobblemon:is_cold"
+                    "#cobblemon:is_jungle"
                 ]
-			}
-		},
+            }
+        },
         {
-            "id": "tropius-2",
+            "id": "tropius-3",
             "pokemon": "tropius",
             "presets": [
                 "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "uncommon",
-            "level": "35-50",
-            "weight": 10,
+            "level": "21-46",
+            "weight": 6.0,
             "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
-                    "#cobblemon:is_jungle"
-                ],
-				"isRaining": true
-            },
-            "anticondition": {
-                "biomes": [
-                    "#cobblemon:is_cold"
+                    "#aether:is_aether"
                 ]
-			}
-		}
+            }
+        }
     ]
 }

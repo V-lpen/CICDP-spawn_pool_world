@@ -10,17 +10,29 @@
                 "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "uncommon",
-            "level": "20-41",
-            "weight": 5.4,
+            "level": "16-41",
+            "weight": 5.04,
+            "weightMultiplier": {
+                "multiplier": 0.25,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
                     "#cobblemon:is_grassland"
                 ],
-                "timeRange": "day",
                 "isRaining": false
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_floral",
+                    "#cobblemon:is_magical"
+                ]
             }
         },
         {
@@ -30,83 +42,77 @@
                 "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
-            "bucket": "uncommon",
-            "level": "20-41",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "16-41",
             "weight": 5.4,
             "condition": {
                 "biomes": [
-                    "minecraft:nether_wastes"
+                    "#cobblemon:nether/is_overgrowth",
+                    "#cobblemon:nether/is_wasteland"
                 ]
-            }
-        },
-        {
-            "id": "ponyta-3",
-            "pokemon": "ponyta",
-            "presets": [
-                "near_campfire"
-            ],
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "common",
-            "level": "20-41",
-            "weight": 50,
-            "condition": {
-                "canSeeSky": true,
-                "biomes": [
-                    "#cobblemon:is_grassland"
-                ],
-                "timeRange": "day",
-                "isRaining": false
             },
-            "anticondition": {
-                "neededNearbyBlocks": [
-                    "minecraft:tuff"
+            "drops": {
+                "amount": 3,
+                "entries": [
+                    {
+                        "item": "minecraft:leather",
+                        "quantityRange": "0-1"
+                    },
+                    {
+                        "item": "minecraft:blaze_powder",
+                        "percentage": 5.0
+                    },
+                    {
+                        "item": "cobblemon:shuca_berry",
+                        "percentage": 2.5
+                    }
                 ]
             }
         },
         {
-            "id": "ponyta-galar-1",
+            "id": "ponyta-galarian-3",
             "pokemon": "ponyta galarian",
             "presets": [
-                "near_flowers"
+                "natural",
+                "wild"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "uncommon",
-            "level": "20-41",
-            "weight": 20.0,
+            "level": "16-41",
+            "weight": 8.4,
+            "weightMultiplier": {
+                "multiplier": 0.25,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
+                    "#cobblemon:is_floral",
                     "#cobblemon:is_magical"
-                ],
-                "timeRange": "dawn",
-                "isRaining": false
+                ]
             }
         },
         {
-            "id": "ponyta-galar-2",
+            "id": "ponyta-galarian-4",
             "pokemon": "ponyta galarian",
             "presets": [
-                "near_flowers"
+                "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
-            "bucket": "uncommon",
-            "level": "20-41",
-            "weight": 14.0,
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "16-41",
+            "weight": 9.0,
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
-                    "#cobblemon:is_forest"
-                ],
-                "timeRange": "dawn",
-                "isRaining": false
-            },
-            "anticondition": {
-                "biomes": [
-                    "#cobblemon:is_spooky"
+                    "#aether:is_aether"
                 ]
             }
         }

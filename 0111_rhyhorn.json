@@ -7,47 +7,31 @@
             "id": "rhyhorn-1",
             "pokemon": "rhyhorn",
             "presets": [
-                "natural"
+                "natural",
+                "wild"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
-            "level": "15-34",
+            "level": "10-35",
             "weight": 1.8,
+            "weightMultiplier": {
+                "multiplier": 0.25,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
+                    "#cobblemon:is_mountain",
                     "#cobblemon:is_savanna"
-                ],
-                "timeRange": "day"
-            }
-        },
-        {
-            "id": "rhyhorn-2",
-            "pokemon": "rhyhorn",
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "common",
-            "level": "10-30",
-            "weight": 50,
-            "condition": {
-                "canSeeSky": true,
-                "biomes": [
-                    "#cobblemon:is_savanna"
-                ],
-                "timeRange": "day",
-                "minY": 63,
-                "neededBaseBlocks": [
-                    "minecraft:coarse_dirt"
-                ],
-                "neededNearbyBlocks": [
-                    "minecraft:cobblestone"
                 ]
             },
             "anticondition": {
-                "neededNearbyBlocks": [
-                    "minecraft:grass",
-                    "minecraft:tall_grass"
+                "biomes": [
+                    "#cobblemon:is_cold"
                 ]
             }
         }

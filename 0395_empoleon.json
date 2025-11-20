@@ -10,12 +10,13 @@
                 "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "ultra-rare",
             "level": "36-53",
-            "weight": 0.1,
+            "weight": 0.4,
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
                     "#cobblemon:is_frozen_ocean"
                 ]
@@ -25,17 +26,77 @@
             "id": "empoleon-2",
             "pokemon": "empoleon",
             "presets": [
-                "underwater"
+                "water"
             ],
             "type": "pokemon",
-            "context": "submerged",
+            "spawnablePositionType": "submerged",
             "bucket": "ultra-rare",
             "level": "36-53",
-            "weight": 0.1,
+            "weight": 0.4,
             "condition": {
                 "canSeeSky": true,
                 "biomes": [
                     "#cobblemon:is_frozen_ocean"
+                ]
+            }
+        },
+        {
+            "id": "empoleon-3",
+            "pokemon": "empoleon",
+            "type": "pokemon",
+            "spawnablePositionType": "fishing",
+            "bucket": "ultra-rare",
+            "level": "36-53",
+            "weight": 0.4,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_cold_ocean",
+                    "#cobblemon:is_frozen_ocean",
+                    "minecraft:frozen_river",
+                    "#cobblemon:is_glacial",
+                    "#cobblemon:is_tundra"
+                ]
+            }
+        },
+        {
+            "id": "empoleon-4",
+            "pokemon": "empoleon",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "submerged",
+            "bucket": "ultra-rare",
+            "level": "36-53",
+            "weight": 0.4,
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_frozen_ocean"
+                ]
+            }
+        },
+        {
+            "id": "empoleon-5",
+            "pokemon": "empoleon",
+            "type": "pokemon",
+            "spawnablePositionType": "fishing",
+            "bucket": "ultra-rare",
+            "level": "36-53",
+            "weight": 0.4,
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_cold_ocean",
+                    "#cobblemon:is_frozen_ocean",
+                    "minecraft:frozen_river",
+                    "#cobblemon:is_glacial",
+                    "#cobblemon:is_tundra"
                 ]
             }
         }

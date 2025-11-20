@@ -1,5 +1,5 @@
 {
-    "enabled": "true",
+    "enabled": true,
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
@@ -7,22 +7,29 @@
             "id": "starly-1",
             "pokemon": "starly",
             "presets": [
-                "natural"
+                "natural",
+                "treetop"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
-            "level": "5-24",
-            "weight": 6.0,
+            "level": "1-25",
+            "weight": 9.0,
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
+                    "#cobblemon:is_hills",
                     "#cobblemon:is_sky",
-                    "#cobblemon:is_taiga",
-                    "#cobblemon:is_forest"
+                    "#cobblemon:is_snowy_forest",
+                    "#cobblemon:is_taiga"
                 ],
-                "timeRange": "day",
-                "isRaining": false
+                "timeRange": "day"
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_arid"
+                ]
             }
         }
     ]

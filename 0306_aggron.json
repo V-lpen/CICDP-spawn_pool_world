@@ -1,5 +1,5 @@
 {
-    "enabled": "true",
+    "enabled": true,
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
@@ -7,18 +7,27 @@
             "id": "aggron-1",
             "pokemon": "aggron",
             "presets": [
-                "natural"
+                "natural",
+                "wild"
             ],
             "type": "pokemon",
-            "context": "grounded",
-            "bucket": "rare",
-            "level": "42-60",
-            "weight": 2.0,
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "42-53",
+            "weight": 0.1,
             "condition": {
-				"biomes": [
-                    "#cobblemon:is_cave"
+                "biomes": [
+                    "#cobblemon:is_mountain"
+                ],
+                "neededNearbyBlocks": [
+                    "#minecraft:iron_ores"
                 ]
-			}
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_deep_dark"
+                ]
+            }
         },
         {
             "id": "aggron-2",
@@ -27,42 +36,23 @@
                 "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
-            "bucket": "rare",
-            "level": "42-60",
-            "weight": 2.0,
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "42-53",
+            "weight": 0.1,
             "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
                 "biomes": [
-                    "#cobblemon:is_mountain",
-					"#cobblemon:is_hills"
+                    "#cobblemon:is_overworld"
                 ],
-				"neededNearbyBlocks": [
-                    "minecraft:iron_ore",
-                    "minecraft:deepslate_iron_ore",
-                    "minecraft:water"
+                "neededNearbyBlocks": [
+                    "#minecraft:iron_ores"
                 ]
-            }
-        },
-        {
-            "id": "aggron-3",
-            "pokemon": "aggron",
-            "presets": [
-                "natural"
-            ],
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "ultra-rare",
-            "level": "70-75",
-            "weight": 100.0,
-            "condition": {
-                "canSeeSky": false,
-                "maxY":-50,
+            },
+            "anticondition": {
                 "biomes": [
-                    "#cobblemon:is_mountain"
-                ],
-				"neededNearbyBlocks": [
-                    "minecraft:diamond_ore",
-                    "minecraft:bedrock"
+                    "#cobblemon:is_deep_dark"
                 ]
             }
         }

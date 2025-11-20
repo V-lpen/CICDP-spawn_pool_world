@@ -10,30 +10,32 @@
                 "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "ultra-rare",
-            "level": "16-40",
-            "weight": 0.9,
+            "level": "16-41",
+            "weight": 3.6,
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
-                    "#cobblemon:is_volcanic"
-                ],
-                "isRaining": false
+                    "#cobblemon:is_badlands"
+                ]
             }
         },
         {
             "id": "crocalor-2",
             "pokemon": "crocalor",
+            "presets": [
+                "natural"
+            ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "ultra-rare",
-            "level": "16-40",
-            "weight": 0.9,
+            "level": "16-41",
+            "weight": 3.6,
             "condition": {
                 "biomes": [
-                    "minecraft:basalt_deltas",
-					"incendium:volcanic_deltas"
+                    "#cobblemon:nether/is_wasteland"
                 ]
             }
         }

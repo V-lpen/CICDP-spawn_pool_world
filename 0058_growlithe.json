@@ -8,26 +8,23 @@
             "pokemon": "growlithe",
             "presets": [
                 "natural",
-				"urban"
+                "urban"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "uncommon",
-            "level": "12-35",
-            "weight": 5.94,
+            "level": "10-35",
+            "weight": 9.2,
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
-                    "#cobblemon:is_forest",
-                    "#cobblemon:is_grassland",
-                    "#cobblemon:is_snowy_forest",
-                    "#cobblemon:is_tundra"
-                ],
-                "timeRange": "day"
+                    "#cobblemon:is_overworld"
+                ]
             },
             "anticondition": {
                 "biomes": [
-                    "#cobblemon:is_spooky"
+                    "#cobblemon:is_desert"
                 ]
             }
         },
@@ -35,71 +32,26 @@
             "id": "growlithe-2",
             "pokemon": "growlithe",
             "presets": [
-                "village_roads"
-            ],
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "common",
-            "level": "5-20",
-            "weight": 50,
-            "condition": {
-                "biomes": [
-                    "#cobblemon:is_temperate"
-                ],
-                "timeRange": "day"
-            }
-        },
-        {
-            "id": "hisui-growlithe-1",
-            "pokemon": "growlithe hisuian",
-            "presets": [
-                "surface_lava"
-            ],
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "uncommon",
-            "level": "5-20",
-            "weight": 5.94,
-            "condition": {
-                "biomes": [
-                    "#minecraft:is_overworld"
-                ],
-                "timeRange": "day"
-            }
-        },
-        {
-            "id": "hisui-growlithe-2",
-            "pokemon": "growlithe hisuian",
-            "presets": [
-                "surface_lava"
-            ],
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "common",
-            "level": "5-20",
-            "weight": 18,
-            "condition": {
-                "biomes": [
-                    "#cobblemon:is_volcanic"
-                ],
-                "timeRange": "day"
-            }
-        },
-				{
-            "id": "growlithe-hisui-cold-1",
-            "pokemon": "growlithe hisuian",
-            "presets": [
                 "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "uncommon",
-            "level": "16-30",
-            "weight": 5.94,
+            "level": "10-35",
+            "weight": 9.2,
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
-                    "#cobblemon:is_snowy_forest"
+                    "#cobblemon:is_overworld"
+                ],
+                "structures": [
+                    "#minecraft:village"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_desert"
                 ]
             }
         }

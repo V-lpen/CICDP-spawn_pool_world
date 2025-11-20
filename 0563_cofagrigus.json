@@ -1,5 +1,5 @@
 {
-    "enabled": "true",
+    "enabled": true,
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
@@ -10,33 +10,21 @@
                 "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "uncommon",
             "level": "34-48",
-            "weight": 1,
+            "weight": 0.32,
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
                 "biomes": [
                     "#cobblemon:is_desert"
                 ],
-				"neededNearbyBlocks": [
-                    "minecraft:chiseled_red_sandstone",
-					"minecraft:chiseled_sandstone",
-					"minecraft:cut_red_sandstone",
-					"minecraft:cut_red_sandstone_slab",
-                    "minecraft:cut_sandstone",
-					"minecraft:cut_sandstone_slab",
-					"minecraft:red_sandstone_slab",
-					"minecraft:red_sandstone_stairs",
-					"minecraft:red_sandstone_wall",
-                    "minecraft:sandstone_stairs",
-					"minecraft:sandstone_wall",
-					"minecraft:smooth_red_sandstone",
-					"minecraft:smooth_red_sandstone_slab",
-					"minecraft:smooth_red_sandstone_stairs",
-					"minecraft:smooth_sandstone",
-					"minecraft:smooth_sandstone_slab",
-                    "minecraft:smooth_sandstone_stairs"
+                "minY": 0
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_deep_dark"
                 ]
             }
         },
@@ -44,37 +32,20 @@
             "id": "cofagrigus-2",
             "pokemon": "cofagrigus",
             "presets": [
-                "natural"
+                "natural",
+                "desert_pyramid"
             ],
             "type": "pokemon",
-            "context": "grounded",
-            "bucket": "uncommon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
             "level": "34-48",
-            "weight": 1,
+            "weight": 10.0,
             "condition": {
                 "canSeeSky": false,
                 "biomes": [
-                    "#cobblemon:is_desert"
+                    "#cobblemon:is_overworld"
                 ],
-				"neededNearbyBlocks": [
-                    "minecraft:chiseled_red_sandstone",
-					"minecraft:chiseled_sandstone",
-					"minecraft:cut_red_sandstone",
-					"minecraft:cut_red_sandstone_slab",
-                    "minecraft:cut_sandstone",
-					"minecraft:cut_sandstone_slab",
-					"minecraft:red_sandstone_slab",
-					"minecraft:red_sandstone_stairs",
-					"minecraft:red_sandstone_wall",
-                    "minecraft:sandstone_stairs",
-					"minecraft:sandstone_wall",
-					"minecraft:smooth_red_sandstone",
-					"minecraft:smooth_red_sandstone_slab",
-					"minecraft:smooth_red_sandstone_stairs",
-					"minecraft:smooth_sandstone",
-					"minecraft:smooth_sandstone_slab",
-                    "minecraft:smooth_sandstone_stairs"
-                ]
+                "minY": 48
             }
         }
     ]

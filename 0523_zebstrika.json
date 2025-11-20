@@ -1,5 +1,5 @@
 {
-    "enabled": "true",
+    "enabled": true,
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
@@ -7,36 +7,31 @@
             "id": "zebstrika-1",
             "pokemon": "zebstrika",
             "presets": [
-                "natural"
+                "natural",
+                "wild"
             ],
             "type": "pokemon",
-            "context": "grounded",
-            "bucket": "uncommon",
-            "level": "27-37",
-            "weight": 2.0,
-            "condition": {
-                "canSeeSky": true,
-                "maxY": 120,
-                "biomes": [
-                    "#cobblemon:is_savanna"
-                ]
-            }
-        },
-		{
-            "id": "zebstrika-1",
-            "pokemon": "zebstrika",
-            "presets": [
-                "natural"
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "27-50",
+            "weight": 1.0,
+            "weightMultipliers": [
+                {
+                    "multiplier": 0.25,
+                    "condition": {
+                        "timeRange": "night"
+                    }
+                },
+                {
+                    "multiplier": 5.0,
+                    "condition": {
+                        "isThundering": true
+                    }
+                }
             ],
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "uncommon",
-            "level": "27-37",
-            "weight": 7.0,
             "condition": {
-                "canSeeSky": true,
-                "maxY": 120,
-				"isThundering": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
                     "#cobblemon:is_savanna"
                 ]

@@ -7,21 +7,95 @@
             "id": "marill-1",
             "pokemon": "marill",
             "presets": [
-                "natural",
-                "freshwater"
+                "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
-            "level": "1-20",
-            "weight": 8.0,
+            "level": "14-25",
+            "weight": 0.9,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_river"
+                ]
+            }
+        },
+        {
+            "id": "marill-2",
+            "pokemon": "marill",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "surface",
+            "bucket": "uncommon",
+            "level": "14-25",
+            "weight": 0.864,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_river"
+                ]
+            }
+        },
+        {
+            "id": "marill-3",
+            "pokemon": "marill",
+            "type": "pokemon",
+            "spawnablePositionType": "fishing",
+            "bucket": "common",
+            "level": "14-25",
+            "weight": 0.9,
+            "weightMultiplier": {
+                "multiplier": 0.6,
+                "condition": {
+                    "minLureLevel": 0,
+                    "maxLureLevel": 1
+                }
+            },
             "condition": {
                 "canSeeSky": true,
                 "biomes": [
-                    "#minecraft:is_overworld"
-                ],
-                "neededNearbyBlocks": [
-                    "minecraft:water"
+                    "#cobblemon:is_floral",
+                    "#cobblemon:is_hills",
+                    "#cobblemon:is_magical",
+                    "#cobblemon:is_river",
+                    "#cobblemon:is_snowy_forest",
+                    "#cobblemon:is_taiga",
+                    "#cobblemon:is_temperate"
+                ]
+            }
+        },
+        {
+            "id": "marill-4",
+            "pokemon": "marill",
+            "type": "pokemon",
+            "spawnablePositionType": "fishing",
+            "bucket": "common",
+            "level": "14-25",
+            "weight": 0.9,
+            "weightMultiplier": {
+                "multiplier": 0.6,
+                "condition": {
+                    "minLureLevel": 0,
+                    "maxLureLevel": 1
+                }
+            },
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_floral",
+                    "#cobblemon:is_hills",
+                    "#cobblemon:is_magical",
+                    "#cobblemon:is_river",
+                    "#cobblemon:is_snowy_forest",
+                    "#cobblemon:is_taiga",
+                    "#cobblemon:is_temperate"
                 ]
             }
         }

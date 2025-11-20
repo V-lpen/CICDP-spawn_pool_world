@@ -1,5 +1,5 @@
 {
-    "enabled": "true",
+    "enabled": true,
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
@@ -7,17 +7,17 @@
             "id": "luvdisc-1",
             "pokemon": "luvdisc",
             "presets": [
-                "underwater"
+                "water"
             ],
             "type": "pokemon",
-            "context": "submerged",
+            "spawnablePositionType": "submerged",
             "bucket": "common",
-            "level": "4-33",
+            "level": "8-33",
             "weight": 10.0,
             "condition": {
                 "canSeeSky": true,
                 "biomes": [
-                    "#cobblemon:is_reef"
+                    "#cobblemon:is_warm_ocean"
                 ],
                 "timeRange": "day"
             }
@@ -25,20 +25,56 @@
         {
             "id": "luvdisc-2",
             "pokemon": "luvdisc",
-            "presets": [
-                "water_surface"
-            ],
             "type": "pokemon",
-            "context": "surface",
+            "spawnablePositionType": "fishing",
             "bucket": "common",
-            "level": "4-33",
-            "weight": 1000.0,
+            "level": "8-33",
+            "weight": 10.0,
             "condition": {
                 "canSeeSky": true,
                 "biomes": [
-                    "#cobblemon:is_reef"
+                    "#cobblemon:is_warm_ocean"
                 ],
-                "timeRange": "dusk"
+                "timeRange": "day"
+            }
+        },
+        {
+            "id": "luvdisc-3",
+            "pokemon": "luvdisc",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "submerged",
+            "bucket": "common",
+            "level": "8-33",
+            "weight": 10.0,
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_warm_ocean"
+                ],
+                "timeRange": "day"
+            }
+        },
+        {
+            "id": "luvdisc-4",
+            "pokemon": "luvdisc",
+            "type": "pokemon",
+            "spawnablePositionType": "fishing",
+            "bucket": "common",
+            "level": "8-33",
+            "weight": 10.0,
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_warm_ocean"
+                ],
+                "timeRange": "day"
             }
         }
     ]

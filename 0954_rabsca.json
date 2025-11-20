@@ -1,5 +1,5 @@
 {
-    "enabled": "true",
+    "enabled": true,
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
@@ -7,17 +7,17 @@
             "id": "rabsca-1",
             "pokemon": "rabsca",
             "presets": [
-                "natural"
+                "natural",
+                "wild"
             ],
             "type": "pokemon",
-            "context": "grounded",
-            "bucket": "uncommon",
-            "level": "23-50",
-            "weight": 2.0,
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "22-47",
+            "weight": 0.1,
             "condition": {
                 "biomes": [
-                    "#cobblemon:is_mountain",
-					"#cobblemon:is_hills"
+                    "#cobblemon:is_arid"
                 ]
             }
         }

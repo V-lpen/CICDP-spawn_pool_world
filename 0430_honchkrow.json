@@ -8,62 +8,68 @@
             "pokemon": "honchkrow",
             "presets": [
                 "natural",
-				"treetop"
+                "treetop"
             ],
             "type": "pokemon",
-            "context": "grounded",
-            "bucket": "uncommon",
-            "level": "41-50",
-            "weight": 0.02,
-            "condition": {
-                "canSeeSky": true,
-                "biomes": [
-                    "#cobblemon:is_sky",
-                    "#cobblemon:is_swamp",
-					"#cobblemon:is_taiga"
-                ],
-                "timeRange": "night",
-                "isRaining": false
-			}
-        },
-		{
-            "id": "honchkrow-2",
-            "pokemon": "honchkrow",
-            "presets": [
-                "natural",
-				"treetop"
-            ],
-            "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
-            "level": "41-50",
-            "weight": 0.02,
+            "level": "36-51",
+            "weight": 0.5,
+            "weightMultiplier": {
+                "multiplier": 1.5,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
                     "#cobblemon:is_spooky"
-                ],
-                "isRaining": false
-			}
+                ]
+            }
         },
         {
             "id": "honchkrow-3",
             "pokemon": "honchkrow",
+            "presets": [
+                "natural",
+                "treetop"
+            ],
             "type": "pokemon",
-            "context": "grounded",
-            "bucket": "uncommon",
-            "level": "12-29",
-            "weight": 50.0,
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "36-51",
+            "weight": 0.3,
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
-                    "#cobblemon:is_temperate"
+                    "#cobblemon:is_swamp",
+                    "#cobblemon:is_taiga"
                 ],
-                "timeRange": "night",
-                "isRaining": false,
-                "neededNearbyBlocks": [
-                    "minecraft:gold_block"
-                ]
+                "timeRange": "night"
+            }
+        },
+        {
+            "id": "honchkrow-5",
+            "pokemon": "honchkrow",
+            "presets": [
+                "natural",
+                "treetop"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "36-51",
+            "weight": 0.5,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_sky"
+                ],
+                "timeRange": "night"
             }
         }
     ]

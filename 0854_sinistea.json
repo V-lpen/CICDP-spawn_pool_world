@@ -1,0 +1,104 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "sinistea-1",
+            "pokemon": "sinistea",
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "uncommon",
+            "level": "6-31",
+            "weight": 9.2,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "#cobblemon:is_floral",
+                    "#cobblemon:is_magical",
+                    "#cobblemon:is_mountain",
+                    "#cobblemon:is_plains",
+                    "#cobblemon:is_snowy",
+                    "#cobblemon:is_spooky",
+                    "#cobblemon:is_taiga",
+                    "#cobblemon:is_tundra"
+                ],
+                "timeRange": "day",
+                "structures": [
+                    "#minecraft:village"
+                ],
+                "minY": 62
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_arid",
+                    "#cobblemon:is_bamboo",
+                    "#cobblemon:is_cherry_blossom",
+                    "#cobblemon:is_island",
+                    "#cobblemon:is_jungle",
+                    "#cobblemon:is_ocean",
+                    "#cobblemon:is_swamp",
+                    "#cobblemon:is_thermal",
+                    "#cobblemon:is_volcanic"
+                ]
+            }
+        },
+        {
+            "id": "sinistea-2",
+            "pokemon": "sinistea",
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "uncommon",
+            "level": "6-31",
+            "weight": 9.2,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_floral",
+                    "#cobblemon:is_magical",
+                    "#cobblemon:is_mountain",
+                    "#cobblemon:is_plains",
+                    "#cobblemon:is_snowy",
+                    "#cobblemon:is_spooky",
+                    "#cobblemon:is_taiga",
+                    "#cobblemon:is_tundra"
+                ],
+                "timeRange": "night",
+                "structures": [
+                    "#minecraft:village"
+                ],
+                "minY": 62
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_arid",
+                    "#cobblemon:is_bamboo",
+                    "#cobblemon:is_cherry_blossom",
+                    "#cobblemon:is_island",
+                    "#cobblemon:is_jungle",
+                    "#cobblemon:is_ocean",
+                    "#cobblemon:is_swamp",
+                    "#cobblemon:is_thermal",
+                    "#cobblemon:is_volcanic"
+                ]
+            }
+        },
+        {
+            "id": "sinistea-3",
+            "pokemon": "sinistea",
+            "presets": [
+                "mansion_dining"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "6-31",
+            "weight": 9.5,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ]
+            }
+        }
+    ]
+}

@@ -1,5 +1,5 @@
 {
-    "enabled": "true",
+    "enabled": true,
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
@@ -11,35 +11,17 @@
                 "treetop"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
-            "level": "35-48",
-            "weight": 0.06,
+            "level": "29-48",
+            "weight": 0.03,
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
-                    "#cobblemon:is_forest"
-                ]
-            }
-        },
-        {
-            "id": "shiftry-2",
-            "pokemon": "shiftry",
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "uncommon",
-            "level": "40-55",
-            "weight": 30,
-            "condition": {
-                "canSeeSky": true,
-                "biomes": [
-                    "#cobblemon:is_forest"
-                ],
-                "neededBaseBlocks": [
-                    "minecraft:grass_block"
-                ],
-                "neededNearbyBlocks": [
-                    "minecraft:oak_leaves"
+                    "#cobblemon:is_forest",
+                    "aether:skyroot_forest",
+                    "aether:skyroot_woodland"
                 ]
             }
         }

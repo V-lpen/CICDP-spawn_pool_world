@@ -1,5 +1,5 @@
 {
-    "enabled": "true",
+    "enabled": true,
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
@@ -7,17 +7,42 @@
             "id": "toedscool-1",
             "pokemon": "toedscool",
             "presets": [
-                "natural"
+                "natural",
+                "wild"
             ],
             "type": "pokemon",
-            "context": "grounded",
-            "bucket": "uncommon",
-            "level": "11-30",
-            "weight": 5.0,
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "9-34",
+            "weight": 9.0,
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
-                    "#cobblemon:is_swamp"
+                    "#cobblemon:is_mushroom"
+                ]
+            }
+        },
+        {
+            "id": "toedscool-2",
+            "pokemon": "toedscool",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "9-34",
+            "weight": 5.4,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:nether/is_fungus"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:nether/is_warped"
                 ]
             }
         }

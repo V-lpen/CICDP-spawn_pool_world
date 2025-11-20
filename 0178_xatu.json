@@ -8,43 +8,42 @@
             "pokemon": "xatu",
             "presets": [
                 "natural",
-				"treetop"
+                "treetop"
             ],
             "type": "pokemon",
-            "context": "grounded",
-            "bucket": "uncommon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
             "level": "25-47",
-            "weight": 1.0,
+            "weight": 0.6,
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
                     "#cobblemon:is_badlands",
                     "#cobblemon:is_plateau"
                 ],
                 "timeRange": "day"
-			}
+            }
         },
         {
-            "id": "xatu-2",
+            "id": "xatu-3",
             "pokemon": "xatu",
             "presets": [
-                "natural"
+                "trail_ruins"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
-            "level": "10-32",
-            "weight": 20.0,
+            "level": "25-47",
+            "weight": 10.0,
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
-                    "#cobblemon:is_sandy"
+                    "#cobblemon:is_overworld"
                 ],
-                "timeRange": "day",
-                "neededNearbyBlocks": [
-                    "minecraft:cactus"
-                ]
-			}
+                "timeRange": "day"
+            }
         }
     ]
 }

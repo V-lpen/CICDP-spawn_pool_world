@@ -7,45 +7,106 @@
             "id": "butterfree-1",
             "pokemon": "butterfree",
             "presets": [
-                "near_flowers"
+                "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
-            "level": "10-39",
-            "weight": 30.0,
+            "level": "10-40",
+            "weight": 1.0,
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
                     "#cobblemon:is_temperate"
                 ],
-                "timeRange": "day",
-                "isRaining": false
+                "timeRange": "day"
             },
             "anticondition": {
                 "biomes": [
+                    "#cobblemon:is_floral",
+                    "#cobblemon:is_freezing",
                     "#cobblemon:is_spooky"
                 ]
             }
         },
-		{
-            "id": "butterfree-valencian-1",
+        {
+            "id": "butterfree-2",
+            "pokemon": "butterfree",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "10-40",
+            "weight": 10.0,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_floral"
+                ],
+                "timeRange": "day"
+            }
+        },
+        {
+            "id": "butterfree-3",
+            "pokemon": "butterfree",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "10-40",
+            "weight": 1.0,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#aether:is_aether"
+                ]
+            }
+        },
+        {
+            "id": "butterfree-valencian-4",
             "pokemon": "butterfree valencian",
             "presets": [
                 "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
-            "level": "10-39",
+            "level": "10-40",
             "weight": 1.0,
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
-                    "#cobblemon:is_jungle"
+                    "#cobblemon:is_jungle",
+                    "#cobblemon:is_tropical_island"
                 ],
-                "timeRange": "day",
-                "isRaining": false
+                "timeRange": "day"
+            }
+        },
+        {
+            "id": "butterfree-valencian-5",
+            "pokemon": "butterfree valencian",
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "10-40",
+            "weight": 5.0,
+            "condition": {
+                "biomes": [
+                    "the_bumblezone:floral_meadow"
+                ]
+            },
+            "anticondition": {
+                "structures": [
+                    "#the_bumblezone:sempiternal_sanctums"
+                ]
             }
         }
     ]

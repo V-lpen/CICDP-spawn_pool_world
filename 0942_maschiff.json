@@ -1,5 +1,5 @@
 {
-    "enabled": "true",
+    "enabled": true,
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
@@ -8,15 +8,16 @@
             "pokemon": "maschiff",
             "presets": [
                 "natural",
-                "pillager_outpost"
+                "urban"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "9-34",
-            "weight": 90.0,
+            "weight": 5.4,
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
                     "#cobblemon:is_overworld"
                 ]
@@ -26,21 +27,19 @@
             "id": "maschiff-2",
             "pokemon": "maschiff",
             "presets": [
-                "natural",
-                "urban"
+                "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "9-34",
             "weight": 5.4,
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
                     "#cobblemon:is_overworld"
-                ]
-            },
-            "anticondition": {
+                ],
                 "structures": [
                     "#minecraft:village"
                 ]
@@ -51,15 +50,16 @@
             "pokemon": "maschiff",
             "presets": [
                 "natural",
-				"village"
+                "pillager_outpost"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "9-34",
-            "weight": 5.4,
+            "weight": 90.0,
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
                     "#cobblemon:is_overworld"
                 ]
@@ -73,12 +73,13 @@
                 "mansion"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "9-34",
             "weight": 90.0,
             "condition": {
-                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
                     "#cobblemon:is_overworld"
                 ]

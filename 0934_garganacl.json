@@ -1,5 +1,5 @@
 {
-    "enabled": "true",
+    "enabled": true,
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
@@ -7,17 +7,47 @@
             "id": "garganacl-1",
             "pokemon": "garganacl",
             "presets": [
-                "natural"
+                "natural",
+                "wild"
             ],
             "type": "pokemon",
-            "context": "grounded",
-            "bucket": "rare",
-            "level": "38-55",
-            "weight": 0.5,
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "38-50",
+            "weight": 0.06,
             "condition": {
-                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
                 "biomes": [
-                    "#cobblemon:is_overworld"
+                    "#cobblemon:is_badlands"
+                ]
+            }
+        },
+        {
+            "id": "garganacl-2",
+            "pokemon": "garganacl",
+            "presets": [
+                "salt",
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "38-50",
+            "weight": 0.1
+        },
+        {
+            "id": "garganacl-3",
+            "pokemon": "garganacl",
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "38-50",
+            "weight": 0.1,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:nether/is_quartz"
                 ]
             }
         }

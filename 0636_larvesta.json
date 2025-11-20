@@ -7,53 +7,98 @@
             "id": "larvesta-1",
             "pokemon": "larvesta",
             "presets": [
-                "natural"
+                "natural",
+                "desert_pyramid"
             ],
             "type": "pokemon",
-            "context": "grounded",
-            "bucket": "rare",
-            "level": "10-30",
-            "weight": 5.4,
+            "spawnablePositionType": "grounded",
+            "bucket": "uncommon",
+            "level": "11-36",
+            "weight": 84.0,
             "condition": {
-                "canSeeSky": true,
+                "canSeeSky": false,
                 "biomes": [
-                    "#cobblemon:is_badlands"
-                ]
+                    "#cobblemon:is_desert"
+                ],
+                "minY": 48
             }
         },
         {
             "id": "larvesta-2",
             "pokemon": "larvesta",
             "presets": [
-                "natural"
+                "natural",
+                "jungle_pyramid"
             ],
             "type": "pokemon",
-            "context": "grounded",
-            "bucket": "rare",
-            "level": "10-30",
-            "weight": 5.4,
+            "spawnablePositionType": "grounded",
+            "bucket": "uncommon",
+            "level": "11-36",
+            "weight": 84.0,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "#cobblemon:is_jungle"
+                ],
+                "minY": 48
+            }
+        },
+        {
+            "id": "larvesta-3",
+            "pokemon": "larvesta",
+            "presets": [
+                "natural",
+                "treetop"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "uncommon",
+            "level": "11-36",
+            "weight": 8.4,
             "condition": {
                 "biomes": [
-                    "#minecraft:is_nether"
+                    "#cobblemon:nether/is_crimson",
+                    "#cobblemon:nether/is_forest"
+                ]
+            },
+            "drops": {
+                "amount": 4,
+                "entries": [
+                    {
+                        "item": "minecraft:string",
+                        "quantityRange": "0-1"
+                    },
+                    {
+                        "item": "minecraft:blaze_powder",
+                        "percentage": 5.0
+                    },
+                    {
+                        "item": "cobblemon:silver_powder",
+                        "percentage": 2.5
+                    },
+                    {
+                        "item": "cobblemon:charti_berry",
+                        "percentage": 2.5
+                    }
                 ]
             }
         },
         {
-            "id": "larvesta-2",
+            "id": "larvesta-4",
             "pokemon": "larvesta",
             "type": "pokemon",
-            "context": "grounded",
-            "bucket": "rare",
-            "level": "10-30",
-            "weight": 100,
+            "spawnablePositionType": "grounded",
+            "bucket": "uncommon",
+            "level": "11-36",
+            "weight": 9.0,
             "condition": {
-                "canSeeSky": true,
-                "minY": 63,
-                "neededBaseBlocks": [
-                    "minecraft:podzol"
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#aether:is_aether"
                 ],
-                "neededNearbyBlocks": [
-                    "minecraft:fire"
+                "structures": [
+                    "#aether:dungeons"
                 ]
             }
         }
