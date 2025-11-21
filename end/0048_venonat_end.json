@@ -1,0 +1,21 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+				        {
+            "id": "venonat-end-1",
+            "pokemon": "venonat",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "24-40",
+            "weight": 5.4,
+            "condition": {
+                "biomes": [
+                    "nullscape:shadowlands"
+                ]
+            }
+        }
+    ]
+}

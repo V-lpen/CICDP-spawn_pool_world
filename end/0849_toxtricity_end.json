@@ -1,0 +1,35 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+				{
+            "id": "toxtricity-end-1",
+            "pokemon": "toxtricity",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "48-89",
+            "weight": 2.0,
+            "condition": {
+                "biomes": [
+                    "nullscape:crystal_peaks"
+                ]
+            }
+        },
+						{
+            "id": "toxtricity-lowkey-end-1",
+            "pokemon": "toxtricity punk_form=low_key",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "48-89",
+            "weight": 2.0,
+            "condition": {
+                "biomes": [
+                    "nullscape:crystal_peaks"
+                ]
+            }
+        }
+    ]
+}

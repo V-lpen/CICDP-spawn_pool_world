@@ -1,0 +1,22 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+
+        {
+            "id": "metagross-end-1",
+            "pokemon": "metagross",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "45-60",
+            "weight": 0.05,
+            "condition": {
+                "biomes": [
+                   "#cobblemonislands:vanilla_end"
+                ]
+            }
+        }
+    ]
+}

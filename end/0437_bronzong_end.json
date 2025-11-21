@@ -1,0 +1,22 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+ 
+				        {
+            "id": "bronzong-end-1",
+            "pokemon": "bronzong",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "45-85",
+            "weight": 7.0,
+            "condition": {
+                "biomes": [
+                   "#cobblemonislands:vanilla_end"
+                ]
+            }
+        }
+      ]
+}

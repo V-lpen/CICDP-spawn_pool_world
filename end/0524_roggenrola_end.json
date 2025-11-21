@@ -1,0 +1,22 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+
+				{
+            "id": "roggenrola-end-1",
+            "pokemon": "roggenrola",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "34-75",
+            "weight": 6.5,
+            "condition": {
+                "biomes": [
+                    "nullscape:crystal_peaks"
+                ]
+            }
+        }
+    ]
+}

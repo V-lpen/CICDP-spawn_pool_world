@@ -1,0 +1,22 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+
+		  {
+            "id": "hatenna-end-1",
+            "pokemon": "hatenna",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "32-61",
+            "weight": 0.8,
+            "condition": {
+                "biomes": [
+                    "nullscape:void_barrens"
+                ]
+            }
+        }
+    ]
+}

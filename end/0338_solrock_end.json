@@ -1,0 +1,22 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+
+        {
+            "id": "solrock-end-1",
+            "pokemon": "solrock",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "40-76",
+            "weight": 3.0,
+            "condition": {
+                "biomes": [
+                   "#cobblemonislands:vanilla_end"
+                ]
+            }
+        }
+    ]
+}

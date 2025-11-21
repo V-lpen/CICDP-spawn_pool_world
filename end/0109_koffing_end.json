@@ -1,0 +1,22 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+
+							        {
+            "id": "koffing-galarian-end-1",
+            "pokemon": "koffing galarian",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "29-49",
+            "weight": 1.4,
+            "condition": {
+                "biomes": [
+                    "nullscape:shadowlands"
+                ]
+            }
+        }
+    ]
+}

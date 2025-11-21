@@ -1,0 +1,22 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+
+        {
+            "id": "lunatone-end-1",
+            "pokemon": "lunatone",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "40-75",
+            "weight": 3.0,
+            "condition": {
+                "biomes": [
+                  "#cobblemonislands:vanilla_end"
+                ]
+            }
+        }
+    ]
+}

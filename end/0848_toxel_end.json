@@ -1,0 +1,22 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+     
+				{
+            "id": "toxel-end-1",
+            "pokemon": "toxel",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "48-79",
+            "weight": 1.0,
+            "condition": {
+                "biomes": [
+                    "nullscape:crystal_peaks"
+                ]
+            }
+        }
+    ]
+}

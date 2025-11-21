@@ -1,0 +1,22 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+    
+				        {
+            "id": "hatterene-end-1",
+            "pokemon": "hatterene",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "75-95",
+            "weight": 0.9,
+            "condition": {
+                "biomes": [
+                                       "nullscape:void_barrens"
+                ]
+            }
+        }
+    ]
+}

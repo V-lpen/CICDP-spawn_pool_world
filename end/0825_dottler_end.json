@@ -1,0 +1,22 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+       
+				    {
+      "id": "dottler-end-1",
+      "pokemon": "bronzor",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "45-70",
+      "weight": 3.0,
+      "condition": {
+          "biomes": [
+              "#cobblemonislands:vanilla_end"
+          ]
+      }
+    }
+    ]
+}

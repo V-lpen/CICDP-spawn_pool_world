@@ -1,0 +1,22 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+
+        {
+            "id": "metang-end-1",
+            "pokemon": "metang",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "40-84",
+            "weight": 2.2,
+            "condition": {
+                "biomes": [
+                     "#cobblemonislands:vanilla_end"
+                ]
+            }
+        }
+    ]
+}

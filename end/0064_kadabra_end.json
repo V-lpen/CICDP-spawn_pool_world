@@ -1,0 +1,21 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "kadabra-end-1",
+            "pokemon": "kadabra",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "40-75",
+            "weight": 7.0,
+            "condition": {
+                "biomes": [
+                    "#cobblemonislands:vanilla_end"
+                ]
+            }
+        }
+    ]
+}

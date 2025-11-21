@@ -1,0 +1,21 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+							        {
+            "id": "togepi-end-1",
+            "pokemon": "togepi",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "40-54",
+            "weight": 1.2,
+            "condition": {
+                "biomes": [
+                    "nullscape:shadowlands"
+                ]
+            }
+        }
+    ]
+}

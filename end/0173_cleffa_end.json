@@ -1,0 +1,35 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "cleffa-end-1",
+            "pokemon": "cleffa",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "20-42",
+            "weight": 2.0,
+            "condition": {
+                "biomes": [
+                    "#minecraft:is_end"
+                ]
+            }
+        },
+		        {
+            "id": "cleffa-end-2",
+            "pokemon": "cleffa",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "10-22",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "nullscape:shadowlands"
+                ]
+            }
+        }
+    ]
+}

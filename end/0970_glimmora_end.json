@@ -1,0 +1,22 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+     
+								{
+            "id": "glimmora-end-1",
+            "pokemon": "glimmora",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "45-80",
+            "weight": 4.5,
+            "condition": {
+                "biomes": [
+                    "nullscape:crystal_peaks"
+                ]
+            }
+        }
+    ]
+}

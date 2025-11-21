@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "espurr-end-1",
+      "pokemon": "espurr",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "25-55",
+      "weight": 3.0,
+      "condition": {
+          "biomes": [
+              "#cobblemonislands:vanilla_end"
+          ]
+      }
+
+    }
+  ]
+}

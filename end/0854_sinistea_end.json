@@ -1,0 +1,35 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+		        {
+            "id": "sinistea-end-1",
+            "pokemon": "sinistea",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "34-48",
+            "weight": 5.0,
+            "condition": {
+                "biomes": [
+                    "nullscape:void_barrens"
+                ]
+            }
+        },
+				        {
+            "id": "sinistea-antique-end-1",
+            "pokemon": "sinistea tea_authenticity=antique",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "34-48",
+            "weight": 0.005,
+            "condition": {
+                "biomes": [
+                    "nullscape:void_barrens"
+                ]
+            }
+        }
+    ]
+}

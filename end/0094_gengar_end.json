@@ -1,0 +1,21 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+								        {
+            "id": "gengar-end-1",
+            "pokemon": "gengar",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "38-83",
+            "weight": 2.4,
+            "condition": {
+                "biomes": [
+                    "nullscape:shadowlands"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "clefairy-end-1",
+            "pokemon": "clefairy",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "30-52",
+            "weight": 5.0,
+            "condition": {
+                "biomes": [
+                    "#minecraft:is_end"
+                ]
+            }
+        },
+		        {
+            "id": "clefairy-end-2",
+            "pokemon": "clefairy",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "50-72",
+            "weight": 3.0,
+            "condition": {
+                "biomes": [
+                    "nullscape:shadowlands"
+                ]
+            }
+        }
+    ]
+}

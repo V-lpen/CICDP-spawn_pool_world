@@ -1,0 +1,22 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+		    {
+      "id": "whismur-end-1",
+      "pokemon": "whismur",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "24-55",
+      "weight": 5.0,
+      "condition": {
+          "biomes": [
+              "#cobblemonislands:vanilla_end"
+          ]
+      }
+
+    }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+				        {
+            "id": "porygon2-end-1",
+            "pokemon": "porygon2",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "45-90",
+            "weight": 1.0,
+            "condition": {
+                "biomes": [
+                   "#cobblemonislands:vanilla_end"
+                ]
+            }
+        }
+    ]
+}

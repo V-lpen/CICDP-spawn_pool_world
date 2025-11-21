@@ -1,0 +1,22 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+      
+		{
+            "id": "durant-end-1",
+            "pokemon": "durant",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "48-79",
+            "weight": 4.0,
+            "condition": {
+                "biomes": [
+                    "nullscape:crystal_peaks"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+				        {
+            "id": "crobat-end-1",
+            "pokemon": "crobat",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "50-85",
+            "weight": 0.5,
+            "condition": {
+                "biomes": [
+                    "nullscape:void_barrens"
+                ]
+            }
+        }
+    ]
+}

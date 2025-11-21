@@ -1,0 +1,22 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+   
+				{
+            "id": "golett-end-1",
+            "pokemon": "golett",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "35-60",
+            "weight": 4.0,
+            "condition": {
+                "biomes": [
+                    "nullscape:crystal_peaks"
+                ]
+            }
+        }
+    ]
+}

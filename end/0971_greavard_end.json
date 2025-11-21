@@ -1,0 +1,22 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        
+				        {
+            "id": "greavard-end-1",
+            "pokemon": "greavard",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "34-48",
+            "weight": 6.0,
+            "condition": {
+                "biomes": [
+                    "nullscape:void_barrens"
+                ]
+            }
+        }
+    ]
+}

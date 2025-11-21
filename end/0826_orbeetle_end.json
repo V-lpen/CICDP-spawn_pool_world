@@ -1,0 +1,22 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+   
+				        {
+            "id": "orbeetle-end-1",
+            "pokemon": "orbeetle",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "45-70",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                   "#cobblemonislands:vanilla_end"
+                ]
+            }
+        }
+    ]
+}

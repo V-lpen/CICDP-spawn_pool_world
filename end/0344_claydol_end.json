@@ -1,0 +1,22 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+
+									        {
+            "id": "claydol-end-1",
+            "pokemon": "claydol",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "40-74",
+            "weight": 4.5,
+            "condition": {
+                "biomes": [
+                    "nullscape:shadowlands"
+                ]
+            }
+        }
+    ]
+}

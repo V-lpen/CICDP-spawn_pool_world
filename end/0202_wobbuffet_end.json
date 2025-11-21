@@ -1,0 +1,21 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+				    {
+      "id": "wobbuffet-end-1",
+      "pokemon": "wobbuffet",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "30-80",
+      "weight": 1.0,
+      "condition": {
+          "biomes": [
+              "#cobblemonislands:vanilla_end"
+          ]
+      }
+    }
+    ]
+}

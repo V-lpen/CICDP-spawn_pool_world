@@ -1,0 +1,22 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+
+				        {
+            "id": "gible-end-1",
+            "pokemon": "gible",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "34-48",
+            "weight": 3.1,
+            "condition": {
+                "biomes": [
+                    "nullscape:void_barrens"
+                ]
+            }
+        }
+    ]
+}

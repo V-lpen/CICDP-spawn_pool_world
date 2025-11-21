@@ -1,0 +1,22 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+
+        {
+            "id": "sigilyph-end-1",
+            "pokemon": "sigilyph",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "20-46",
+            "weight": 4.0,
+            "condition": {
+                "biomes": [
+                       "nullscape:shadowlands"
+                ]
+            }
+        }
+    ]
+}

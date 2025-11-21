@@ -1,0 +1,22 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+   
+		 {
+            "id": "golurk-end-1",
+            "pokemon": "golurk",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "55-85",
+            "weight": 5.0,
+            "condition": {
+                "biomes": [
+                    "nullscape:crystal_peaks"
+                ]
+            }
+        }
+    ]
+}

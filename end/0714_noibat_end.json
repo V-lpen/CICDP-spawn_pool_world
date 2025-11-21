@@ -1,0 +1,36 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+
+					        {
+            "id": "noibat-end-1",
+            "pokemon": "noibat",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "20-45",
+            "weight": 2.4,
+            "condition": {
+                "biomes": [
+                    "nullscape:shadowlands"
+                ]
+            }
+        },
+							        {
+            "id": "noibat-end-2",
+            "pokemon": "noibat",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "20-45",
+            "weight": 3.4,
+            "condition": {
+                "biomes": [
+                    "nullscape:void_barrrens"
+                ]
+            }
+        }
+  ]
+}

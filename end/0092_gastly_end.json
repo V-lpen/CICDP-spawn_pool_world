@@ -1,0 +1,21 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+		 {
+            "id": "gastly-end-1",
+            "pokemon": "gastly",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "20-40",
+            "weight": 0.2,
+            "condition": {
+                "biomes": [
+                    "nullscape:shadowlands"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+
+		 {
+            "id": "shelgon-end-1",
+            "pokemon": "shelgon",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "45-65",
+            "weight": 1.0,
+            "condition": {
+                "biomes": [
+                    "nullscape:crystal_peaks"
+                ]
+            }
+        }
+    ]
+}

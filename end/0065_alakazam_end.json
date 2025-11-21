@@ -1,0 +1,21 @@
+{
+	"enabled": true,
+	"neededInstalledMods": [],
+	"neededUninstalledMods": [],
+	"spawns": [
+		{
+			"id": "alakazam-end-1",
+			"pokemon": "alakazam",
+			"type": "pokemon",
+			"context": "grounded",
+			"bucket": "rare",
+            "level": "60-95",
+            "weight": 7.0,
+            "condition": {
+                "biomes": [
+                    "#cobblemonislands:vanilla_end"
+                ]
+            }
+		}
+	]
+}

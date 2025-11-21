@@ -1,0 +1,23 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+  
+  
+				        {
+            "id": "zweilous-end-1",
+            "pokemon": "zweilous",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "40-82",
+            "weight": 3.0,
+            "condition": {
+                "biomes": [
+                       "nullscape:shadowlands"
+                ]
+            }
+        }
+    ]
+}

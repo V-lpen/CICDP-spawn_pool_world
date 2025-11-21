@@ -1,0 +1,22 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+
+		 {
+            "id": "druddigon-end-1",
+            "pokemon": "druddigon",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "65-75",
+            "weight": 5.0,
+            "condition": {
+                "biomes": [
+                    "nullscape:crystal_peaks"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+
+				{
+            "id": "klink-end-1",
+            "pokemon": "klink",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "32-60",
+            "weight": 8.5,
+            "condition": {
+                "biomes": [
+                    "nullscape:crystal_peaks"
+                ]
+            }
+        }
+    ]
+}

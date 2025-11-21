@@ -1,0 +1,21 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "abra-end-1",
+            "pokemon": "abra",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "35-45",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "#cobblemonislands:vanilla_end"
+                ]
+            }
+        }
+    ]
+}

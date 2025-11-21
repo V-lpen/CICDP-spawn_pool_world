@@ -1,0 +1,22 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+    
+									        {
+            "id": "cursola-end-1",
+            "pokemon": "cursola",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "40-84",
+            "weight": 4,
+            "condition": {
+                "biomes": [
+                    "nullscape:shadowlands"
+                ]
+            }
+        }
+    ]
+}

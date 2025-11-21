@@ -1,0 +1,21 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "elgyem-end-1",
+            "pokemon": "elgyem",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "25-45",
+            "weight": 9.0,
+            "condition": {
+                "biomes": [
+                    "#cobblemonislands:vanilla_end"
+                ]
+            }
+        }
+    ]
+}

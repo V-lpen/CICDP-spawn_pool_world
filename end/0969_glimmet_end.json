@@ -1,0 +1,22 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+ 
+						{
+            "id": "glimmet-end-1",
+            "pokemon": "glimmet",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "25-40",
+            "weight": 11.5,
+            "condition": {
+                "biomes": [
+                    "nullscape:crystal_peaks"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+      
+		        {
+            "id": "deino-end-1",
+            "pokemon": "deino",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "20-40",
+            "weight": 4.0,
+            "condition": {
+                "biomes": [
+                       "nullscape:shadowlands"
+                ]
+            }
+        }
+    ]
+}
