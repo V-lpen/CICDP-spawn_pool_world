@@ -7,8 +7,8 @@
        "id": "seismitoad-1",
        "pokemon": "seismitoad",
        "presets": [
-           "underwater"
-       ],
+        "water"
+    ],
        "type": "pokemon",
        "context": "submerged",
        "bucket": "uncommon",

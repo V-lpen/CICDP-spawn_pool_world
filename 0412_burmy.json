@@ -56,9 +56,6 @@
         {
             "id": "burmy-3-trash",
             "pokemon": "burmy trash-cloak",
-            "presets": [
-                "village"
-            ],
             "type": "pokemon",
             "context": "grounded",
             "bucket": "common",
@@ -75,6 +72,9 @@
                 "maxSkyLight": 15,
                 "biomes": [
                     "#cobblemon:is_overworld"
+                ],
+                "structures": [
+                    "#minecraft:village"
                 ],
                 "isRaining": false
             }

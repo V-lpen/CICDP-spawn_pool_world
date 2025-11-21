@@ -7,8 +7,8 @@
        "id": "tympole-1",
        "pokemon": "tympole",
        "presets": [
-           "underwater"
-       ],
+        "water"
+    ],
        "type": "pokemon",
        "context": "submerged",
        "bucket": "uncommon",

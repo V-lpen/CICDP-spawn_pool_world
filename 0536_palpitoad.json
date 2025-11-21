@@ -7,8 +7,8 @@
        "id": "palpitoad-1",
        "pokemon": "palpitoad",
        "presets": [
-           "underwater"
-       ],
+        "water"
+    ],
        "type": "pokemon",
        "context": "submerged",
        "bucket": "uncommon",

@@ -56,9 +56,6 @@
         {
             "id": "wormadam-3-trash",
             "pokemon": "wormadam trash-cloak",
-            "presets": [
-                "village"
-            ],
             "type": "pokemon",
             "context": "grounded",
             "bucket": "uncommon",
@@ -75,6 +72,9 @@
                 "maxSkyLight": 15,
                 "biomes": [
                     "#cobblemon:is_overworld"
+                ],
+                "structures": [
+                    "#minecraft:village"
                 ],
                 "isRaining": false
             }

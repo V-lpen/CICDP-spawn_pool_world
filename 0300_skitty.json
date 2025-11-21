@@ -7,8 +7,7 @@
         "id": "skitty-1",
         "pokemon": "skitty",
         "presets": [                
-            "natural",
-            "village"
+            "natural"
         ],
         "type": "pokemon",
         "context": "grounded",
@@ -26,6 +25,9 @@
             "biomes": [
                 "#cobblemon:is_overworld"
             ],
+            "structures": [
+                    "#minecraft:village"
+                ],
             "isRaining": false
         },
         "anticondition": {
