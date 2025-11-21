@@ -4,8 +4,8 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "wormadam-1",
-            "pokemon": "wormadam plant-cloak",
+            "id": "burmy-1",
+            "pokemon": "burmy bagworm_cloak=plant",
             "presets": [
                 "natural",
                 "treetop",
@@ -13,9 +13,9 @@
             ],
             "type": "pokemon",
             "context": "grounded",
-            "bucket": "uncommon",
-            "level": "20-35",
-            "weight": 5.0,
+            "bucket": "common",
+            "level": "2-19",
+            "weight": 30.0,
             "condition": {
                 "canSeeSky": false,
                 "minY": 61,
@@ -36,16 +36,16 @@
             }
         },
 		        {
-            "id": "wormadam-2-sandy",
-            "pokemon": "wormadam sandy-cloak",
+            "id": "burmy-2-sandy",
+            "pokemon": "burmy bagworm_cloak=sandy",
             "presets": [
                 "natural"
             ],
             "type": "pokemon",
             "context": "grounded",
             "bucket": "uncommon",
-            "level": "20-45",
-            "weight": 2.0,
+            "level": "5-25",
+            "weight": 7.0,
             "condition": {
 				"biomes": [
                     "#cobblemon:is_cave",
@@ -54,13 +54,13 @@
 			}
         },
         {
-            "id": "wormadam-3-trash",
-            "pokemon": "wormadam trash-cloak",
+            "id": "burmy-3-trash",
+            "pokemon": "burmy bagworm_cloak=trash",
             "type": "pokemon",
             "context": "grounded",
-            "bucket": "uncommon",
-            "level": "20-33",
-            "weight": 2.0,
+            "bucket": "common",
+            "level": "4-29",
+            "weight": 9.0,
             "weightMultiplier": {
                 "multiplier": 1.5,
                 "condition": {

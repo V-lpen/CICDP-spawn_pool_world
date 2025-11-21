@@ -1,0 +1,25 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+ {
+            "id": "bergmite-hisuian-1",
+            "pokemon": "bergmite hisuian",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "15-30",
+            "weight": 3.0,
+            "condition": {
+                "biomes": [
+                    "minecraft:frozen_peaks",
+                    "minecraft:snowy_slopes"
+                ]
+            }
+        }
+    ]
+}
